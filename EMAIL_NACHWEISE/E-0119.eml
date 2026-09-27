@@ -1,0 +1,219 @@
+Received: from 127.0.0.1
+ by atlas-production.v2-mail-prod1-ir2.omega.yahoo.com pod-id
+ atlas--production-ir2-64b4ffbb96-jm2gn.ir2.yahoo.com with HTTP;
+ Mon, 1 Jun 2026 11:51:01 +0000
+Return-Path: <prvs=161221edcf=service-postfach@deutschepost.de>
+X-Originating-Ip: [165.72.200.96]
+Received-SPF: pass (domain of deutschepost.de designates 165.72.200.96 as
+ permitted sender)
+Authentication-Results: mta.yahoo.com;
+ dkim=pass header.i=@deutschepost.de header.s=GW_UTDP_1
+ arc_overridden_status=NOT_OVERRIDDEN;
+ spf=pass smtp.mailfrom=deutschepost.de arc_overridden_status=NOT_OVERRIDDEN;
+ dmarc=pass(p=REJECT) header.from=deutschepost.de
+ arc_overridden_status=NOT_OVERRIDDEN;
+X-Apparently-To: andi_schade@yahoo.de; Mon, 1 Jun 2026 11:51:01 +0000
+X-YMailISG: hkiNHmMWLDsDJRi8nvsSH88KkaTl56byuAA52YrpPQox6PcO
+ cnQqxBgbktpMgvBFRVxvcFw4IhSRnTKofxhdWq7wpzbPXj75XxDSQw7gKzy9
+ hOLlJ7UslLjPHr91KN.Cl4Z94MF5L4AFeOOZ1ByJ5PVgKIO3lDls9khxlJiy
+ 2v7RQAXLw3kJL9OacDhFzSoYjcthtO7GD3ou1lUBwMyqnNz5Tm9ppHjuFsKP
+ DMNqtdyW.BuRkK6ak0nkV1.U47NGUbRH8np6iVVdIa13omWePGGBZk3jgWtZ
+ H9_I7doXLFRHfRPb04_2_PYXHAaajputZwxCBqoCtqXxX9KqY53tDZyEjZ17
+ cgs5qX7enQyKMPRnTsT5CWt2FsOestTV1yoU1UW0YdvvVUK2rlcN1jLtFypj
+ WYq6PjNpeWnRKo0zX5xy3MLWq.ST349_fOeO.Q78ZtBgfy3WKKwwuzRK6hUB
+ xDENFAjZMC24T11Kpj1t1rbm33Ew5P2XqrT7Kkw3C7_SIIhER6j._yeYJSqF
+ 7ImakY0K5JRcCAWrjAMBcmn9c639YbBNvrE7zjrLawbK_75JJN6euW5S.v43
+ S8u8Gj5qy5x.crM0qo7kFx_0JgGdqUYhtJqfWCyW4bvFUuiPTEfVHL388hoN
+ 8N5WzwlDQHe9f0fAytzkKg5zW3dV5UI3rq.kyx9dDDsQW8F.pdpmrO_ax7Mr
+ syg338Er2l96xtS_icf21.xCe4MWZ6_XWesf8LsxD.OxiaqUJhyjv.jbHLtY
+ 0liaTNaprz6jkHcDenkqpb4zCECvccVrRdFroUQ2RiujvAQZlYksnmsjd_Q.
+ 2pi90VCRHH0c.mXpMTKPN.agxuLlMrLRp9HohcKNRBuM.hgPJlN1P56TRF_S
+ E00s2KChXd02Fk56nk1FFAxpV4nfhscpJU.c7X8g8ezsJ5faadXDRlrXCwry
+ spHgnfAQ57d7.XF0ibFftALlDMJZY.EvHTXG1e1j94Q7idBa6u3wycb2_Y.b
+ JLufCePIA9HhAqFaNmdcKxumeFqIpu3CvqbATAVdjpCPHoIKPbr1Gcxils53
+ m0CvNHq0ZpJWgLGV2l1.kS4EkBE19Y1Gy87g8KnMyjFsYd4Hqulzwp3mpeW9
+ 3QQKDbMdI_HTbepsCnZqNReSeXJwtfImj6RD9XgU08FLGmuh.DPN
+Received: from 165.72.200.96 (EHLO gateway1a.dhl.com)
+ by 10.200.77.175 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Mon, 01 Jun 2026 11:51:01 +0000
+Received: from ex-csc.dpcsc.deutschepost.de ([160.55.140.10])
+	by gateway1a.dhl.com  with ESMTPS id 651Bp002005350-651Bp005005350
+	(version=TLSv1.2 cipher=ECDHE-RSA-AES256-GCM-SHA384 bits=256 verify=OK)
+	for <andi_schade@yahoo.de>; Mon, 1 Jun 2026 11:51:00 GMT
+Received: from ex2019-01-csc.dpcsc.deutschepost.de (160.55.140.10) by
+ ex2019-01-csc.dpcsc.deutschepost.de (160.55.140.10) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.2.2562.17; Mon, 1 Jun 2026 13:51:00 +0200
+Received: from dpc04.ecomm.priv.nmop.de (10.80.30.10) by
+ ex2019-01-csc.dpcsc.deutschepost.de (160.55.140.10) with Microsoft SMTP
+ Server id 15.2.2562.17 via Frontend Transport; Mon, 1 Jun 2026 13:51:00 +0200
+Date: Mon, 1 Jun 2026 13:51:00 +0200
+From: <service-postfach@deutschepost.de>
+To: <andi_schade@yahoo.de>
+Message-ID: 
+ <6e6f766f.78731289.00.525.7854010300.3b9eca7d19e8305cee4.1300501.nmmail@imail-csc.dpcsc.deutschepost.de>
+Subject: Re: Re: Anfrage an den Kundenservice  (Ticket: DP01-78666013)
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_Part_250485_1445839441.1780314656485"
+X-Mailer: novomind iAGENT V.13.00501.3e3b0160
+X-FEAS-BEC-Info: 
+ WlpIGw0aAQkEARIJHAEHBlJSCRoLAAEeDUhZUEhYSFhIWUhZXkguLT4lOyQ8JVpcWFhYX19bSFtaSBsNGh4BCw1FGAcbHA4JCwAoDA0dHBsLAA0YBxscRgwNSFlIWllI
+ HwcEDg8JBg9FBxscDRooDwUQRgwNSFhIWkhZW0hZXlhGXV1GWVxYRllYSFBIWEhYSFlIWEhYSFhIWlhICQYMATcbCwAJDA0oEQkABwdGDA1IWA==
+X-FEAS-Client-IP: 160.55.140.10
+X-FE-Last-Public-Client-IP: 160.55.140.10
+X-FE-Policy-ID: 59:1:2:SYSTEM
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; d=deutschepost.de; s=GW_UTDP_1;
+ c=relaxed/relaxed;
+ h=date:from:to:message-id:subject:mime-version:content-type;
+ bh=HJnJAU+Mw+fFftDbO9krow2VUlOZqDXaQbjmITjXHPQ=;
+ b=bUmF49JdqKt/daqqb47N8CISJNQ4W5Rd6z+kxnHCRbrf6Ip0C/zDtZcWgWeVJlUrqeuJ7/TeQ+z2
+	0ENhq1O6YawWjIf8h6wzwlCpsh7kY0gKHHSvqCc9wcMbzq3LpsiLjI9zvwjxMxy4sMLfLbzwAjlP
+	ajCvUUMUwOXC7spah6qyLJCAxG/Djg61fvSFF246vYwQaCzK3UeLjKqnkyNU+BX15RBrwfUQRTa+
+	es5V315WWyGKyHAeR86CibBvj8NYlVXrZg1WYdapSFfynqJdg2BlJmGB9bk2DHT5oWP8m54ER7Pm
+	eR0CujYq/NXpB/mFpMj2swAGA9mGN+Fwhfz5Jw==
+Content-Length: 7737
+
+------=_Part_250485_1445839441.1780314656485
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Guten Tag Andreas Schade,=20
+=20
+vielen Dank f=C3=BCr Ihre Nachricht.
+=20
+Bitte entschuldigen Sie die verz=C3=B6gerte Beantwortung Ihrer Anfrage.
+=20
+Ihre E-Mail wurde ohne einen Anhang bei uns zugestellt.=20
+=20
+Bitte teilen Sie uns Ihre Anfrage erneut mit.=20
+=20
+F=C3=BCr Ihre Mithilfe bedanken wir uns im Voraus und w=C3=BCnschen Ihnen e=
+inen sch=C3=B6nen Tag.=20
+=20
+Mit freundlichen Gr=C3=BC=C3=9Fen
+=20
+Ihr Service-Team Postfach
+=20
+Deutsche Post AG
+Service- und Versandzentrum Weiden
+Franz-Zebisch-Str. 15
+92637 Weiden
+=20
+Kontakt: service-postfach@deutschepost.de
+=20
+DHL Group
+deutschepost.de/kundenservice
+=20
+Deutsche Post AG; Sitz Bonn; Registergericht Bonn; HRB 6792
+Vorstand: Dr. Tobias Meyer, Vorsitzender; Oscar de Bok, Pablo Ciano, Nikola=
+ Hagleitner, Melanie Kreis, Dr. Thomas Ogilvie, John Pearson, Hendrik Vente=
+r
+Vorsitzender des Aufsichtsrates: Dr. Katrin Suder
+=20
+Dies ist eine Nachricht der DHL Group und kann vertrauliche, firmeninterne =
+Informationen enthalten. Sie ist ausschlie=C3=9Flich f=C3=BCr die oben adre=
+ssierten Empf=C3=A4nger bestimmt. Sind Sie nicht der beabsichtigte Empf=C3=
+=A4nger, bitten wir Sie, den Sender zu informieren und die Nachricht sowie =
+deren Anh=C3=A4nge zu l=C3=B6schen. Unzul=C3=A4ssige Ver=C3=B6ffentlichunge=
+n, Verwendungen, Verbreitung, Weiterleitung sowie das Drucken oder Kopieren=
+ dieser Mail und ihrer verkn=C3=BCpften Anh=C3=A4nge sind strikt untersagt.
+=20
+-----------------------
+Urspr=C3=BCngliche Nachricht
+-----------------------
+=C3=9Cbermittelt von: kundenservice-weiden@deutschepost.de - kundenservice-=
+weiden@deutschepost.de
+An: service-postfach@deutschepost.de
+Gesendet: 01.06.2026 12:44
+Betreff: Re: Anfrage an den Kundenservice (Ticket: DP01-78666013)
+-----------------------
+Urspr=C3=BCngliche Nachricht
+-----------------------
+Von: andi_schade@yahoo.de
+An: kundenservice-weiden@deutschepost.de
+Gesendet: 27.05.2026 16:59
+Betreff: Anfrage an den Kundenservice
+=20
+Bitte Postfach schnell wieder stornieren . Danke . Alle Angaben sind in der=
+ Anlage zu entnehmen .=20
+=20
+Mit freundlichen Gr=C3=BC=C3=9Fen=20
+Andreas Schade
+------=_Part_250485_1445839441.1780314656485
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+<html>
+<head>
+
+<style>
+p {
+  margin: 0px;
+}
+</style>
+</head>
+<body>
+<div style="font-family: Arial; font-size: 12pt;">
+<div style="font-family: Arial; font-size: 12pt;">Guten Tag&nbsp;Andreas Schade,&nbsp;</div>
+<div style="font-family: Arial; font-size: 12pt;">&nbsp;</div>
+<div style="font-family: Arial; font-size: 12pt;">vielen Dank f&uuml;r Ihre Nachricht.</div>
+<div style="font-family: Arial; font-size: 12pt;">&nbsp;</div>
+<div style="font-family: Arial; font-size: 12pt;">Bitte entschuldigen Sie die verz&ouml;gerte Beantwortung Ihrer Anfrage.</div>
+<div style="font-family: Arial; font-size: 12pt;">&nbsp;</div>
+<div style="font-family: Arial; font-size: 12pt;">Ihre E-Mail wurde ohne einen Anhang bei uns zugestellt.&nbsp;</div>
+<div style="font-family: Arial; font-size: 12pt;">&nbsp;</div>
+<div style="font-family: Arial; font-size: 12pt;">Bitte teilen Sie uns Ihre Anfrage erneut mit.&nbsp;</div>
+<div style="font-family: Arial; font-size: 12pt;">&nbsp;</div>
+<div style="font-family: Arial; font-size: 12pt;">F&uuml;r Ihre Mithilfe bedanken wir uns im Voraus und w&uuml;nschen Ihnen einen sch&ouml;nen Tag.&nbsp;</div>
+</div>
+<div style="font-family: Arial; font-size: 12pt;">&nbsp;</div>
+<div>
+<div style="font-family: Arial; font-size: 12pt;">Mit freundlichen Gr&uuml;&szlig;en</div>
+<div style="font-family: Arial; font-size: 12pt;">&nbsp;</div>
+<div style="font-family: Arial; font-size: 12pt;">Ihr Service-Team Postfach</div>
+<div style="font-family: Arial; font-size: 12pt;">&nbsp;</div>
+<div style="font-family: Arial; font-size: 12pt;">Deutsche Post AG</div>
+<div style="font-family: Arial; font-size: 12pt;">Service- und Versandzentrum Weiden</div>
+<div style="font-family: Arial; font-size: 12pt;">Franz-Zebisch-Str. 15</div>
+<div style="font-family: Arial; font-size: 12pt;">92637 Weiden</div>
+<div style="font-family: Arial; font-size: 12pt;">&nbsp;</div>
+<div style="font-family: Arial; font-size: 12pt;">Kontakt: <a href="mailto:service-postfach@deutschepost.de" target="_blank" rel="noopener">service-postfach@deutschepost.de</a></div>
+</div>
+<div style="font-family: Arial; font-size: 12pt;">&nbsp;</div>
+<div style="font-family: Arial; font-size: 12pt;">DHL Group</div>
+<div style="font-family: Arial; font-size: 12pt;"><a href="https://www.deutschepost.de/meinkundenservice" target="_blank" rel="noopener">deutschepost.de/kundenservice</a></div>
+<div style="font-family: Arial; font-size: 12pt;">&nbsp;</div>
+<div style="font-family: Arial; font-size: 12pt;">Deutsche Post AG; Sitz Bonn; Registergericht Bonn; HRB 6792</div>
+<div style="font-family: Arial; font-size: 12pt;">Vorstand: Dr. Tobias Meyer, Vorsitzender; Oscar de Bok, Pablo Ciano, Nikola Hagleitner, Melanie Kreis, Dr. Thomas Ogilvie, John Pearson, Hendrik&nbsp;Venter</div>
+<div style="font-family: Arial; font-size: 12pt;">Vorsitzender des Aufsichtsrates: Dr. Katrin Suder</div>
+<div style="font-family: Arial; font-size: 12pt;">&nbsp;</div>
+<div style="font-family: Arial; font-size: 12pt;">Dies ist eine Nachricht der DHL Group und kann vertrauliche, firmeninterne Informationen enthalten. Sie ist ausschlie&szlig;lich f&uuml;r die oben adressierten Empf&auml;nger bestimmt. Sind Sie nicht der beabsichtigte Empf&auml;nger, bitten wir Sie, den Sender zu informieren und die Nachricht sowie deren Anh&auml;nge zu l&ouml;schen. Unzul&auml;ssige Ver&ouml;ffentlichungen, Verwendungen, Verbreitung, Weiterleitung sowie das Drucken oder Kopieren dieser Mail und ihrer verkn&uuml;pften Anh&auml;nge sind strikt untersagt.</div>
+<div style="font-family: Arial; font-size: 12pt;">&nbsp;</div>
+<div style="font-family: Arial; font-size: 12pt;">-----------------------</div>
+<div style="font-family: Arial; font-size: 12pt;">Urspr&uuml;ngliche Nachricht</div>
+<div style="font-family: Arial; font-size: 12pt;">-----------------------</div>
+<div style="font-family: Arial; font-size: 12pt;">&Uuml;bermittelt von: kundenservice-weiden@deutschepost.de - kundenservice-weiden@deutschepost.de</div>
+<div style="font-family: Arial; font-size: 12pt;">An: service-postfach@deutschepost.de</div>
+<div style="font-family: Arial; font-size: 12pt;">Gesendet: 01.06.2026 12:44</div>
+<div style="font-family: Arial; font-size: 12pt;">Betreff:&nbsp;Re: Anfrage an den Kundenservice (Ticket:&nbsp;DP01-78666013)</div>
+<div style="font-family: Arial; font-size: 12pt;"><div>
+<div style="font-family: Arial; font-size: 12pt;">-----------------------</div>
+<div style="font-family: Arial; font-size: 12pt;">Urspr&uuml;ngliche Nachricht</div>
+<div style="font-family: Arial; font-size: 12pt;">-----------------------</div>
+<div style="font-family: Arial; font-size: 12pt;">Von:&nbsp;andi_schade@yahoo.de</div>
+<div style="font-family: Arial; font-size: 12pt;">An: kundenservice-weiden@deutschepost.de</div>
+<div style="font-family: Arial; font-size: 12pt;">Gesendet: 27.05.2026 16:59</div>
+<div style="font-family: Arial; font-size: 12pt;">Betreff: Anfrage an den Kundenservice</div>
+<div style="font-family: Arial; font-size: 12pt;">&nbsp;</div>
+<div style="font-family: Arial; font-size: 12pt;">Bitte Postfach schnell wieder stornieren . Danke . Alle Angaben sind in der Anlage zu entnehmen .&nbsp;
+<div>&nbsp;</div>
+<div>Mit freundlichen Gr&uuml;&szlig;en&nbsp;</div>
+<div>Andreas Schade&nbsp;</div>
+</div>
+</div></div>
+<div>&nbsp;</div>
+</body>
+</html>
+------=_Part_250485_1445839441.1780314656485--

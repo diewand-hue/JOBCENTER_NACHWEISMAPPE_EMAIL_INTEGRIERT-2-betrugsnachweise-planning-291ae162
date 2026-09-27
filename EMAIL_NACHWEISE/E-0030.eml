@@ -1,0 +1,1078 @@
+Received: from 10.200.77.176
+ by atlas217.free.mail.ir2.yahoo.com with HTTPS;
+ Fri, 28 Jan 2022 14:56:20 +0000
+Return-Path: <achenbach@berliner-mieterverein.de>
+X-Originating-Ip: [212.227.126.130]
+Received-SPF: pass (domain of berliner-mieterverein.de designates
+ 212.227.126.130 as permitted sender)
+Authentication-Results: atlas217.free.mail.ir2.yahoo.com;
+ dkim=unknown;
+ spf=pass smtp.mailfrom=berliner-mieterverein.de;
+ dmarc=unknown header.from=berliner-mieterverein.de;
+X-Apparently-To: andi_schade@yahoo.de; Fri, 28 Jan 2022 14:56:20 +0000
+X-YMailISG: oQ0fL_YWLDt1n1ufTqjTE5opYDG9Pz.yWb1TjEhgMS0xOnoj
+ Ufi_YE6AOZkD9oxCQQlkFS_1Tyv1eET8OKEZeFxHIrGhJxuEGvaUQb4yxBMz
+ uow3r7cmjG4XzJMVn78P.J2LzFkxQMxYK7xBQ8Hkor6wWXFacjogGCaaZnKT
+ PpuW.P.CO8dDF8dgOkolmqXuFYAW0zR.ssz.4u6LOVP09j87rZX_8JV5P1_q
+ f9MYoJomn8KcGXJ3Y.BcDcxlgdUXf4fCuIf1WmeelCR0izEo6LubVzY.nm_3
+ OvnESkzSC_RRbinyY0iHIFbNsvWH7crWRa983dBxgGNIHneOwyyn2EKjFyWL
+ 6HSBhgsLYQZDKmnT0Qv3TCWIWDP8tHpTN9arUUJ2j.rVnUaL4SrSicKRrVmG
+ dfMx8JZAUyeHDj5xfbJos44k0xV.Dghvra1eXrBdLoz.ln_6QYvLVdhm.b.6
+ pC3h9CQ6m0115EpgD4W3MOkVA.x3jmpcP8kp3lmyPSymbByzv8Ux252rtv5y
+ bvSIzYrgTPytDiJ8CWD1AG8qTwTuuHJjFmP6xUl9sB4GkC3LY1KazQC4SNXD
+ gvf2afKA81DIWkpEXiL75HiUX2dB8qyPDk__ld03QSc7t1snAiHJHdfQdiOw
+ UU7mMJ2WSe_QKGx10QyHshghP02IGE9EblGiZU0e1EdqKPwUkGRThbrpiqa1
+ Zu6aNVMHEhFaVs_2TyVTSBcQTOVpvs.oUcvU3hbOIW77ky5_rF_IPAKEy7qH
+ E7yaYnwC4Gl9.SExcQ.k.XMPEgBzslheMTLIRiB960Pxv8aDyf.0q8z4TzWQ
+ bTftgvoAvk.1nqMzmDjB6hhCgb06UWOkdDsoQn0bvWsHFw2WI283V_k__uzD
+ YF.ACECvIph6CdB1SzuuNvtetAYhbEMukVDBmO4Bf94g78TJBVv2GZW.wH1h
+ _3bltVVEphCBSW7pOoRBMCwGVD2_SjeCFqLJjMWWQ4UVGc0.u4DzRE56AhB1
+ Yze4T970fT_DU_kLTbV30J8CZc3h0O8YTDPyAA2Pg6fcjmazVI6OcrH5_dQA
+ he4lLmZFOmOTHOWfj9dxktKRtvJnPkjoOEUTbrEkxU3LTlE_8Yw3SUZRHmSM
+ 0qsB6rAd5leNkBf9v55aWdbfcVFlSbZ8IYFn_aiybgM-
+Received: from 212.227.126.130 (EHLO mout.kundenserver.de)
+ by 10.200.77.176 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Fri, 28 Jan 2022 14:56:20 +0000
+Received: from LutzAchebach ([46.142.5.193]) by mrelayeu.kundenserver.de
+ (mreue009 [213.165.67.97]) with ESMTPSA (Nemesis) id 1MirfI-1mYumt2EtQ-00ewYK
+ for <andi_schade@yahoo.de>; Fri, 28 Jan 2022 15:56:19 +0100
+From: "BMV-Achenbach" <achenbach@berliner-mieterverein.de>
+To: "'Andreas Schade'" <andi_schade@yahoo.de>
+References: <b3f3577d2947468ca7dc2f3e072e26e6@BER-EX01.residea.local>
+ <3dc65d01f44a4061b77011f3b1faf658@BER-EX01.residea.local>
+ <057b01d81445$8ad9fb30$a08df190$@berliner-mieterverein.de>
+ <289715622.60748.1643381490588@yahoo.de>
+In-Reply-To: <289715622.60748.1643381490588@yahoo.de>
+Subject: =?utf-8?Q?AW:_Gubener_Stra=C3=9Fe_53a=2C_10243_Be?=
+	=?utf-8?Q?rlin=5F103.03_M_051.02=5FAndreas_Sch?=
+	=?utf-8?Q?ade=5FIhr_Zeichen:_2-z-Gub-Schade_?=
+	=?utf-8?Q?11205799?=
+Date: Fri, 28 Jan 2022 15:56:19 +0100
+Message-ID: <001a01d81457$3542f340$9fc8d9c0$@berliner-mieterverein.de>
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	boundary="----=_NextPart_000_001B_01D8145F.970BEF20"
+X-Mailer: Microsoft Outlook 15.0
+Thread-Index: AQJJfNnwV6lHAT2OcYlX6G2eCm3c4QD7TpOAAdLdMyoBftGDhatzTB4Q
+Content-Language: de
+X-Provags-ID: V03:K1:hQwCWiflg9YwocJBXcX1u8Mk8H++PYcn09r2AV7LWHUftFDGhsq
+ A5pIguiK7sF+zbt798pbDQQ8nQ+cbkVrRXj/jdmiccvhQiYM0Ks0HkfCQGU/4hAMsjwp6nQ
+ 4CQcaeWb4PgrT16qw0hk0xln8I/w7STzvSjS8/oFqTXx2UKOpT8+tD7ymjkGxNhVx4FX7P4
+ sbV6B7EP5VsBP+mi4pxKQ==
+X-Spam-Flag: NO
+X-UI-Out-Filterresults: notjunk:1;V03:K0:ls1T36EqAN0=:jBWLLKwUT8rwTlnHe/yoOU
+ ECDp3/BPxpHBnRLEju0vM3qmq1w8AkSeJg6JFDdqbqh1FlNaNX596lejuEZt+9M5TaJ72a/g4
+ xHMPFLFYWyHuGcBBG2UHR3YGalrcqjErn2bP0rKn26QdYAKTyi/ZW3OLipNb7vVPVtwQWrsHp
+ qrRytRMG29zFlHSiQvsfhDlZAYunqA68ufKbsl7fQsUZCzdXyKEqQx3bQq0eiBp0HvhAbDVDC
+ esLsVcreEVMDnIFPLqVzcM3o+MTpCOy8iRtOf7ZTIBrGkj2UQqnIEI0kqrk9SCmIH6F3acK+t
+ 9DDxUbE6wLyRaulirou4YhFc4VzGzcgQo9PWILL6gYSEd4VS6X++CknSyfcekylhP9nW1Fgle
+ 5y7hI/WWqgUC7oovVkYAw/CcmD2fFL71PIIjHGqI05p8EaWUXMNWqW066hixOIIy7CNgKjIJS
+ Hj/OmkOeTPliC0uu8bSr6UyfMHCK7HEEeJIH/+av+GrhNSC2nwKIjW8mBun42iVq8weyvjNDx
+ WpYuIISGiOP5RE8sgsvNDhF7vs7iqPirEJfxIyk5F7rPD2q0J6rZXDMBdVKw7mNvtkggJLYi2
+ mXYIJTi5I3CqbaZ5l3b+1uHtuyWFkKvqiaSoDMle1izYAOTU2s8/nt6c/qBDnbRV8BtTjONkv
+ MLwJzcmI3esytKtqtdqaQ3hL0jGKDy9M2DadILclsSXS3DVCBWh/IfXbnjzPMjdD2hCoZZejq
+ vhFa8ISPZhMwrOhM
+Content-Length: 49166
+
+This is a multipart message in MIME format.
+
+------=_NextPart_000_001B_01D8145F.970BEF20
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_001_001C_01D8145F.970BEF20"
+
+
+------=_NextPart_001_001C_01D8145F.970BEF20
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Sehr geehrter Herr Schade,
+
+=20
+
+weder muss der Vermieter bei der Mieterh=C3=B6hung noch bei den =
+Betriebskosten auf einen R=C3=BCckstand hinweisen. Auch ein Anspruch auf =
+einen Mietkontoauszug d=C3=BCrfte nicht bestehen. Insofern halte ich es =
+f=C3=BCr sinnvoll, die Zahlungen f=C3=BCr Januar, Februar und Juni 2021 =
+nachzuweisen.
+
+=20
+
+Mit freundlichen Gr=C3=BC=C3=9Fen
+
+i.V. =20
+
+Achenbach
+
+Assessor
+
+=20
+
+Berliner Mieterverein e.V.
+
+Vertreten durch den Vorstand=20
+Dr. Rainer Tietzsch, Dr. Jutta Hartmann, Gundel Riebe
+
+=20
+
+=20
+
+Spichernstr. 1   10777 Berlin    Telefon 030 226 26 =E2=80=93 0
+
+www.berliner-mieterverein.de <http://www.berliner-mieterverein.de/>   =
+bmv@berliner-mieterverein.de <mailto:bmv@berliner-mieterverein.de> =20
+
+=20
+
+Vereinsregister: VR 531 Nz Amtsgericht Berlin-Charlottenburg
+
+Umsatzsteuer-Identifikationsnummer   DE 136724920
+
+SEPA GlaeubigerID  DE67ZZZ00000173654
+
+=20
+
+Wichtiger Hinweis: Leider kommt es derzeit vermehrt zu Angriffen auf =
+unser Emailsystem. Wir warnen daher vor betr=C3=BCgerischen Emails, die =
+mit Namen unserer Mitarbeiter versendet werden. Bitte l=C3=B6schen Sie =
+umgehend Emails, die nicht der bekannten Kennung =
+@berliner-mieterverein.de entsprechen.
+
+Bitte =C3=B6ffnen Sie keine Anh=C3=A4nge aus solchen Emails.  Auch =
+sendet der BMV aus der Rechtsabteilung in der Regel keine Mails in =
+englischer Sprache.
+
+Da auch der Berliner Mieterverein h=C3=A4ufig Hackerangriffen (z.B. =
+durch Viren oder Trojaner) ausgesetzt ist, k=C3=B6nnen aus =
+Sicherheitsgr=C3=BCnden nur E-Mails bearbeitet werden, die eindeutig =
+identifizierbar sind. Bitte geben Sie daher bei Nachrichten im Betreff =
+Ihren Nachnamen und Ihre Mitgliedsnummer an. Nutzen Sie bei =
+Anh=C3=A4ngen die 3 g=C3=A4ngigen Formate PDF, Officedokumente und =
+JPEGs. Komprimierte (z.B. Zipdateien) oder verlinkte Anh=C3=A4nge (z.B. =
+auf Clouds) k=C3=B6nnen leider nicht bearbeitet werden. Zudem =
+m=C3=B6chten wir Sie aus organisatorischen Gr=C3=BCnden bitten, =
+Anh=C3=A4nge zusammenzufassen (z.B. in einer PDF-Datei). Wir danken =
+f=C3=BCr Ihr Verst=C3=A4ndnis.
+
+=E2=80=9EEin- und ausgehende E-Mails in der Kommunikation mit =
+Mitgliedern werden der Handakte zugeordnet und digital unter der =
+Mitgliedsnummer bis zu 6 Jahre nach Beendigung des Mietrechtsfalles =
+gespeichert, maximal bis 6 Jahre nach Ende der Mitgliedschaft. Die =
+Aufbewahrung erfolgt zur Wahrung von Rechtsanspr=C3=BCchen f=C3=BCr das =
+Mitglied im Hinblick auf Verj=C3=A4hrungen und zur Absicherung im Falle =
+von Haftungs- oder Regressanspr=C3=BCchen=E2=80=9C.
+
+=20
+
+MieterMagazin online lesen
+
+Wenn Sie kuenftig zur Online-Ausgabe des MieterMagazin wechseln =
+moechten,=20
+
+koennen Sie sich unter service.berliner-mieterverein.de/service =
+anmelden.
+
+=20
+
+=20
+
+Von: Andreas Schade [mailto:andi_schade@yahoo.de]=20
+Gesendet: Freitag, 28. Januar 2022 15:51
+An: BMV-Achenbach <achenbach@berliner-mieterverein.de>
+Betreff: AW: Gubener Stra=C3=9Fe 53a, 10243 Berlin_103.03 M =
+051.02_Andreas Schade_Ihr Zeichen: 2-z-Gub-Schade 11205799
+
+=20
+
+Hallo Herr Achenbach ,=20
+
+=20
+
+Die Stellungnahme der Verwalterin ist ungen=C3=BCgend. Ich habe meine =
+Standpunkte seit Jahren im angebrachten gem=C3=A4=C3=9Figten Ton der =
+wechselnden  Verwaltungen zugetragen. Durch arrogante Ignoranz bis hin =
+zur materiellen und finanziellen Sch=C3=A4digung des Mieters =C3=A4ndert =
+sich nun mal auch die Tonlage desjenigen und gebe weiter zu derartigen =
+Pflichtverletzungen und betr=C3=BCgerischem Verhalten aller Mitarbeiter =
+dieser Verwalterin.
+
+Weder aus der Betriebskostenabrechnung 2020, noch aus einem =
+Mieterh=C3=B6hungsschreiben (siehe Anlage) sind eindeutige =
+R=C3=BCckst=C3=A4nde im Mieterkonto zu ersehen und mir so dokumentiert =
+worden. Auf eine angeforderte Mietkontoeinsicht wurde seitens der =
+Verwalterin auch nicht reagiert.=20
+
+Durch meine, Ihnen gegebenen Ausf=C3=BChrungen =C3=BCber die Monate =
+November, Dezember 2021 und Januar 2022 sowie zuk=C3=BCnftige Februar =
+2022 Mietzahlungen , sind keine Nachweise vorhanden und weise nochmals =
+auf die =C3=BCber ca. 850, - =E2=82=AC nicht =C3=BCberwiesener Schulden =
+der Verwalterin aus der Betriebskostenabrechnung2020 hin sowie jeglicher =
+Pflichtverletzungen bis hin zur Informations- und =
+Auskunftszur=C3=BCckhaltung hin. Die bestrittenen Monate Januar, Februar =
+, Juni 2021 w=C3=BCrden sodann  im gesetzlichen Rahmen zur Abkehr einer =
+fristlosen K=C3=BCndigung liegen, des weiteren bin ich derjenige der =
+endlich den Klageweg und auch Schadenersatzforderungen im erheblichen =
+Masse an die Verwalterin stelle. Sollte demnach ich ein Beweis =
+anstellen, muss seitens der Verwalterin geklagt werden.=20
+
+=20
+
+Auch waren in einem Jahrzehnt schon mehrmals sogenannte Techniker =
+anwesend (Heizung, D=C3=A4mmung, Mauersch=C3=A4den =C3=BCber den Zimmern =
+, in denen immer Schimmel entsteht ) , auch schon im September 2020 eine =
+beauftragte Elektro-Firma zur Schadensdokumentation und Erstellung der =
+Kostenvoranschl=C3=A4ge in meiner Wohnung . Es ist zu absolut keiner =
+Reparatur gekommen , dadurch mir FolgeSch=C3=A4den im erheblichen =
+Ausma=C3=9F entstanden und entstehen. Auch nun werden wieder Monate =
+vergehen , auch versucht zu vertuschen.  Besonders m=C3=B6chte ich =
+dringlichst auf das Loch und die Nicht Gangbarkeit der Wohnungst=C3=BCr =
+hinweisen, auf welches seit Oktober 2021 noch gar nicht reagiert wurde . =
+
+
+=20
+
+mfG
+
+=20
+
+Von: BMV-Achenbach <mailto:achenbach@berliner-mieterverein.de>=20
+Gesendet: Freitag, 28. Januar 2022 13:50
+An: 'Andreas Schade' <mailto:andi_schade@yahoo.de>=20
+Betreff: WG: Gubener Stra=C3=9Fe 53a, 10243 Berlin_103.03 M =
+051.02_Andreas Schade_Ihr Zeichen: 2-z-Gub-Schade 11205799
+
+=20
+
+Sehr geehrter Herr Schade,
+
+=20
+
+bitte beachten Sie unten stehende Email.
+
+=20
+
+Mit freundlichen Gr=C3=BC=C3=9Fen
+
+i.V. =20
+
+Achenbach
+
+Assessor
+
+=20
+
+Berliner Mieterverein e.V.
+
+Vertreten durch den Vorstand=20
+Dr. Rainer Tietzsch, Dr. Jutta Hartmann, Gundel Riebe
+
+=20
+
+=20
+
+Spichernstr. 1   10777 Berlin    Telefon 030 226 26 =E2=80=93 0
+
+www.berliner-mieterverein.de <http://www.berliner-mieterverein.de/>   =
+bmv@berliner-mieterverein.de <mailto:bmv@berliner-mieterverein.de> =20
+
+=20
+
+Vereinsregister: VR 531 Nz Amtsgericht Berlin-Charlottenburg
+
+Umsatzsteuer-Identifikationsnummer   DE 136724920
+
+SEPA GlaeubigerID  DE67ZZZ00000173654
+
+=20
+
+Wichtiger Hinweis: Leider kommt es derzeit vermehrt zu Angriffen auf =
+unser Emailsystem. Wir warnen daher vor betr=C3=BCgerischen Emails, die =
+mit Namen unserer Mitarbeiter versendet werden. Bitte l=C3=B6schen Sie =
+umgehend Emails, die nicht der bekannten Kennung =
+@berliner-mieterverein.de entsprechen.
+
+Bitte =C3=B6ffnen Sie keine Anh=C3=A4nge aus solchen Emails.  Auch =
+sendet der BMV aus der Rechtsabteilung in der Regel keine Mails in =
+englischer Sprache.
+
+Da auch der Berliner Mieterverein h=C3=A4ufig Hackerangriffen (z.B. =
+durch Viren oder Trojaner) ausgesetzt ist, k=C3=B6nnen aus =
+Sicherheitsgr=C3=BCnden nur E-Mails bearbeitet werden, die eindeutig =
+identifizierbar sind. Bitte geben Sie daher bei Nachrichten im Betreff =
+Ihren Nachnamen und Ihre Mitgliedsnummer an. Nutzen Sie bei =
+Anh=C3=A4ngen die 3 g=C3=A4ngigen Formate PDF, Officedokumente und =
+JPEGs. Komprimierte (z.B. Zipdateien) oder verlinkte Anh=C3=A4nge (z.B. =
+auf Clouds) k=C3=B6nnen leider nicht bearbeitet werden. Zudem =
+m=C3=B6chten wir Sie aus organisatorischen Gr=C3=BCnden bitten, =
+Anh=C3=A4nge zusammenzufassen (z.B. in einer PDF-Datei). Wir danken =
+f=C3=BCr Ihr Verst=C3=A4ndnis.
+
+=E2=80=9EEin- und ausgehende E-Mails in der Kommunikation mit =
+Mitgliedern werden der Handakte zugeordnet und digital unter der =
+Mitgliedsnummer bis zu 6 Jahre nach Beendigung des Mietrechtsfalles =
+gespeichert, maximal bis 6 Jahre nach Ende der Mitgliedschaft. Die =
+Aufbewahrung erfolgt zur Wahrung von Rechtsanspr=C3=BCchen f=C3=BCr das =
+Mitglied im Hinblick auf Verj=C3=A4hrungen und zur Absicherung im Falle =
+von Haftungs- oder Regressanspr=C3=BCchen=E2=80=9C.
+
+=20
+
+MieterMagazin online lesen
+
+Wenn Sie kuenftig zur Online-Ausgabe des MieterMagazin wechseln =
+moechten,=20
+
+koennen Sie sich unter service.berliner-mieterverein.de/service =
+anmelden.
+
+=20
+
+=20
+
+Von: Daniela Janicke [mailto:dja@Residea.de]=20
+Gesendet: Freitag, 28. Januar 2022 13:37
+An: 'BMV-Achenbach' <achenbach@berliner-mieterverein.de =
+<mailto:achenbach@berliner-mieterverein.de> >
+Betreff: AW: Gubener Stra=C3=9Fe 53a, 10243 Berlin_103.03 M =
+051.02_Andreas Schade_Ihr Zeichen: 2-z-Gub-Schade 11205799
+
+=20
+
+Sehr geehrter Herr Achenbach,
+
+=20
+
+in vorstehender Angelegenheit nehmen wir Bezug auf diesen Vorgang.
+
+=20
+
+Mit Schreiben vom 29.12.2021 hatten Sie mitgeteilt, dass Sie Herrn =
+Schade mietrechtlich vertreten. Leider erfolgte auf unsere Email vom =
+24.01.2022 von Ihnen keine R=C3=BCck=C3=A4u=C3=9Ferung. Vielmehr bekamen =
+wir eine Reihe von Emails von Herrn Schade, die leider einen nicht =
+angebrachten Ton seitens Herrn Schade enthalten.
+
+=20
+
+Da Sie gem. Ihrem Schreiben vom 29.12.2021 unser Ansprechpartner sind, =
+m=C3=B6chten wir die Korrespondenz ausschlie=C3=9Flich =C3=BCber Sie =
+f=C3=BChren. Eine Korrespondenz mit dem Mieter direkt scheint uns hier =
+nicht zielf=C3=BChrend zu sein.
+
+=20
+
+Zum Abschluss teilen wir Ihnen mit, dass sich in K=C3=BCrze ein =
+Mitarbeiter unserer Technikabteilung die mitgeteilten M=C3=A4ngel bei =
+Herrn Schade anschauen wird und im Anschluss die Beauftragungen an die =
+entsprechenden Firmen ggf. erfolgt.
+
+=20
+
+Auf den Aspekt, dass von Herrn Schade f=C3=BCr die Monate Januar, =
+Februar, Juni, November und Dezember 2021 sowie f=C3=BCr Januar 2022 =
+keine Mietzahlungen geleistet worden sind, bitten wir noch um Ihre =
+Stellungnahme.
+
+=20
+
+Vielen Dank f=C3=BCr Ihre M=C3=BChe.
+
+
+Mit freundlichen Gr=C3=BC=C3=9Fen | Best regards       =20
+
+
+Daniela Janicke
+Assistentin Verwaltung
+
+ =20
+
+RESIDEA Immobilien Management GmbH     =20
+Heinrich-Heine-Stra=C3=9Fe 15 =C2=B7 D-10179 Berlin      =20
+
+D +49 30 549 0640 24    =20
+F +49  30 549 0640 99
+ <mailto:dja@Residea.de> dja@Residea.de    =20
+ <http://www.residea.de> www.residea.de
+
+Sitz der Gesellschaft: Berlin |Registergericht: Amtsgericht =
+Charlottenburg HRB 100625 B | Gesch=C3=A4ftsf=C3=BChrer: Ben Lehrecke
+ =20
+
+Von: Daniela Janicke=20
+Gesendet: Montag, 24. Januar 2022 10:03
+An: 'BMV-Achenbach' < <mailto:achenbach@berliner-mieterverein.de> =
+achenbach@berliner-mieterverein.de>
+Betreff: Gubener Stra=C3=9Fe 53a, 10243 Berlin_103.03 M 051.02_Andreas =
+Schade_Ihr Zeichen: 2-z-Gub-Schade 11205799
+Priorit=C3=A4t: Hoch
+
+=20
+
+Sehr geehrter Herr Achenbach,
+
+=20
+
+in vorstehender Angelegenheit haben wir Ihr Schreiben vom 29.12.2021 =
+erhalten.
+
+=20
+
+Bevor wir hierzu ausf=C3=BChrlich Stellung nehmen, m=C3=B6chten wir =
+darauf hinweisen, dass Ihr Mitglied f=C3=BCr die Monate Januar, Februar, =
+Juni, November und Dezember 2021 sowie f=C3=BCr Januar 2022 (6 Monate) =
+bisher keine Miete gezahlt hat. Hier d=C3=BCrfte eine fristlose =
+K=C3=BCndigung in Betracht zu ziehen sein.
+
+=20
+
+Wir bitten um Ihre Stellungnahme. Denn auch wenn M=C3=A4ngel bestehen =
+sollten, berechtigt das nicht dazu, gar keine Miete zu zahlen.
+
+=20
+
+Mit freundlichen Gr=C3=BC=C3=9Fen | Best regards       =20
+
+
+Daniela Janicke
+Assistentin Verwaltung
+
+ =20
+
+RESIDEA Immobilien Management GmbH     =20
+Heinrich-Heine-Stra=C3=9Fe 15 =C2=B7 D-10179 Berlin      =20
+
+D +49 30 549 0640 24    =20
+F +49  30 549 0640 99
+ <mailto:dja@Residea.de> dja@Residea.de    =20
+ <http://www.residea.de> www.residea.de
+
+Sitz der Gesellschaft: Berlin |Registergericht: Amtsgericht =
+Charlottenburg HRB 100625 B | Gesch=C3=A4ftsf=C3=BChrer: Ben Lehrecke
+ =20
+
+=20
+
+
+------=_NextPart_001_001C_01D8145F.970BEF20
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><meta =
+http-equiv=3DContent-Type content=3D"text/html; charset=3Dutf-8"><meta =
+name=3DGenerator content=3D"Microsoft Word 15 (filtered medium)"><!--[if =
+!mso]><style>v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style><![endif]--><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Verdana;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:#954F72;
+	text-decoration:underline;}
+span.E-MailFormatvorlage17
+	{mso-style-type:personal-reply;
+	font-family:"Calibri",sans-serif;
+	color:#1F497D;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:70.85pt 70.85pt 2.0cm 70.85pt;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DDE link=3Dblue =
+vlink=3D"#954F72"><div class=3DWordSection1><p class=3DMsoNormal><span =
+style=3D'color:#1F497D;mso-fareast-language:EN-US'>Sehr geehrter Herr =
+Schade,<o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'color:#1F497D;mso-fareast-language:EN-US'><o:p>&nbsp;</o:p></spa=
+n></p><p class=3DMsoNormal><span =
+style=3D'color:#1F497D;mso-fareast-language:EN-US'>weder muss der =
+Vermieter bei der Mieterh=C3=B6hung noch bei den Betriebskosten auf =
+einen R=C3=BCckstand hinweisen. Auch ein Anspruch auf einen =
+Mietkontoauszug d=C3=BCrfte nicht bestehen. Insofern halte ich es =
+f=C3=BCr sinnvoll, die Zahlungen f=C3=BCr Januar, Februar und Juni 2021 =
+nachzuweisen.<o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'color:#1F497D;mso-fareast-language:EN-US'><o:p>&nbsp;</o:p></spa=
+n></p><div><p class=3DMsoNormal><span style=3D'color:#1F497D'>Mit =
+freundlichen Gr=C3=BC=C3=9Fen<o:p></o:p></span></p><p =
+class=3DMsoNormal><span style=3D'color:#1F497D'>i.V.&nbsp; =
+<o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'color:#1F497D'>Achenbach<o:p></o:p></span></p><p =
+class=3DMsoNormal><span =
+style=3D'color:#1F497D'>Assessor<o:p></o:p></span></p><p =
+class=3DMsoNormal><b><span =
+style=3D'color:#1F497D'><o:p>&nbsp;</o:p></span></b></p><p =
+class=3DMsoNormal><b><span style=3D'color:#1F497D'>Berliner Mieterverein =
+e.V.<o:p></o:p></span></b></p><p class=3DMsoNormal><b><span =
+style=3D'color:#1F497D'>Vertreten durch den Vorstand </span></b><span =
+style=3D'color:#1F497D'><br><b>Dr. Rainer Tietzsch,</b></span><b><span =
+style=3D'color:#1F497D;mso-fareast-language:EN-US'> </span></b><b><span =
+style=3D'color:#1F497D'>Dr. Jutta Hartmann, Gundel =
+Riebe</span></b><b><span =
+style=3D'color:#1F497D;mso-fareast-language:EN-US'><o:p></o:p></span></b>=
+</p><p class=3DMsoNormal><b><span =
+style=3D'color:#1F497D'><o:p>&nbsp;</o:p></span></b></p><p =
+class=3DMsoNormal><b><span =
+style=3D'color:#1F497D'><o:p>&nbsp;</o:p></span></b></p><p =
+class=3DMsoNormal><b><span style=3D'color:#1F497D'>Spichernstr. =
+1&nbsp;&nbsp; 10777 Berlin&nbsp;&nbsp;&nbsp; Telefon 030 226 26 =
+=E2=80=93 0<o:p></o:p></span></b></p><p class=3DMsoNormal><b><span =
+style=3D'color:#1F497D'><a =
+href=3D"http://www.berliner-mieterverein.de/">www.berliner-mieterverein.d=
+e</a>&nbsp;&nbsp;<a =
+href=3D"mailto:bmv@berliner-mieterverein.de">bmv@berliner-mieterverein.de=
+</a> <o:p></o:p></span></b></p><p class=3DMsoNormal><b><span =
+style=3D'color:#1F497D'><o:p>&nbsp;</o:p></span></b></p><p =
+class=3DMsoNormal><b><span style=3D'color:#1F497D'>Vereinsregister: VR =
+531 Nz Amtsgericht Berlin-Charlottenburg<o:p></o:p></span></b></p><p =
+class=3DMsoNormal><b><span =
+style=3D'color:#1F497D'>Umsatzsteuer-Identifikationsnummer&nbsp;&nbsp; =
+DE 136724920<o:p></o:p></span></b></p><p class=3DMsoNormal><b><span =
+style=3D'color:#1F497D'>SEPA GlaeubigerID&nbsp; =
+DE67ZZZ00000173654<o:p></o:p></span></b></p><p =
+class=3DMsoNormal><b><span =
+style=3D'color:#1F497D'><o:p>&nbsp;</o:p></span></b></p><p =
+class=3DMsoNormal =
+style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><b><span =
+style=3D'font-size:12.0pt;font-family:"Times New =
+Roman",serif;color:#1F497D'>Wichtiger Hinweis: </span></b><span =
+style=3D'font-size:12.0pt;color:#1F497D'>Leider kommt es derzeit =
+vermehrt zu Angriffen auf unser Emailsystem. Wir warnen daher vor =
+betr=C3=BCgerischen Emails, die mit Namen unserer Mitarbeiter versendet =
+werden. Bitte l=C3=B6schen Sie umgehend Emails, die nicht der bekannten =
+Kennung @berliner-mieterverein.de entsprechen.</span><span =
+style=3D'font-size:12.0pt;font-family:"Times New =
+Roman",serif;color:#1F497D'><o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><span =
+style=3D'font-size:12.0pt;color:#1F497D'>Bitte =C3=B6ffnen Sie keine =
+Anh=C3=A4nge aus solchen Emails.&nbsp; Auch sendet der BMV aus der =
+Rechtsabteilung in der Regel keine Mails in englischer =
+Sprache.</span><span style=3D'font-size:12.0pt;font-family:"Times New =
+Roman",serif;color:#1F497D'><o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><span =
+style=3D'font-size:12.0pt;color:#1F497D'>Da auch der Berliner =
+Mieterverein h=C3=A4ufig Hackerangriffen (z.B. durch Viren oder =
+Trojaner) ausgesetzt ist, k=C3=B6nnen aus Sicherheitsgr=C3=BCnden nur =
+E-Mails bearbeitet werden, die eindeutig identifizierbar sind. Bitte =
+geben Sie daher bei Nachrichten im Betreff Ihren Nachnamen und Ihre =
+Mitgliedsnummer an. Nutzen Sie bei Anh=C3=A4ngen die 3 g=C3=A4ngigen =
+Formate PDF, Officedokumente und JPEGs. Komprimierte (z.B. Zipdateien) =
+oder verlinkte Anh=C3=A4nge (z.B. auf Clouds) k=C3=B6nnen leider nicht =
+bearbeitet werden. Zudem m=C3=B6chten wir Sie aus organisatorischen =
+Gr=C3=BCnden bitten, Anh=C3=A4nge zusammenzufassen (z.B. in einer =
+PDF-Datei). Wir danken f=C3=BCr Ihr =
+Verst=C3=A4ndnis.<o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'color:#1F497D;mso-fareast-language:EN-US'>=E2=80=9EEin- und =
+ausgehende E-Mails in der Kommunikation mit Mitgliedern werden der =
+Handakte zugeordnet und digital unter der Mitgliedsnummer bis zu 6 Jahre =
+nach Beendigung des Mietrechtsfalles gespeichert, maximal bis 6 Jahre =
+nach Ende der Mitgliedschaft. Die Aufbewahrung erfolgt zur Wahrung von =
+Rechtsanspr=C3=BCchen f=C3=BCr das Mitglied im Hinblick auf =
+Verj=C3=A4hrungen und zur Absicherung im Falle von Haftungs- oder =
+Regressanspr=C3=BCchen=E2=80=9C.<o:p></o:p></span></p><p =
+class=3DMsoNormal><span =
+style=3D'color:#1F497D;mso-fareast-language:EN-US'><o:p>&nbsp;</o:p></spa=
+n></p><p class=3DMsoNormal><b><span =
+style=3D'color:#1F497D'>MieterMagazin online =
+lesen<o:p></o:p></span></b></p><p class=3DMsoNormal><b><span =
+style=3D'color:#1F497D'>Wenn Sie kuenftig zur Online-Ausgabe des =
+MieterMagazin wechseln moechten, <o:p></o:p></span></b></p><p =
+class=3DMsoNormal><b><span style=3D'color:#1F497D'>koennen Sie sich =
+unter service.berliner-mieterverein.de/service =
+anmelden.<o:p></o:p></span></b></p><p class=3DMsoNormal><span =
+style=3D'color:#1F497D;mso-fareast-language:EN-US'><o:p>&nbsp;</o:p></spa=
+n></p></div><p class=3DMsoNormal><span =
+style=3D'color:#1F497D;mso-fareast-language:EN-US'><o:p>&nbsp;</o:p></spa=
+n></p><div><div style=3D'border:none;border-top:solid #E1E1E1 =
+1.0pt;padding:3.0pt 0cm 0cm 0cm'><p class=3DMsoNormal><b>Von:</b> =
+Andreas Schade [mailto:andi_schade@yahoo.de] <br><b>Gesendet:</b> =
+Freitag, 28. Januar 2022 15:51<br><b>An:</b> BMV-Achenbach =
+&lt;achenbach@berliner-mieterverein.de&gt;<br><b>Betreff:</b> AW: =
+Gubener Stra=C3=9Fe 53a, 10243 Berlin_103.03 M 051.02_Andreas Schade_Ihr =
+Zeichen: 2-z-Gub-Schade 11205799<o:p></o:p></p></div></div><p =
+class=3DMsoNormal><o:p>&nbsp;</o:p></p><p class=3DMsoNormal>Hallo Herr =
+Achenbach , <o:p></o:p></p><p class=3DMsoNormal><o:p>&nbsp;</o:p></p><p =
+class=3DMsoNormal>Die Stellungnahme der Verwalterin ist ungen=C3=BCgend. =
+Ich habe meine Standpunkte seit Jahren im angebrachten =
+gem=C3=A4=C3=9Figten Ton der wechselnden &nbsp;Verwaltungen zugetragen. =
+Durch arrogante Ignoranz bis hin zur materiellen und finanziellen =
+Sch=C3=A4digung des Mieters =C3=A4ndert sich nun mal auch die Tonlage =
+desjenigen und gebe weiter zu derartigen Pflichtverletzungen und =
+betr=C3=BCgerischem Verhalten aller Mitarbeiter dieser =
+Verwalterin.<o:p></o:p></p><p class=3DMsoNormal>Weder aus der =
+Betriebskostenabrechnung 2020, noch aus einem =
+Mieterh=C3=B6hungsschreiben (siehe Anlage) sind eindeutige =
+R=C3=BCckst=C3=A4nde im Mieterkonto zu ersehen und mir so dokumentiert =
+worden. Auf eine angeforderte Mietkontoeinsicht wurde seitens der =
+Verwalterin auch nicht reagiert. <o:p></o:p></p><p =
+class=3DMsoNormal>Durch meine, Ihnen gegebenen Ausf=C3=BChrungen =
+=C3=BCber die Monate November, Dezember 2021 und Januar 2022 sowie =
+zuk=C3=BCnftige Februar 2022 Mietzahlungen , sind keine Nachweise =
+vorhanden und weise nochmals auf die =C3=BCber ca. 850, - =E2=82=AC =
+nicht =C3=BCberwiesener Schulden der Verwalterin aus der =
+Betriebskostenabrechnung2020 hin sowie jeglicher Pflichtverletzungen bis =
+hin zur Informations- und Auskunftszur=C3=BCckhaltung hin. Die =
+bestrittenen Monate Januar, Februar , Juni 2021 w=C3=BCrden sodann =
+&nbsp;im gesetzlichen Rahmen zur Abkehr einer fristlosen K=C3=BCndigung =
+liegen, des weiteren bin ich derjenige der endlich den Klageweg und auch =
+Schadenersatzforderungen im erheblichen Masse an die Verwalterin stelle. =
+Sollte demnach ich ein Beweis anstellen, muss seitens der Verwalterin =
+geklagt werden. <o:p></o:p></p><p =
+class=3DMsoNormal><o:p>&nbsp;</o:p></p><p class=3DMsoNormal>Auch waren =
+in einem Jahrzehnt schon mehrmals sogenannte Techniker anwesend =
+(Heizung, D=C3=A4mmung, Mauersch=C3=A4den =C3=BCber den Zimmern , in =
+denen immer Schimmel entsteht ) , auch schon im September 2020 eine =
+beauftragte Elektro-Firma zur Schadensdokumentation und Erstellung der =
+Kostenvoranschl=C3=A4ge in meiner Wohnung . Es ist zu absolut keiner =
+Reparatur gekommen , dadurch mir FolgeSch=C3=A4den im erheblichen =
+Ausma=C3=9F entstanden und entstehen. Auch nun werden wieder Monate =
+vergehen , auch versucht zu vertuschen. &nbsp;Besonders m=C3=B6chte ich =
+dringlichst auf das Loch und die Nicht Gangbarkeit der Wohnungst=C3=BCr =
+hinweisen, auf welches seit Oktober 2021 noch gar nicht reagiert wurde . =
+<o:p></o:p></p><p class=3DMsoNormal><o:p>&nbsp;</o:p></p><p =
+class=3DMsoNormal>mfG<o:p></o:p></p><p =
+class=3DMsoNormal><o:p>&nbsp;</o:p></p><div =
+style=3D'border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0cm =
+0cm 0cm'><p class=3DMsoNormal><b>Von: </b><a =
+href=3D"mailto:achenbach@berliner-mieterverein.de">BMV-Achenbach</a><br><=
+b>Gesendet: </b>Freitag, 28. Januar 2022 13:50<br><b>An: </b><a =
+href=3D"mailto:andi_schade@yahoo.de">'Andreas Schade'</a><br><b>Betreff: =
+</b>WG: Gubener Stra=C3=9Fe 53a, 10243 Berlin_103.03 M 051.02_Andreas =
+Schade_Ihr Zeichen: 2-z-Gub-Schade 11205799<o:p></o:p></p></div><p =
+class=3DMsoNormal><o:p>&nbsp;</o:p></p><p class=3DMsoNormal><span =
+style=3D'color:#1F497D;mso-fareast-language:EN-US'>Sehr geehrter Herr =
+Schade,<o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'color:#1F497D;mso-fareast-language:EN-US'><o:p>&nbsp;</o:p></spa=
+n></p><p class=3DMsoNormal><span =
+style=3D'color:#1F497D;mso-fareast-language:EN-US'>bitte beachten Sie =
+unten stehende Email.<o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'color:#1F497D;mso-fareast-language:EN-US'><o:p>&nbsp;</o:p></spa=
+n></p><div><p class=3DMsoNormal><span style=3D'color:#1F497D'>Mit =
+freundlichen Gr=C3=BC=C3=9Fen<o:p></o:p></span></p><p =
+class=3DMsoNormal><span style=3D'color:#1F497D'>i.V.&nbsp; =
+<o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'color:#1F497D'>Achenbach<o:p></o:p></span></p><p =
+class=3DMsoNormal><span =
+style=3D'color:#1F497D'>Assessor<o:p></o:p></span></p><p =
+class=3DMsoNormal><b><span =
+style=3D'color:#1F497D'><o:p>&nbsp;</o:p></span></b></p><p =
+class=3DMsoNormal><b><span style=3D'color:#1F497D'>Berliner Mieterverein =
+e.V.<o:p></o:p></span></b></p><p class=3DMsoNormal><b><span =
+style=3D'color:#1F497D'>Vertreten durch den Vorstand </span></b><span =
+style=3D'color:#1F497D'><br><b>Dr. Rainer Tietzsch,</b></span><b><span =
+style=3D'color:#1F497D;mso-fareast-language:EN-US'> </span><span =
+style=3D'color:#1F497D'>Dr. Jutta Hartmann, Gundel =
+Riebe</span></b><b><span =
+style=3D'color:#1F497D;mso-fareast-language:EN-US'><o:p></o:p></span></b>=
+</p><p class=3DMsoNormal><b><span =
+style=3D'color:#1F497D'><o:p>&nbsp;</o:p></span></b></p><p =
+class=3DMsoNormal><b><span =
+style=3D'color:#1F497D'><o:p>&nbsp;</o:p></span></b></p><p =
+class=3DMsoNormal><b><span style=3D'color:#1F497D'>Spichernstr. =
+1&nbsp;&nbsp; 10777 Berlin&nbsp;&nbsp;&nbsp; Telefon 030 226 26 =
+=E2=80=93 0<o:p></o:p></span></b></p><p class=3DMsoNormal><b><span =
+style=3D'color:#1F497D'><a =
+href=3D"http://www.berliner-mieterverein.de/">www.berliner-mieterverein.d=
+e</a>&nbsp;&nbsp;<a =
+href=3D"mailto:bmv@berliner-mieterverein.de">bmv@berliner-mieterverein.de=
+</a> <o:p></o:p></span></b></p><p class=3DMsoNormal><b><span =
+style=3D'color:#1F497D'><o:p>&nbsp;</o:p></span></b></p><p =
+class=3DMsoNormal><b><span style=3D'color:#1F497D'>Vereinsregister: VR =
+531 Nz Amtsgericht Berlin-Charlottenburg<o:p></o:p></span></b></p><p =
+class=3DMsoNormal><b><span =
+style=3D'color:#1F497D'>Umsatzsteuer-Identifikationsnummer&nbsp;&nbsp; =
+DE 136724920<o:p></o:p></span></b></p><p class=3DMsoNormal><b><span =
+style=3D'color:#1F497D'>SEPA GlaeubigerID&nbsp; =
+DE67ZZZ00000173654<o:p></o:p></span></b></p><p =
+class=3DMsoNormal><b><span =
+style=3D'color:#1F497D'><o:p>&nbsp;</o:p></span></b></p><p =
+class=3DMsoNormal =
+style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><b><span =
+style=3D'font-size:12.0pt;font-family:"Times New =
+Roman",serif;color:#1F497D'>Wichtiger Hinweis: </span></b><span =
+style=3D'font-size:12.0pt;color:#1F497D'>Leider kommt es derzeit =
+vermehrt zu Angriffen auf unser Emailsystem. Wir warnen daher vor =
+betr=C3=BCgerischen Emails, die mit Namen unserer Mitarbeiter versendet =
+werden. Bitte l=C3=B6schen Sie umgehend Emails, die nicht der bekannten =
+Kennung @berliner-mieterverein.de entsprechen.</span><span =
+style=3D'font-size:12.0pt;font-family:"Times New =
+Roman",serif;color:#1F497D'><o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><span =
+style=3D'font-size:12.0pt;color:#1F497D'>Bitte =C3=B6ffnen Sie keine =
+Anh=C3=A4nge aus solchen Emails.&nbsp; Auch sendet der BMV aus der =
+Rechtsabteilung in der Regel keine Mails in englischer =
+Sprache.</span><span style=3D'font-size:12.0pt;font-family:"Times New =
+Roman",serif;color:#1F497D'><o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><span =
+style=3D'font-size:12.0pt;color:#1F497D'>Da auch der Berliner =
+Mieterverein h=C3=A4ufig Hackerangriffen (z.B. durch Viren oder =
+Trojaner) ausgesetzt ist, k=C3=B6nnen aus Sicherheitsgr=C3=BCnden nur =
+E-Mails bearbeitet werden, die eindeutig identifizierbar sind. Bitte =
+geben Sie daher bei Nachrichten im Betreff Ihren Nachnamen und Ihre =
+Mitgliedsnummer an. Nutzen Sie bei Anh=C3=A4ngen die 3 g=C3=A4ngigen =
+Formate PDF, Officedokumente und JPEGs. Komprimierte (z.B. Zipdateien) =
+oder verlinkte Anh=C3=A4nge (z.B. auf Clouds) k=C3=B6nnen leider nicht =
+bearbeitet werden. Zudem m=C3=B6chten wir Sie aus organisatorischen =
+Gr=C3=BCnden bitten, Anh=C3=A4nge zusammenzufassen (z.B. in einer =
+PDF-Datei). Wir danken f=C3=BCr Ihr =
+Verst=C3=A4ndnis.<o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'color:#1F497D;mso-fareast-language:EN-US'>=E2=80=9EEin- und =
+ausgehende E-Mails in der Kommunikation mit Mitgliedern werden der =
+Handakte zugeordnet und digital unter der Mitgliedsnummer bis zu 6 Jahre =
+nach Beendigung des Mietrechtsfalles gespeichert, maximal bis 6 Jahre =
+nach Ende der Mitgliedschaft. Die Aufbewahrung erfolgt zur Wahrung von =
+Rechtsanspr=C3=BCchen f=C3=BCr das Mitglied im Hinblick auf =
+Verj=C3=A4hrungen und zur Absicherung im Falle von Haftungs- oder =
+Regressanspr=C3=BCchen=E2=80=9C.<o:p></o:p></span></p><p =
+class=3DMsoNormal><span =
+style=3D'color:#1F497D;mso-fareast-language:EN-US'><o:p>&nbsp;</o:p></spa=
+n></p><p class=3DMsoNormal><b><span =
+style=3D'color:#1F497D'>MieterMagazin online =
+lesen<o:p></o:p></span></b></p><p class=3DMsoNormal><b><span =
+style=3D'color:#1F497D'>Wenn Sie kuenftig zur Online-Ausgabe des =
+MieterMagazin wechseln moechten, <o:p></o:p></span></b></p><p =
+class=3DMsoNormal><b><span style=3D'color:#1F497D'>koennen Sie sich =
+unter service.berliner-mieterverein.de/service =
+anmelden.<o:p></o:p></span></b></p><p class=3DMsoNormal><span =
+style=3D'color:#1F497D;mso-fareast-language:EN-US'><o:p>&nbsp;</o:p></spa=
+n></p></div><p class=3DMsoNormal><span =
+style=3D'color:#1F497D;mso-fareast-language:EN-US'><o:p>&nbsp;</o:p></spa=
+n></p><div><div style=3D'border:none;border-top:solid #E1E1E1 =
+1.0pt;padding:3.0pt 0cm 0cm 0cm'><p class=3DMsoNormal><b>Von:</b> =
+Daniela Janicke [<a =
+href=3D"mailto:dja@Residea.de">mailto:dja@Residea.de</a>] =
+<br><b>Gesendet:</b> Freitag, 28. Januar 2022 13:37<br><b>An:</b> =
+'BMV-Achenbach' &lt;<a =
+href=3D"mailto:achenbach@berliner-mieterverein.de">achenbach@berliner-mie=
+terverein.de</a>&gt;<br><b>Betreff:</b> AW: Gubener Stra=C3=9Fe 53a, =
+10243 Berlin_103.03 M 051.02_Andreas Schade_Ihr Zeichen: 2-z-Gub-Schade =
+11205799<o:p></o:p></p></div></div><p class=3DMsoNormal><span =
+style=3D'mso-fareast-language:EN-US'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif;color:black;mso-fareast-language:=
+EN-US'>Sehr geehrter Herr Achenbach,<o:p></o:p></span></p><p =
+class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif;color:black;mso-fareast-language:=
+EN-US'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif;color:black;mso-fareast-language:=
+EN-US'>in vorstehender Angelegenheit nehmen wir Bezug auf diesen =
+Vorgang.<o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif;color:black;mso-fareast-language:=
+EN-US'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif;color:black;mso-fareast-language:=
+EN-US'>Mit Schreiben vom 29.12.2021 hatten Sie mitgeteilt, dass Sie =
+Herrn Schade mietrechtlich vertreten. Leider erfolgte auf unsere Email =
+vom 24.01.2022 von Ihnen keine R=C3=BCck=C3=A4u=C3=9Ferung. Vielmehr =
+bekamen wir eine Reihe von Emails von Herrn Schade, die leider einen =
+nicht angebrachten Ton seitens Herrn Schade =
+enthalten.<o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif;color:black;mso-fareast-language:=
+EN-US'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif;color:black;mso-fareast-language:=
+EN-US'>Da Sie gem. Ihrem Schreiben vom 29.12.2021 unser Ansprechpartner =
+sind, m=C3=B6chten wir die Korrespondenz ausschlie=C3=9Flich =C3=BCber =
+Sie f=C3=BChren. Eine Korrespondenz mit dem Mieter direkt scheint uns =
+hier nicht zielf=C3=BChrend zu sein.<o:p></o:p></span></p><p =
+class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif;color:black;mso-fareast-language:=
+EN-US'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif;color:black;mso-fareast-language:=
+EN-US'>Zum Abschluss teilen wir Ihnen mit, dass sich in K=C3=BCrze ein =
+Mitarbeiter unserer Technikabteilung die mitgeteilten M=C3=A4ngel bei =
+Herrn Schade anschauen wird und im Anschluss die Beauftragungen an die =
+entsprechenden Firmen ggf. erfolgt.<o:p></o:p></span></p><p =
+class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif;color:black;mso-fareast-language:=
+EN-US'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif;color:black;mso-fareast-language:=
+EN-US'>Auf den Aspekt, dass von Herrn Schade f=C3=BCr die Monate Januar, =
+Februar, Juni, November und Dezember 2021 sowie f=C3=BCr Januar 2022 =
+keine Mietzahlungen geleistet worden sind, bitten wir noch um Ihre =
+Stellungnahme.<o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif;color:black;mso-fareast-language:=
+EN-US'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif;color:black;mso-fareast-language:=
+EN-US'>Vielen Dank f=C3=BCr Ihre M=C3=BChe.<o:p></o:p></span></p><p =
+class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif;color:black'><br>Mit =
+freundlichen Gr=C3=BC=C3=9Fen | Best regards&nbsp;&nbsp;&nbsp; =
+&nbsp;&nbsp;&nbsp;&nbsp;<br></span><span =
+style=3D'font-family:"Verdana",sans-serif;color:black'><br></span><span =
+style=3D'font-size:7.5pt;font-family:"Verdana",sans-serif;color:black'><b=
+r></span><b><span =
+style=3D'font-family:"Arial",sans-serif;color:black'>Daniela =
+Janicke</span></b><b><span =
+style=3D'font-size:9.0pt;font-family:"Arial",sans-serif;color:black'><br>=
+</span></b><span =
+style=3D'font-family:"Arial",sans-serif;color:black'>Assistentin =
+Verwaltung<br></span><span =
+style=3D'font-size:9.0pt;font-family:"Verdana",sans-serif;color:#595959'>=
+<br></span><span =
+style=3D'font-size:9.0pt;font-family:"Arial",sans-serif;color:#595959'><i=
+mg border=3D0 width=3D129 height=3D48 id=3D"Bild_x0020_1" =
+src=3D"cid:image001.jpg@01D8145F.96ABCDC0"></span><span =
+style=3D'font-size:9.0pt;font-family:"Verdana",sans-serif;color:#595959'>=
+&nbsp;&nbsp;<br><br></span><span =
+style=3D'font-family:"Arial",sans-serif;color:black'>RESIDEA Immobilien =
+Management GmbH</span><span =
+style=3D'font-family:"Verdana",sans-serif;color:black'>&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;</span><span =
+style=3D'font-size:9.0pt;font-family:"Verdana",sans-serif;color:black'> =
+</span><span =
+style=3D'font-size:9.0pt;font-family:"Verdana",sans-serif;color:#595959'>=
+<br></span><span =
+style=3D'font-family:"Arial",sans-serif;color:black'>Heinrich-Heine-Stra=C3=
+=9Fe 15&nbsp;=C2=B7 D-10179 =
+Berlin&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span =
+style=3D'font-size:9.0pt;font-family:"Arial",sans-serif;color:black'> =
+<br></span><span =
+style=3D'font-size:10.0pt;font-family:"Arial",sans-serif;color:black'><br=
+></span><span style=3D'font-family:"Arial",sans-serif;color:black'>D +49 =
+30 549 0640 24&nbsp;&nbsp;&nbsp;&nbsp; <br>F +49&nbsp; 30 549 0640 =
+99<br><a href=3D"mailto:dja@Residea.de"><span =
+style=3D'color:#0563C1'>dja@Residea.de</span></a>&nbsp;&nbsp;&nbsp;&nbsp;=
+ <br></span><span =
+style=3D'font-family:"Verdana",sans-serif;color:black'><a =
+href=3D"http://www.residea.de"><span =
+style=3D'font-family:"Arial",sans-serif'>www.residea.de</span></a><br></s=
+pan><span =
+style=3D'font-size:9.0pt;font-family:"Verdana",sans-serif;color:black'><b=
+r></span><span style=3D'font-family:"Arial",sans-serif;color:black'>Sitz =
+der Gesellschaft: Berlin |Registergericht: Amtsgericht Charlottenburg =
+HRB 100625 B | Gesch=C3=A4ftsf=C3=BChrer: Ben Lehrecke</span><span =
+style=3D'font-size:12.0pt;font-family:"Arial",sans-serif;color:black'><br=
+></span><span =
+style=3D'font-size:9.0pt;font-family:"Verdana",sans-serif;color:black'>&n=
+bsp; </span><span =
+style=3D'font-family:"Arial",sans-serif;color:black;mso-fareast-language:=
+EN-US'><o:p></o:p></span></p><div><div =
+style=3D'border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0cm =
+0cm 0cm'><p class=3DMsoNormal><b>Von:</b> Daniela Janicke =
+<br><b>Gesendet:</b> Montag, 24. Januar 2022 10:03<br><b>An:</b> =
+'BMV-Achenbach' &lt;<a =
+href=3D"mailto:achenbach@berliner-mieterverein.de"><span =
+style=3D'color:#0563C1'>achenbach@berliner-mieterverein.de</span></a>&gt;=
+<br><b>Betreff:</b> Gubener Stra=C3=9Fe 53a, 10243 Berlin_103.03 M =
+051.02_Andreas Schade_Ihr Zeichen: 2-z-Gub-Schade =
+11205799<br><b>Priorit=C3=A4t:</b> Hoch<o:p></o:p></p></div></div><p =
+class=3DMsoNormal><span =
+style=3D'mso-fareast-language:EN-US'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif;color:black;mso-fareast-language:=
+EN-US'>Sehr geehrter Herr Achenbach,<o:p></o:p></span></p><p =
+class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif;color:black;mso-fareast-language:=
+EN-US'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif;color:black;mso-fareast-language:=
+EN-US'>in vorstehender Angelegenheit haben wir Ihr Schreiben vom =
+29.12.2021 erhalten.<o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif;color:black;mso-fareast-language:=
+EN-US'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif;color:black;mso-fareast-language:=
+EN-US'>Bevor wir hierzu ausf=C3=BChrlich Stellung nehmen, m=C3=B6chten =
+wir darauf hinweisen, dass Ihr Mitglied f=C3=BCr die Monate Januar, =
+Februar, Juni, November und Dezember 2021 sowie f=C3=BCr Januar 2022 (6 =
+Monate) bisher <b><u>keine</u></b> Miete gezahlt hat. Hier d=C3=BCrfte =
+eine fristlose K=C3=BCndigung in Betracht zu ziehen =
+sein.<o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif;color:black;mso-fareast-language:=
+EN-US'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif;color:black;mso-fareast-language:=
+EN-US'>Wir bitten um Ihre Stellungnahme. Denn auch wenn M=C3=A4ngel =
+bestehen sollten, berechtigt das nicht dazu, gar keine Miete zu =
+zahlen.<o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif;color:black;mso-fareast-language:=
+EN-US'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif;color:black'>Mit freundlichen =
+Gr=C3=BC=C3=9Fen | Best regards&nbsp;&nbsp;&nbsp; =
+&nbsp;&nbsp;&nbsp;&nbsp;<br></span><span =
+style=3D'font-family:"Verdana",sans-serif;color:black'><br></span><span =
+style=3D'font-size:7.5pt;font-family:"Verdana",sans-serif;color:black'><b=
+r></span><b><span =
+style=3D'font-family:"Arial",sans-serif;color:black'>Daniela =
+Janicke</span></b><b><span =
+style=3D'font-size:9.0pt;font-family:"Arial",sans-serif;color:black'><br>=
+</span></b><span =
+style=3D'font-family:"Arial",sans-serif;color:black'>Assistentin =
+Verwaltung<br></span><span =
+style=3D'font-size:9.0pt;font-family:"Verdana",sans-serif;color:#595959'>=
+<br></span><span =
+style=3D'font-size:9.0pt;font-family:"Arial",sans-serif;color:#595959'><i=
+mg border=3D0 width=3D129 height=3D48 id=3D"Bild_x0020_2" =
+src=3D"cid:image001.jpg@01D8145F.96ABCDC0"></span><span =
+style=3D'font-size:9.0pt;font-family:"Verdana",sans-serif;color:#595959'>=
+&nbsp;&nbsp;<br><br></span><span =
+style=3D'font-family:"Arial",sans-serif;color:black'>RESIDEA Immobilien =
+Management GmbH</span><span =
+style=3D'font-family:"Verdana",sans-serif;color:black'>&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;</span><span =
+style=3D'font-size:9.0pt;font-family:"Verdana",sans-serif;color:black'> =
+</span><span =
+style=3D'font-size:9.0pt;font-family:"Verdana",sans-serif;color:#595959'>=
+<br></span><span =
+style=3D'font-family:"Arial",sans-serif;color:black'>Heinrich-Heine-Stra=C3=
+=9Fe 15&nbsp;=C2=B7 D-10179 =
+Berlin&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span =
+style=3D'font-size:9.0pt;font-family:"Arial",sans-serif;color:black'> =
+<br></span><span =
+style=3D'font-size:10.0pt;font-family:"Arial",sans-serif;color:black'><br=
+></span><span style=3D'font-family:"Arial",sans-serif;color:black'>D +49 =
+30 549 0640 24&nbsp;&nbsp;&nbsp;&nbsp; <br>F +49&nbsp; 30 549 0640 =
+99<br><a href=3D"mailto:dja@Residea.de"><span =
+style=3D'color:#0563C1'>dja@Residea.de</span></a>&nbsp;&nbsp;&nbsp;&nbsp;=
+ <br></span><span =
+style=3D'font-family:"Verdana",sans-serif;color:black'><a =
+href=3D"http://www.residea.de"><span =
+style=3D'font-family:"Arial",sans-serif'>www.residea.de</span></a><br></s=
+pan><span =
+style=3D'font-size:9.0pt;font-family:"Verdana",sans-serif;color:black'><b=
+r></span><span style=3D'font-family:"Arial",sans-serif;color:black'>Sitz =
+der Gesellschaft: Berlin |Registergericht: Amtsgericht Charlottenburg =
+HRB 100625 B | Gesch=C3=A4ftsf=C3=BChrer: Ben Lehrecke</span><span =
+style=3D'font-size:12.0pt;font-family:"Arial",sans-serif;color:black'><br=
+></span><span =
+style=3D'font-size:9.0pt;font-family:"Verdana",sans-serif;color:black'>&n=
+bsp; </span><span =
+style=3D'mso-fareast-language:EN-US'><o:p></o:p></span></p><p =
+class=3DMsoNormal><span =
+style=3D'mso-fareast-language:EN-US'><o:p>&nbsp;</o:p></span></p></div></=
+body></html>
+------=_NextPart_001_001C_01D8145F.970BEF20--
+
+------=_NextPart_000_001B_01D8145F.970BEF20
+Content-Type: image/jpeg;
+	name="image001.jpg"
+Content-Transfer-Encoding: base64
+Content-ID: <image001.jpg@01D8145F.96ABCDC0>
+
+/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAAAAP/sABFEdWNreQABAAQAAAA8AAD/4QMtaHR0cDov
+L25zLmFkb2JlLmNvbS94YXAvMS4wLwA8P3hwYWNrZXQgYmVnaW49Iu+7vyIgaWQ9Ilc1TTBNcENl
+aGlIenJlU3pOVGN6a2M5ZCI/PiA8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIiB4
+OnhtcHRrPSJBZG9iZSBYTVAgQ29yZSA1LjAtYzA2MSA2NC4xNDA5NDksIDIwMTAvMTIvMDctMTA6
+NTc6MDEgICAgICAgICI+IDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5
+OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+IDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiIHht
+bG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIgeG1sbnM6eG1wTU09Imh0dHA6
+Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUu
+Y29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBo
+b3Rvc2hvcCBDUzUuMSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NzRFQjk0
+NzMxMkRFMTFFNzgyQjNFODRCRDMwQjlEQ0IiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NzRF
+Qjk0NzQxMkRFMTFFNzgyQjNFODRCRDMwQjlEQ0IiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6
+aW5zdGFuY2VJRD0ieG1wLmlpZDoxQjg5MjE5NjEyQjcxMUU3ODJCM0U4NEJEMzBCOURDQiIgc3RS
+ZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo3NEVCOTQ3MjEyREUxMUU3ODJCM0U4NEJEMzBCOURDQiIv
+PiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVu
+ZD0iciI/Pv/uAA5BZG9iZQBkwAAAAAH/2wCEAAYEBAQFBAYFBQYJBgUGCQsIBgYICwwKCgsKCgwQ
+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
+W/VF/jH7L4fg0T815ffFf7GOP/s4/Jxn/9k=
+
+------=_NextPart_000_001B_01D8145F.970BEF20--

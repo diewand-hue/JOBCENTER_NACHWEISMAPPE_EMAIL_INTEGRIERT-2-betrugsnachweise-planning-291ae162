@@ -1,0 +1,95 @@
+Received: from 127.0.0.1
+ by atlas-production.v2-mail-prod1-ir2.omega.yahoo.com pod-id
+ atlas--production-ir2-f66c8786f-mcfdb.ir2.yahoo.com with HTTP;
+ Mon, 9 Feb 2026 15:45:51 +0000
+Return-Path: <matthias.tuexen@icloud.com>
+X-Originating-Ip: [57.103.87.43]
+Received-SPF: pass (domain of icloud.com designates 57.103.87.43 as permitted
+ sender)
+Authentication-Results: mta.yahoo.com;
+ dkim=pass header.i=@icloud.com header.s=1a1hai
+ arc_overridden_status=NOT_OVERRIDDEN;
+ spf=pass smtp.mailfrom=icloud.com arc_overridden_status=NOT_OVERRIDDEN;
+ dmarc=pass(p=QUARANTINE,sp=QUARANTINE) header.from=icloud.com
+ arc_overridden_status=NOT_OVERRIDDEN;
+X-Apparently-To: andi_schade@yahoo.de; Mon, 9 Feb 2026 15:45:51 +0000
+X-YMailISG: GFH79hMWLDv6Mzxuwk7cUXFn1toyRf0KenmGms0oAIahm0Wo
+ v8fDcKu0V45csHeAati_P8iZHb6V6QNk7zyqGTTPVTOComBTtUGnakTnWG2A
+ YPYMPVpP3ToIp3FJsfIGNrfY2IHWTtWWECpZjA6DYYn1AqOwaN3Aw7xI895S
+ SggqhEwy..Eoo0z5lRzES5al_IY5Nhx31X.r3QMs7ESrZBa9AlaeVHkA9XWy
+ TioN7ObNlwDKntkTwUJD6rYNncQqExh22q3w6UhTKDUKeGoxBpVMgCw_ZfKP
+ DWGu0t_TASAR8ThnRz96WR2pcNm2FgpJAeLEW2tapqOuTyxwTMG_WX4qnkn6
+ 05eHJUMS8wCFS8BqJWr8orFmYbPWG84y0ibNfhD49kRt0oKzH8jT9fs0_qYD
+ 3tMXSjTExNb0XNqZCxYt0lDLRL_Ya19OilE2eVq8IVGUsortCmD.whJG17tm
+ jbq1oHErLcSGkNRHJIFN5Az4M43oBXT2QtgYhA.gSI3AYhkpLS8p2E_iWpg3
+ K6uMRPcbhtr7rmtxuiuqA5obIj87b9cGY0cON24etPjTzpfu5tJlolBKwxah
+ gG.FSFKCI5E.C9yvJHhjiv1KwcpxegOZzZf5.R9Cb5zVQ1ERQhG9L_tcBGSY
+ HLPSZVDnYjAeHYl7.wC.kHIAE7KKvSPeS06uB0KOLGO.qchLTwnhx2cZDrxJ
+ BHRGkqZXDQwCNcrgWlW.kICBpMP0Aw_l01VmsmZzeBgOXAfqoRZ_bhV97Hex
+ XhOu4Rol5R1KjZ2QwjRrbpt98BtBfv9yP3olJbGzKU1BHYSGPosFTB4OaZgg
+ H6T3tA6LApl23a4Co88EzhS2MndBb5gl6z6jcBkhea18nIdibgdx3KT69hyv
+ 5HXr7K8PFC8U0qY6rRUDS_E3QElyUbH9J.bn0eAN72_BfxLN_9JZUt.Ij7Yq
+ aCjFxwANuhOstfVXLt8lbBy.LVdUZjAehulBrOYkIyzPdY0dyM6g8OR5_oLd
+ MoX.ZcT8jANarCVZLXwWDemDwfE.DFRNJ0x2EDbCK3QMdvsbff.kQSbB9T9Y
+ KCbbgtguSyr8Kd7Lpd9R.3eJ1WsH0m8k9mn4.tnV0qgborpiHF3CsdqDkSQU
+ slmL_N1FBqxwd5TahgMp.1nC18Qfy4HRuSC4bZU_8IpGFBXDvaUuy9DDdySH
+ 6diy2JSDf.RVjgiIiI81DQi4XaJbI7oCDvupUjwkWmwRFnOq6fW4UjCOXfL5
+ .23eHpPmWBY5exvnYXUXbT6DizUYY1flE5RbFFmRid7GY9H3bS7yvr0RO9vh
+ ZzN8BP2PSdfT_lwVi_Acq2U5zK1KryFaKUE.lTDc
+Received: from 57.103.87.43 (EHLO outbound.qs.icloud.com)
+ by 10.200.78.49 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Mon, 09 Feb 2026 15:45:51 +0000
+Received: from outbound.qs.icloud.com (unknown [127.0.0.2])
+	by p00-icloudmta-asmtp-us-east-2d-60-percent-6 (Postfix) with ESMTPS id
+ 5160418000B9
+	for <andi_schade@yahoo.de>; Mon,  9 Feb 2026 15:45:49 +0000 (UTC)
+Dkim-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=icloud.com; s=1a1hai;
+ t=1770651951; x=1773243951; bh=nr34kHVAPZllbDzfFJ/8W9E7MicyxOhsPkZ0rcvvrnA=;
+ h=Content-Type:From:Mime-Version:Date:Subject:Message-Id:To:x-icloud-hme;
+ b=HXYVOS9BgHRcKw2bvodKOzKRax94wNyMuePGTh993DGAdlACqthCdwBg106fBOGhJo56Oqo7hN1QFCqAJeF97czvvlLNAMwhb3HDXCG0OG55RlYfQg4pTPhSAUqXqDWKkvxZsOny4LgZO3DzwFc+Jdyn/0d6QjjEvYMKtf+4nDQS/P6REyRZZK1oQwLj/QjUKw7Z3yOid5uavJM4vZ/Y9/DsFeDHDVSOCIW3jneGSGmZagyLLu/sDCB5tmcrdPQpUas1BZvj+BSYbZLIOE9XcR16sHO8eIr/zSef4qLG/gEbNClBgekMZLpK7Vj4A7NhF2L9c+rhegCanHJVL9okog==
+Received: from smtpclient.apple (unknown [17.57.155.37])
+	by p00-icloudmta-asmtp-us-east-2d-60-percent-6 (Postfix) with ESMTPSA id
+ 4998C1800561
+	for <andi_schade@yahoo.de>; Mon,  9 Feb 2026 15:45:48 +0000 (UTC)
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+From: =?utf-8?Q?Matthias_T=C3=BCxen?= <matthias.tuexen@icloud.com>
+Mime-Version: 1.0 (1.0)
+Date: Mon, 9 Feb 2026 16:45:36 +0100
+Subject: =?utf-8?Q?=C3=9Cbernahme_der_Klge?=
+Message-Id: <82E58760-79E4-468A-8A91-9F85DCD920C0@icloud.com>
+To: andi_schade@yahoo.de
+X-Mailer: iPhone Mail (23C71)
+X-Proofpoint-ORIG-GUID: JKVIw-144-fzJ0D3D7xkqgrzWG69oKvm
+X-Proofpoint-GUID: JKVIw-144-fzJ0D3D7xkqgrzWG69oKvm
+X-Proofpoint-Spam-Details-Enc: AW1haW4tMjYwMjA5MDEzMiBTYWx0ZWRfXyFLMGymkeqg1
+ 3BUMALVyoemSgmroThnTcrHk1pqh6ri+PBZE+5dW9JycC9egg+W+3vu8BJRTVX52eIUB2ZxnaJT
+ pmwI+nhODJg6QFMZmaEHc+RsYcec76iy/70km1/LgAaGOKW28ml6+kmHHVb5UrTCUJGK3nIuio7
+ Vy6UOaEB/smChq/eTtzIDZdP56QyAG9DoXvF1rVICag3R/N/4DDaOB4V8mna+JmJ+gvtD6ZVp+l
+ aXZ3KTy8t4+Hjl+mAbDIaywsRFH+kbzoJUrBnmSlptp82/bIGrqpc/NC8GTL/4YEXI/AO257Akf
+ 5c7farjXVpYMW8hZEWfN7gh2GsYcAce4MRyf41406j7kUTJ5EzR1rD4fq8s/Z0=
+X-Authority-Info-Out: v=2.4 cv=C9XkCAP+ c=1 sm=1 tr=0 ts=698a012d
+ cx=c_apl:c_apl_out:c_pps a=bsP7O+dXZ5uKcj+dsLqiMw==:117
+ a=bsP7O+dXZ5uKcj+dsLqiMw==:17 a=IkcTkHD0fZMA:10 a=HzLeVaNsDn8A:10
+ a=5KLPUuaC_9wA:10 a=M51BFTxLslgA:10 a=x7bEGLp0ZPQA:10 a=NNlX1kp2HQwA:10
+ a=VkNPw1HP01LnGYTKEx00:22 a=Mpw57Om8IfrbqaoTuvik:22 a=GgsMoib0sEa3-_RKJdDe:22
+ a=SnMWBgevfiTEOeSKSugA:9 a=QEXdDO2ut3YA:10
+X-Proofpoint-Virus-Version: vendor=baseguard
+ engine=ICAP:2.0.293,Aquarius:18.0.1121,Hydra:6.1.51,FMLib:17.12.100.49
+ definitions=2026-02-09_01,2026-02-09_03,2025-10-01_01
+X-Proofpoint-Spam-Details: rule=notspam policy=default score=0
+ lowpriorityscore=0 bulkscore=0 suspectscore=0 mlxscore=0 adultscore=0
+ spamscore=0 phishscore=0 malwarescore=0 mlxlogscore=639 clxscore=1011
+ classifier=spam authscore=0 adjust=0 reason=mlx scancount=1
+ engine=8.22.0-2601150000 definitions=main-2602090132
+X-JNJ: 
+ AAAAAAAB+PO0Go3KHiXLa1M8W+R37QSVKxiHk4dVTludBuRrxXEYaMTjlovFDIHafAMrQNvRtDRNeQEcfpNPVRGJIbl+l05aq/CD9SvhY1G0OHSZKakdDOCyssigT1O9zQ/WX4WF+Kqqd+nYMYYwgVla+kxSaJPKpiuN/DNdG9Cz/CriW1vxj6vBbVutsvf4IKDPOKl0fKOpzQiY4gvpXMfDZyVgvLycwFhRwA9xy3qHTcXsxK2MdRNoBrC+orUaLvATjmIBj6aq8tD/SnHf3qZc6wXAphg2JK3wRHfVkINBqa9TbBjeGDlg1kNHv8ZvWDrEzlv7IipbtxpCcd846F4/865YJ/K7u0KgAbmBVjIj7o37KC3YdUg154PpboZ1WwWWqWW83wb4zbzBSdCbhevBLsdBBq08T1UjHHXuwc+M23IdJkgEBGBxaQxv41ZSQcbcNjBYAUfD/CdKG5yQDt5qQSAeFaAT5++FIX3//CARATTHmj3AVPDU0P1LiqKVaJKRj1vcI3i9xtHgVt5LLRjc6K6BJbghGed1JL3WsM9piWTfx1GZa9XNDkLp9GWjKiaoXAIBX4kJXIUJSfTfi1OJ0V2aAOYcYxQK+Oyy7PeMfZPV4SLmxk4TQ4zyv7lTP6bg7KkR86+sXUO3ZtIRpVR4PLbAkjaevxokuC+s
+Content-Length: 195
+
+Sehr geehrter Herr Schade, die Sache =C3=BCbernehme ich gerne. Bitte schicke=
+n Sie mir Ihre Telefonnummer.
+Mit freundlichen Gr=C3=BC=C3=9Fen,
+T=C3=BCxen
+Rechtsanwalt
+Von meinem iPhone gesendet=

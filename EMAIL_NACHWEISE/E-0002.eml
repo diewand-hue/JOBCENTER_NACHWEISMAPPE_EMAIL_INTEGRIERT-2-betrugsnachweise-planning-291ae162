@@ -1,0 +1,251 @@
+X-Apparently-To: andi_schade@yahoo.de; Tue, 01 Sep 2015 05:13:22 +0000
+Return-Path: <jza@taekker.de>
+Received-SPF: pass (domain of taekker.de designates 89.104.197.165 as
+ permitted sender)
+X-YMailISG: YgzYUR8WLDuVYzcbDviJibM0lmGlnGiNUx3MtMbBuVcLLpwB
+ H.WqyDKwm0w.wgNDbz9RgaHi6Lj5FMGuOBPAEVjLaWsx3ysuLibXtqTQ0Xij
+ OU7wOUBHVnf_hUarFt1LLqyuUS6BvDXDdT3K__crNN9pDrNPXZY4jMUgORab
+ K.Oy8HtrWy4273qEwHMlJb66o9CDdWBqbxbdnjLBtKJ84d7vsMsusLNQRNbw
+ _LYMH4JTSAVtOgzrWC5IZSF8IBg_INM5fBzZBvHRI4m6PxxoNXZ5i.gNOK23
+ U_cQVA_h9yb2X6dclhBExS7XNJbO_CtrxZBCc7_Ls71DW7Thiv2QOlU7sg5V
+ o2kVLz7qmGMRUq4sCkMnjamhQLWCG4R0GB07U2sC1DbNlg_yOSyw.AlVvsm2
+ S.mXb.n9nC267Y6LaFmaWCEsl8sxdc5ypPA1Ln971tyV98ERY9xqqafaOpna
+ 8itqMhpehpbKnEdIkec1EwXSJzINtWKAKICzq5HOgYn4M_6_5qDq_I2CmPPf
+ _S5vRv4uJezMxoBp288gRhgrdRU_CJI4LxZY33wMZsALf3tQQUNj04rOsPLu
+ iw48y0ILmICcbGX5mdmzmx9GEVxw0THaJOj5Z9Sgm8ISCJp9HM.x7Yl9a_uu
+ p3DinhIlFXwN4gIg0pdAyd6fsH6b6M6Z4JsUgD7imwjvc6XC4Ybfm.zpWhRD
+ BOYNb2DfjW8qsI0RrGLbkdH4u7kC2aJAchdlayBDYnDotxLVhbrCqsX3ONyC
+ s.ikUvoBRLpPMOi8UZybEPhqoGEqVPfyOSmxwITGPViSrvY6x89RzYsbn1AT
+ H6r6E7xdso1u6c5N6ZFXALzvo5rYQnv9ubArvPNyDC_3oK4VLbCzX.fS86Ta
+ 02RxzILI44vMhwa6sK77ivQwP38IlDTdjYDWM3q0t5yweN_5bfbKxXUJMSlZ
+ l9GgxZmJWqL3ymrdcUsiajGhPeG74gNinsBlfBBAR1Ol2eu8H57kAXnD9ze9
+ bYeQQjVQLrR83ZL4I1tjWRAu0FJvYwuTY0FpwFmInyCovChwTEulaTLiGGk2
+ xl2pseNdLwwOoyJk8OPs2BobVn6S5Q1aQZ2kkPj3_kIQP53j41KDBohCuzlY
+ nHqmKa83jbHSQ.H3pdJeMF2tcoZmKPq77DpdyCxL0UhSKSXljACnfcCtpDG_
+ N6O4H767x.2m.vppvBHXwKY0OssLxIUGHmxIuwkWZe6fZ5q.tYppFuyRc7nR
+ 6xJ9k9.eRDT.R3tH7_HrAF5FbyVGyY0LKyhRjPL43fcAcj8BwYxwm8uTEHpF
+ NYjzgHPUGW440J8xeKrOIDNPaGFVYTrM.2swvXjTnTuyIiTvncQBDA3cCLOO
+ IYly3dFTlEBJpiXz.UaA1BAcrA.wt4ONMcdzY6m_fWFaOIXYr2JWKNudgiXm
+ 9aY7F61kBVjscZWNY3vHHkB3jNCOyKsxIkHI64bckrWUTwz964nIxN2Rw_7v
+ I7KZXO4q3J0iVYXJzSRqEerrvaggAIGUqp6VOpmMUvMQKOC4.z_KpQrHQkHL
+ t.af2kpltIwEIO2YpUGYQ9Q2bJRy5cxW_w--
+X-Originating-IP: [89.104.197.165]
+Authentication-Results: mta1117.mail.ir2.yahoo.com  from=taekker.de;
+ domainkeys=neutral (no sig);  from=taekker.de; dkim=neutral (no sig)
+Received: from 127.0.0.1  (EHLO ec1-out-r165.net.comendo.com) (89.104.197.165)
+  by mta1117.mail.ir2.yahoo.com with SMTP; Tue, 01 Sep 2015 05:13:21 +0000
+Return-Path: <jza@taekker.de>
+X-Comendo-ID: ec1-recv5-out:1441084401!08/2D-25288-0F335E55!andi_schade
+Received: from [185.19.234.114] ([185.19.234.114:17968]
+ helo=EXCHANGEDE.taekker.local)
+	by ec1-recv5-out.net.comendo.com (envelope-from <jza@taekker.de>)
+	(ecelerity 2.2.3.50 r(45166/45167)) with ESMTP
+	id 08/2D-25288-0F335E55; Tue, 01 Sep 2015 07:13:21 +0200
+Received: from EXCHANGEDE.taekker.local ([fe80::7c92:f386:5112:bd0d]) by
+ EXCHANGEDE.taekker.local ([fe80::7c92:f386:5112:bd0d%15]) with mapi id
+ 14.01.0218.012; Tue, 1 Sep 2015 07:13:00 +0200
+From: Julia Zander <jza@taekker.de>
+To: "andi_schade@yahoo.de" <andi_schade@yahoo.de>
+CC: "Petr Puchta | b-rliner (puchta@b-rliner.com)" <puchta@b-rliner.com>
+Subject: Terminvereinbarung zum Fenstertausch
+Thread-Topic: Terminvereinbarung zum Fenstertausch
+Thread-Index: AdDkdKuawILhgLo8TG6NdEutmlIMLw==
+Date: Tue, 1 Sep 2015 05:12:59 +0000
+Message-ID: 
+ <FC5C5CF78F165C42BF8BCAC47C147FD44CC1E7FF@EXCHANGEDE.taekker.local>
+Accept-Language: da-DK, en-US
+Content-Language: de-DE
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+x-originating-ip: [192.168.29.78]
+Content-Type: multipart/alternative;
+	boundary="_000_FC5C5CF78F165C42BF8BCAC47C147FD44CC1E7FFEXCHANGEDEtaekk_"
+MIME-Version: 1.0
+Content-Length: 7376
+
+--_000_FC5C5CF78F165C42BF8BCAC47C147FD44CC1E7FFEXCHANGEDEtaekk_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Sehr geehrter Herr Schade,
+
+es ist nun September und ich m=F6chte nochmals anfragen, wann es m=F6glich =
+ist, die Fenster in Ihrer Wohnung auszutauschen? Zur Vereinbarung habe ich =
+Herrn Puchta cc gesetzt.
+
+Bitte stimmen Sie sich mit ihm ab. Vielen Dank.
+
+De bedste hilsner
+Mit freundlichen Gr=FC=DFen
+Best regards
+
+Julia Zander
+Hausverwaltung
+jza@taekker.de<mailto:jza@taekker.de>
+
+-------------------------------------
+
+Taekker Immobilienverwaltung GmbH
+Paul-Lincke-Ufer 41 Hof I 4. OG
+10999 Berlin
+T
+F
+
++49 (0) 30 / 6 00 31 78 - 0
++49 (0) 30 / 6 00 31 78 - 1
+
+
+www.taekker.de<http://www.taekker.de>
+
+-------------------------------------
+
+--_000_FC5C5CF78F165C42BF8BCAC47C147FD44CC1E7FFEXCHANGEDEtaekk_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<meta name=3D"Generator" content=3D"Microsoft Word 14 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Verdana;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-fareast-language:EN-US;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+span.E-MailFormatvorlage17
+	{mso-style-type:personal-compose;
+	font-family:"Verdana","sans-serif";
+	color:black;
+	font-weight:normal;
+	font-style:normal;
+	text-decoration:none none;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"Calibri","sans-serif";
+	mso-fareast-language:EN-US;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:70.85pt 70.85pt 2.0cm 70.85pt;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang=3D"DE" link=3D"blue" vlink=3D"purple">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,&quot;sans-serif&quot;;color:black">Sehr geehrter Herr Schade,<=
+o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,&quot;sans-serif&quot;;color:black"><o:p>&nbsp;</o:p></span></p=
+>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,&quot;sans-serif&quot;;color:black">es ist nun September und ic=
+h m=F6chte nochmals anfragen, wann es m=F6glich ist, die Fenster in Ihrer W=
+ohnung auszutauschen? Zur Vereinbarung habe ich Herrn Puchta
+ cc gesetzt. <o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,&quot;sans-serif&quot;;color:black"><o:p>&nbsp;</o:p></span></p=
+>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,&quot;sans-serif&quot;;color:black">Bitte stimmen Sie sich mit =
+ihm ab. Vielen Dank.
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,&quot;sans-serif&quot;;color:black"><o:p>&nbsp;</o:p></span></p=
+>
+<p class=3D"MsoNormal" style=3D"margin-bottom:12.0pt"><span style=3D"font-s=
+ize:7.5pt;font-family:&quot;Verdana&quot;,&quot;sans-serif&quot;;color:#595=
+959;mso-fareast-language:DE">De bedste hilsner<br>
+Mit freundlichen Gr=FC=DFen<br>
+Best regards<br>
+<br>
+</span><b><span style=3D"font-size:7.5pt;font-family:&quot;Verdana&quot;,&q=
+uot;sans-serif&quot;;color:#E46C0A;mso-fareast-language:DE">Julia Zander</s=
+pan></b><span style=3D"font-size:12.0pt;font-family:&quot;Times New Roman&q=
+uot;,&quot;serif&quot;;color:black;mso-fareast-language:DE"><br>
+</span><span style=3D"font-size:7.5pt;font-family:&quot;Verdana&quot;,&quot=
+;sans-serif&quot;;color:#E46C0A;mso-fareast-language:DE">Hausverwaltung<br>
+<a href=3D"mailto:jza@taekker.de"><span style=3D"color:#7F7F7F;text-decorat=
+ion:none">jza@taekker.de</span></a><br>
+</span><span style=3D"font-size:7.5pt;font-family:&quot;Verdana&quot;,&quot=
+;sans-serif&quot;;color:gray;mso-fareast-language:DE"><br>
+-------------------------------------</span><span style=3D"font-size:12.0pt=
+;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;color:black;mso-=
+fareast-language:DE"><br>
+</span><span style=3D"font-size:4.0pt;font-family:&quot;Verdana&quot;,&quot=
+;sans-serif&quot;;color:gray;mso-fareast-language:DE">&nbsp;</span><span st=
+yle=3D"font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif=
+&quot;;color:black;mso-fareast-language:DE"><br>
+</span><b><span style=3D"font-size:7.5pt;font-family:&quot;Verdana&quot;,&q=
+uot;sans-serif&quot;;color:#E46C0A;mso-fareast-language:DE">Taekker Immobil=
+ienverwaltung GmbH</span></b><span style=3D"font-size:7.5pt;font-family:&qu=
+ot;Verdana&quot;,&quot;sans-serif&quot;;color:gray;mso-fareast-language:DE"=
+><br>
+</span><span style=3D"font-size:7.5pt;font-family:&quot;Verdana&quot;,&quot=
+;sans-serif&quot;;color:#7F7F7F;mso-fareast-language:DE">Paul-Lincke-Ufer 4=
+1 Hof I 4. OG<br>
+10999 Berlin<o:p></o:p></span></p>
+<table class=3D"MsoNormalTable" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" width=3D"300" style=3D"width:180.0pt">
+<tbody>
+<tr>
+<td width=3D"17" valign=3D"top" style=3D"width:10.2pt;padding:0cm 0cm 0cm 0=
+cm">
+<p class=3D"MsoNormal"><span style=3D"font-size:7.5pt;font-family:&quot;Ver=
+dana&quot;,&quot;sans-serif&quot;;color:#7F7F7F;mso-fareast-language:DE">T<=
+br>
+F <o:p></o:p></span></p>
+</td>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><span style=3D"font-size:7.5pt;font-family:&quot;Ver=
+dana&quot;,&quot;sans-serif&quot;;color:#7F7F7F;mso-fareast-language:DE">&#=
+43;49 (0) 30 / 6 00 31 78 - 0<br>
+&#43;49 (0) 30 / 6 00 31 78 - 1 <o:p></o:p></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p class=3D"MsoNormal"><span style=3D"font-size:7.5pt;font-family:&quot;Ver=
+dana&quot;,&quot;sans-serif&quot;;color:#7F7F7F;mso-fareast-language:DE"><b=
+r>
+<b><a href=3D"http://www.taekker.de"><span style=3D"color:#7F7F7F;text-deco=
+ration:none">www.taekker.de</span></a><br>
+</b></span><b><span style=3D"font-size:6.0pt;font-family:&quot;Verdana&quot=
+;,&quot;sans-serif&quot;;color:gray;mso-fareast-language:DE">&nbsp;</span><=
+/b><b><span style=3D"font-size:7.5pt;font-family:&quot;Verdana&quot;,&quot;=
+sans-serif&quot;;color:#7F7F7F;mso-fareast-language:DE"><br>
+</span></b><span style=3D"font-size:7.5pt;font-family:&quot;Verdana&quot;,&=
+quot;sans-serif&quot;;color:#7F7F7F;mso-fareast-language:DE">--------------=
+-----------------------</span><o:p></o:p></p>
+</div>
+</body>
+</html>
+
+--_000_FC5C5CF78F165C42BF8BCAC47C147FD44CC1E7FFEXCHANGEDEtaekk_--

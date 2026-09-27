@@ -1,0 +1,225 @@
+Received: from 127.0.0.1
+ by atlas-production.v2-mail-prod1-ir2.omega.yahoo.com pod-id
+ atlas--production-ir2-76c9d884c8-5qmn4.ir2.yahoo.com with HTTP;
+ Fri, 1 Dec 2023 08:18:11 +0000
+Return-Path: <>
+X-Originating-Ip: [192.162.217.160]
+Received-SPF: pass (domain of bounce6a.electric.net designates 192.162.217.160
+ as permitted sender)
+Authentication-Results: atlas-production.v2-mail-prod1-ir2.omega.yahoo.com;
+ dkim=pass header.i=@Residea.de header.s=mailanyone20220616;
+ spf=pass smtp.mailfrom=bounce6a.electric.net;
+ dmarc=pass(p=REJECT) header.from=Residea.de;
+X-Apparently-To: andi_schade@yahoo.de; Fri, 1 Dec 2023 08:18:11 +0000
+X-YMailISG: F0ql59QWLDvg7sMeTSR7VLQPh2s2mWsloTv3GFShavVQdAMS
+ 6PvOXExXOmj9c9DNvQVlCILBh5xblPQBcdpy1BjW7Q5woMBbkDmOMXifj4dU
+ YDn1retOSkYQNNuziIVHVAFAByCKRswktbzTHOzEe12gCB8UBg9Zk.eIQCXd
+ CEDxoJP2RQO7G_gxic99nlEC4NNoNRkA8kQExPIKYiVFhVE2tZ_HTykmcF3y
+ AQKQ3oz1fyydKOpGCB4oUFmYpiR4JhQWOUiy4mbjDxZRC0Pb3ERORcWbBkMl
+ j.e_yMwpQbkjkddp6HyQq6iI96mzg76ovQzxVGabWdJh6ZVu4GvpzQtN3TAe
+ C7AJ60VddDnBzfzPbZwpmAzT9bsnuqFdznJwryuk7dD4OpVfiqWTywV4deNH
+ GgbPyN69V1sWIfdDrYzkEVHOiOBZjc5ahYpNt0n_26xRUSkzHyC0QQBC5WJX
+ tbNc1CxVsjHN.BvXDeWzsevYqHML5NlvC.BbO.TLTUPy0OtcNsYJemtiMjcC
+ x6xmIsSdvKoQehmnanunOxeAO2rCgFXd9EPnll7tqJoonrZrn4EZ5cp4xHKX
+ .2eRVTliW9bTogQQB6.95lD6Yi9IPthEiTE03u6Ibl1sloVwPo_r3VpR_C55
+ dUTko_kWznx68_dY.47heoH2czZxh9Eblnhc.yY7n36hNDbXo_6xsIiWXWYQ
+ medJl4hvBYNYjrn_Afq_Hh6TRDKXEdkUbFXSIak8fY3oNRoybMLOim0ycu3j
+ aPCRUIULTe0ojZCVdr6ITmtvwLONngOXCt6ej2EuA1lMH73bMgIYf6aBHKyD
+ Zeh0vfczmiwuWqTRcAliPywC_LZThm2KkWxmSmMjWXU8_voOBMTii0EjmF_k
+ j34yBU4Xi8Tvjw58aJTnS_kjGdqc68bP51eHHjWtL4oCOLAHc3OzOp0hyoqr
+ sZvLKQeIx0dwYESgG2y9XywgANiGIXeeUB6T.w9mjLoeXcLZ14knh4ViJo8d
+ ElXtH1NaUwZoDDdV40tabSZ3Xm05wAMQ32IcPpsVYeXJZZ0LzJLtqXFMb8yt
+ 4yRXpk2cVFQ306L7eJVrouot84XnP2OMHvwEBDtsYfqK0zgUyatpKQO3ihul
+ NlNhdBDa0zsbr4L5fLX3Zv8OHBQzE1SY.guTs0cu.IypcedW9sUKGgo.j_0x
+ JNFUci5ZVHuii.sRNuPHvBZ5UDF0ug8sW_GIotZpP3UeKTk4txibkIfJSsS5
+ VGi3x1apicSkzS68eMeOCTSVRBFmQZuGyhiRtxlb0yz2bowZbjf1QrBo96.h
+ dZ1sbfTFLp1rTeALCxrGQ6Mwbdjnpn2D653bMB2.qj2uohAF1kseCaHlqglF
+ EPpWoDHN7QC8ZLQsfX3fb9peXWJ4MEBN5RSVPom4kl2I6F9i4mH..esRAKdP
+ lprjoIxUAEs2PGWoYgPaDQ--
+Received: from 192.162.217.160 (EHLO bounce6a.electric.net)
+ by 10.200.76.142 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Fri, 01 Dec 2023 08:18:11 +0000
+Received: from out6d.electric.net ([10.89.10.54] helo=smtp-out6.electric.net)
+	by bounce6a.electric.net with esmtps  (TLS1.2) tls
+ TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.96.1)
+	id 1r8yix-00030a-1P
+	for andi_schade@yahoo.de;
+	Fri, 01 Dec 2023 00:18:11 -0800
+Received: from 1r8yiw-00008J-W3 by out6d.electric.net with emc1-ok (Exim
+ 4.96.1)
+	id 1r8yix-000095-UL
+	for andi_schade@yahoo.de;
+	Fri, 01 Dec 2023 00:18:11 -0800
+Received: by emcmailer; Fri, 01 Dec 2023 00:18:11 -0800
+Received: from [213.86.98.18] (helo=mail.residea.de)
+	by out6d.electric.net with esmtps  (TLS1.2) tls
+ TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.96.1)
+	id 1r8yiw-00008J-W3
+	for andi_schade@yahoo.de;
+	Fri, 01 Dec 2023 00:18:10 -0800
+Received: from BER-EX02.residea.local (192.168.29.17) by
+ BER-EX02.residea.local (192.168.29.17) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.2.1258.28; Fri, 1 Dec 2023 09:19:22 +0100
+Received: from BER-EX02.residea.local ([::1]) by BER-EX02.residea.local
+ ([fe80::16ff:4d42:1e19:7609%13]) with Microsoft SMTP Server id
+ 15.02.1258.028; Fri, 1 Dec 2023 09:19:22 +0100
+From: Michelle Genrich <mge@Residea.de>
+To: Andreas Schade <andi_schade@yahoo.de>
+Subject: Automatische Antwort: AW: WG: Heizungs- und WarmwasserAusfall seit
+ 01.02.2022_Gubener Strasse 53 a
+Thread-Topic: AW: WG: Heizungs- und WarmwasserAusfall seit 01.02.2022_Gubener
+ Strasse 53 a
+Thread-Index: 
+ AQHZVyYk9XiFtFloVk+K+UeqF+OEzq8OkooAgC2kBQCAIo87MIDjhP6AgAAlGXCAF3NdPYAACmPAgAtIUqaALXOUoIADAcNQgAAElgs=
+Date: Fri, 1 Dec 2023 08:19:22 +0000
+Message-ID: <6b6b5a918ef649c68407faa118393bc0@BER-EX02.residea.local>
+References: <88213712.567296.1675674067180@yahoo.de>
+	<da4c46b6d11f46d7867572d2cac06979@BER-EX01.residea.local>
+	<9b8b2e192a124673aa4ba4caf3072c04@BER-EX01.residea.local>
+	<1149474036.2865816.1675852810196@mail.yahoo.com>
+	<483a6f478c294ccfb6949df9a1119823@BER-EX01.residea.local>
+	<754954593.930062.1676263570498@mail.yahoo.com>
+	<1154740221.5874856.1676889123780@mail.yahoo.com>
+	<5a3e91a413604208af6837f38d255550@BER-EX01.residea.local>
+	<1433505862.422482.1678874910124@mail.yahoo.com>
+	<fac5fc5b11f64140af9d85fe35677afd@BER-EX01.residea.local>
+	<240511380.12243897.1682433334831@mail.yahoo.com>
+	<e52b34e4d83b41bcb49d0c73f07f28ad@BER-EX01.residea.local>
+	<1998670602.18895322.1696841279512@mail.yahoo.com>
+	<7eb56cdb75ef458fb188eda7c5f48ad7@BER-EX01.residea.local>
+	<PAXPR02MB7838AE05E43DE8ECE1F94586FADFA@PAXPR02MB7838.eurprd02.prod.outlook.com>
+	<870b9cbd75f34ed9904ab1849b705700@BER-EX01.residea.local>
+	<PAXPR02MB78381EAA76A8E0A48B7CEBA7FAA0A@PAXPR02MB7838.eurprd02.prod.outlook.com>
+	<3688538cc5c04832abf136ce75722124@Residea.de>,<PAXPR02MB783865B45F103B3C82042F27FA81A@PAXPR02MB7838.eurprd02.prod.outlook.com>
+In-Reply-To: 
+ <PAXPR02MB783865B45F103B3C82042F27FA81A@PAXPR02MB7838.eurprd02.prod.outlook.com>
+X-MS-Has-Attach: 
+X-Auto-Response-Suppress: All
+X-MS-Exchange-Inbox-Rules-Loop: mge@Residea.de
+X-MS-TNEF-Correlator: 
+x-ms-exchange-parent-message-id: 
+ <PAXPR02MB783865B45F103B3C82042F27FA81A@PAXPR02MB7838.eurprd02.prod.outlook.com>
+auto-submitted: auto-generated
+x-ms-exchange-generated-message-source: Mailbox Rules Agent
+Content-Type: multipart/alternative;
+	boundary="_000_6b6b5a918ef649c68407faa118393bc0BEREX02residealocal_"
+MIME-Version: 1.0
+X-Outbound-IP: 213.86.98.18
+X-Env-From: 
+X-Proto: esmtps
+X-Revdns: 
+X-HELO: mail.residea.de
+X-TLS: TLS1.2:ECDHE-RSA-AES256-GCM-SHA384:256
+X-Authenticated_ID: 
+X-VIPRE-Scanners: virus_bd;virus_clamav;
+X-PolicySMART: 25106438, 27758437
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; d=Residea.de;
+ s=mailanyone20220616;h=MIME-Version:In-Reply-To:References:Message-ID:Date:To:From;
+ bh=hKp+n0B88i1KQznz2Ofzpi2rf19QESJ0ia576Lr9PaA=;b=i9QYZ9dMtvEIK6svgqmbsdMLAOGpZmp+T0X3EQwRanlvjeVvfmg1E+XSuMVtOO/TmvTnw3l/n88ptFNOW4sm1SYsgJPhun88xsy9YnmzN/N2MGOz1UnGe7cLRqmWi0l0RjY05R2B/AKwu0n6IUfx0eX4jysdXCIw4mQ0LZpDw4Q=;
+Content-Length: 4012
+
+--_000_6b6b5a918ef649c68407faa118393bc0BEREX02residealocal_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Vielen Dank f=FCr Ihre E-Mail. Ich befinde mich vom 30.11.2023 bis 01.12.20=
+23 nicht im B=FCro. Ihre E-Mails werden nicht weitergeleitet. In dringenden=
+ F=E4llen wenden Sie sich bitte an info@residea.de<mailto:info@residea.de>,=
+ vielen Dank.
+
+Thank you for your email. I am not in the office from 30.11.2023 to 01.12.2=
+023. Your e-mails will not be forwarded. In urgent cases, please contact in=
+fo@residea.de<mailto:info@residea.de>, thank you.
+
+
+
+
+
+
+
+
+
+--_000_6b6b5a918ef649c68407faa118393bc0BEREX02residealocal_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns:m=3D"http://schemas.microsoft.com/of=
+fice/2004/12/omml" xmlns=3D"http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Segoe UI";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-ligatures:standardcontextual;
+	mso-fareast-language:EN-US;}
+span.E-MailFormatvorlage17
+	{mso-style-type:personal-compose;
+	font-family:"Arial",sans-serif;
+	color:black;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-language:EN-US;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:70.85pt 70.85pt 2.0cm 70.85pt;}
+div.WordSection1
+	{page:WordSection1;}
+--></style>
+</head>
+<body lang=3D"DE" link=3D"#0563C1" vlink=3D"#954F72" style=3D"word-wrap:bre=
+ak-word">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-fa=
+mily:&quot;Arial&quot;,sans-serif;color:black">Vielen Dank f=FCr Ihre E-Mai=
+l. Ich befinde mich vom 30.11.2023 bis 01.12.2023 nicht im B=FCro. Ihre E-M=
+ails werden nicht weitergeleitet. In dringenden F=E4llen
+ wenden Sie sich bitte an <a href=3D"mailto:info@residea.de"><span style=3D=
+"color:#0563C1">info@residea.de</span></a>, vielen Dank.<o:p></o:p></span><=
+/p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-fa=
+mily:&quot;Arial&quot;,sans-serif;color:black"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span lang=3D"EN-US" s=
+tyle=3D"font-family:&quot;Arial&quot;,sans-serif;color:black">Thank you for=
+ your email. I am not in the office from 30.11.2023 to 01.12.2023. Your e-m=
+ails will not be forwarded. In urgent cases, please
+ contact <a href=3D"mailto:info@residea.de"><span style=3D"color:#0563C1">i=
+nfo@residea.de</span></a>, thank you.<o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:5.0pt;margin-right:0cm;m=
+argin-bottom:5.0pt;margin-left:0cm;text-autospace:none">
+<span style=3D"font-family:&quot;Arial&quot;,sans-serif;color:black"><o:p>&=
+nbsp;</o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-si=
+ze:8.0pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p>&nbsp;</o:p></sp=
+an></p>
+</div>
+</body>
+</html>
+
+--_000_6b6b5a918ef649c68407faa118393bc0BEREX02residealocal_--

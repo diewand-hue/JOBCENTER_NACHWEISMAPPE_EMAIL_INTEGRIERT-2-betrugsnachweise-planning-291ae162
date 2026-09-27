@@ -1,0 +1,105 @@
+X-Apparently-To: andi_schade@yahoo.de; Sun, 24 Feb 2019 17:21:02 +0000
+Return-Path: <gcnagel@gmx.de>
+Received-SPF: pass (domain of gmx.de designates 212.227.17.22 as permitted
+ sender)
+X-YMailISG: JtyfN.oWLDuJn4JUZY612_kPZnFxwvSYewNuZjsV0q67gm_2
+ kXJAPUayzlDCmjARdALMLIysSg0ZMTUX_pM2XCzDSE9gLABzXkQh3uJB5xYe
+ tZk3HNRxr.rNk3Jr_mAB0x.2u6Q3_vKZT61K73rnQDRg7XwBSJjaTvQTWose
+ KGW2zpjqPqeUfn8KVzd2UF3mZjxLYKmWQQnEj6vZEKJvsT8U1yUgYvf3BdmS
+ GdTI85Qz_XYtk_WKH52VOb2jNVqaoL8iuaxQQCAUHMbPUaK8bwbex.ZBrFd_
+ iUzHF8AffZUURXdVUk9YpQTOmdqNZ4jULDdqCgHIY5AyQaMNcvVX_T3e9UyM
+ 1iXhH.stJ8oq0aU6ID7ubkFeqHqcX6_Zd6wVXnuj34.luqYqWXXzq3Pmm5u3
+ SB812Q4rZwVzh0Oc_TmPymPJRWHRvpLtvDRxiPoqKYYiN09K67VCzFMOpzOi
+ q9pa3jF9BpwcZ7771fhBK3_uOOIB_Y.sa.B9Kg.WLkkTH4Cl_cCwO809Zioj
+ Zj6Ch_097HIFwM7SHin6xHHMxfxmlwhknX3hXTSq9KhspDD9_vPl29_onwTp
+ ToeZb9rJ3SxnGy_gy6k2HbcqHGaMrgSjtvsY23Bw3_cheKFrK9rWRXzEUjQT
+ 31ekMQhUun9a2mRTQKaikxDBH9SoQANDUHCApLQqDHJfCGU1aAImiVV4_foP
+ _QH3C_PYSaE.inL6cSfyqwsZkubvZ2PPRS0DoS3OufOFBqC.WB5gWc5bnCwy
+ 7Y5tCmUI7QdI_qKucAYv4GUGHuApTqKMzKvJC40S3XMojYneqC2OVlQrV9l6
+ py.KoqITn8q5LuduO9Kma9VlN3Hq_F.JTK6BJKz.jeVAYmyTlHN04gBuVXvJ
+ 02iYoz8VpOLYAfMWz9zocul9nXTfLCPFzCYKF9x9.YqG1OT2HBhOAuIQmj12
+ WjfcFSoOj.hLSLpDNZnN0dnIwl1tpSxaVQmQ_lsanFP4uJHzHkfM9QH1TmON
+ jLgipKuMir8_dTqMTMpEmuuQyLkA8yeHk1QajBLIhwxw59kLhiVHNkW.tw--
+X-Originating-IP: [212.227.17.22]
+Authentication-Results: mta1129.mail.ir2.yahoo.com  from=gmx.de;
+ dkim=neutral (no sig)
+Received: from 127.0.0.1  (EHLO mout.gmx.net) (212.227.17.22)
+  by mta1129.mail.ir2.yahoo.com with SMTPS; Sun, 24 Feb 2019 17:21:02 +0000
+Received: from [88.72.180.182] ([88.72.180.182]) by web-mail.gmx.net
+ (3c-app-gmx-bs13.server.lan [172.19.170.65]) (via HTTP); Sun, 24 Feb 2019
+ 18:20:56 +0100
+MIME-Version: 1.0
+Message-ID: 
+ <trinity-909af5d9-60f5-4b3f-b301-9900987a9d19-1551028856738@3c-app-gmx-bs13>
+From: =?UTF-8?Q?=22G=C3=B6tz_Nagel=22?= <gcnagel@gmx.de>
+To: andi_schade@yahoo.de
+Cc: "Jens Sadler" <jes@Residea.de>
+Subject: Schimmelpilzbildung in Ihrer Wohnung
+Content-Type: text/html; charset=UTF-8
+Date: Sun, 24 Feb 2019 18:20:56 +0100
+Importance: normal
+Sensitivity: Normal
+X-Priority: 3
+X-Provags-ID: 
+ V03:K1:3E4fucWi+ihktFRVyNf63WmND6/cjPupp2J/nozR+Pq539/nWy1fxShhc2r0RHHvkf/8S
+ bTDs+pBScfNikjsxpc03qbCsTe8hNG55/xYWTCeWvYbV+FLu+s1tEtWYJwFH+0cREB2KHMGfidYU
+ vQ3Peck1eH5FA4KFj/IIk1lkSy7INz82N3Od2RPtsifbUCctfxdTDYeXKWqPDNAjZ2FS2i0ZJEs2
+ db9m9zxPlouizbI7kHQrQlRocoJGMSxA6+jvUjUr6OvGn7tQzm1aw8yNg/Yhmv1W1vWcMQDYL6vm
+ ok=
+X-Spam-Flag: NO
+X-UI-Out-Filterresults: notjunk:1;V03:K0:OueuTQ80/zo=:iEH83eN/pr0Vw3rBcPN+Zw
+ iPWU8KWqBSVQJMaq2mD5f4TnmzWAaMaw6Y0VW0RALHq7IfNvGCRBT6XJ3rzVfY0xV9TlG4C8k
+ BclubtJ/37v2rpxZO4QZh/IY7J73zb6xYUCfPURS+htFhoIaFKFUqk7d35FYKjs6qTyKR0PDC
+ e8wmp11cYWNbbJ2S7V54X9EjdIVGsg28Ry+KUjYOp56SP31nwtvIC9rHYw0Ql0fGg+IkYD7Ao
+ V/B6irLpctgYw7AQZdqPvFt+KJK5WnH2mfs3L63MaMYwzLa7By8AUQY8rheojpOT9QpPeGEil
+ 7R5AotPgAhQFQmDCsmSJRfSvSsw1fb8zcKfp0XhpBJKqRmESr5xrt1k7GKEvveMw1cITj7cGf
+ C/G4HPeejfMmgDdvHaxyleAE515nEG3ayWumQp+1VcagMniAlxeB4zGm4Evpx9e8JDqXDmSuF
+ FGsNRlK8ZdCXSP3YVuPnqVzCb/zlT8WFITAg3E9ehN1ghHTLQoNXUh7+kmRS7I71eAVhjIahs
+ vLAWrWdzFqdyKn7UzxIwAOI2kzKek5BF/6SFv38SHfsRZuk0AzSDXK3IlfHaImmK56OiG0LhF
+ nt3qA+AAfuCBc=
+Content-Length: 968
+
+<html><head></head><body><div style="font-family: Verdana;font-size: 12.0px;"><div>Sehr geehrter Herr Schade,</div>
+
+<div>&nbsp;</div>
+
+<div>ich wurde von der Residea Hausverwaltung beauftragt, eine Schimmelpilzbildung in Ihrer Wohnung zu untersuchen.</div>
+
+<div>&nbsp;</div>
+
+<div>Hierzu w&uuml;rde ich gerne einen Besichtigungstermin mit Ihnen vereinbaren.</div>
+
+<div>&nbsp;</div>
+
+<div>Ich w&uuml;rde micht freuen, wenn Sie mich hierzu, unter der unten angegebenen Nummer, anrufen k&ouml;nnten.</div>
+
+<div>&nbsp;</div>
+
+<div>&nbsp;</div>
+
+<div class="signature">Mit freundlichen Gr&uuml;&szlig;en<br/>
+<br/>
+Dipl.-Ing. G&ouml;tz Nagel<br/>
+<br/>
+<br/>
+<br/>
+Architekt<br/>
+Sachverst&auml;ndiger f&uuml;r<br/>
+<br/>
+vorbeugenden Brandschutz<br/>
+Sch&auml;den an Geb&auml;uden<br/>
+<br/>
+<br/>
+Tutzinger Str. 43<br/>
+<br/>
+12309 Berlin<br/>
+<br/>
+Tel.: 0172 / 315 61 64<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+gcnagel@gmx.de<br/>
+<br/>
+&nbsp;</div></div></body></html>

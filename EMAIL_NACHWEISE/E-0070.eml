@@ -1,0 +1,214 @@
+Received: from 127.0.0.1
+ by atlas-production.v2-mail-prod1-ir2.omega.yahoo.com pod-id
+ atlas--production-ir2-7dc66d5987-vct5h.ir2.yahoo.com with HTTP;
+ Mon, 6 Feb 2023 09:01:21 +0000
+Return-Path: <>
+X-Originating-Ip: [89.104.206.160]
+Received-SPF: pass (domain of bounce12a.electric.net designates 89.104.206.160
+ as permitted sender)
+Authentication-Results: atlas-production.v2-mail-prod1-ir2.omega.yahoo.com;
+ dkim=pass header.i=@Residea.de header.s=mailanyone20220616;
+ spf=pass smtp.mailfrom=bounce12a.electric.net;
+ dmarc=pass(p=REJECT) header.from=Residea.de;
+X-Apparently-To: andi_schade@yahoo.de; Mon, 6 Feb 2023 09:01:22 +0000
+X-YMailAVSC: xwo1WJE3bBvmOQWNQ4ENI6HI81sRLT7DD.BnP8W1frpOwoj
+ 6ZaUjknc7hH37RVfjMbiWFlRyMphRfyXlomqXzKLiJMzvCAcvJGOrjP3DxZ6
+ .LVFqG9gWsmGwe1iPevusUcPGMmFoslZ_sApoIk0U8PngCruZB5i4v3Iq2An
+ SV_Le1qTRkIMHDwYqjN10z4naHfVLkbMB7V0T_lr31z0VBjXEs3OPbntcS79
+ e9dcwOAlhTyVslEDJZva4A6ZXOxZeOm1U35AGpzUw25JtrsYPqk3kubbNbN6
+ sxAlIneRf7nxedKoaFLTnXkOQPgnhbk_hfPwWWDFv1Zfibx1uj92Zfuth_iL
+ u.CySSs6AfM.a19VLfChWREX_63P1HnxCXwDtOUHkikcFrOYbMd54KG0P43O
+ 2sjPkyqgambMYFdQk7Ixm.Bbu_Ty68v5fdaOBTPyikw27U0V4uE1owWr_VA.
+ X._kLI_sJGWpn3f8gDaAioMoNRZu0LBfZ2ETLBI8hDTqEilUmoXkHM5z3KmP
+ ij4Jxwx4V1.n_kyzaJCgcO8n4geXGcszN0URrq.33GqORK.rukvn82dFcP99
+ 1ez4I7wK7tRxamJO5TVtV04QmCBjwTyw53aL5k2SykrROsyGhAZfHSiZxiGv
+ y5yZiIGgMe_IfP6x_f9.vBvTISu5dxjrvkyAHTuLv3ps1cAQuqj34YgtGYrY
+ fs2YsGEOE7U46ivy57DKA.hwx0ZLosXN3EPKe2ABnOCkQn2rXylDGdtgmPV2
+ GdmFaQsbgsgdw3fGexLnnf6cuVCP7Dpw9JlGwo4tvDj1GwBl5OOjpt4y5AOP
+ H4vZJ_dEjo6tGDwqp2frbO4fwjKMRjgmyxx.8sKAAex0.2iCcz1ndz8R4QQ7
+ JQZXS.v8ISM12Y7oafjBoflYpIc9gj7nFIqRt35r3cC7R9SBOcdYDK1ne3uK
+ fDR6YUkiv9WSyt3nM2_O3xs6wij6lUu_oaP2F_3BEgdXVypQT9fZA4X2.f4J
+ KVSP8eXFm1Ho5jrI5fVLkGt33K5mz7XONFL1JtaA-
+X-YMailISG: bmmfh58WLDsJqWy_fS8CZTULxqGktZownc3ENcm1da9WnqVG
+ 8JJ5_XVvH4IKHJy__GcWQlcl4QoHLWyXO0OOgIUz2FMxldRQYvkTIepS08gN
+ k40TgeD8FPaJ81Ez1Glzkqd.ZyO4FbH6YxL3AAW7zMttfq2q_wPcUfe7c6Mj
+ vP9RJjmjNybJpgjbmvlcqZ8SJA7xoOeb615wRzH1IhwBRcG7yOIjZ3wR9nlr
+ LlT3aP.KD1waNabarMO5ZFlz0HYjpu46Dr.DrrX4RQawMo5lfgie4zccVeu3
+ 5M6xP1VfjiQl1JJPsXPKNuy1iS98H.1p3LCg5M9l2BEQdihgiPbURbtchTy4
+ ydo91WvB6jveu8_l7hQo5jU2CRBtDIGdvJKuL8RwOXDJXs.zLs8ir8ww9VOC
+ Aics09VVnKfFeFrkK5YRDOAQBBnQvPNyqa70lBh_Lufgvc0Z6hIQI2nTT9su
+ opWSKeu7ZgjC1CFWyiO.2BhnfvJfuhanv8UJc019ttPHLKZ_KEppY20KPMY6
+ BN_n_amC1C9W5cqvFPfuQCQsJH1CbGmhDGwkjk4wugy7ZY.T4YX64iuP4KEZ
+ 08CY1cntFCK7GJdVx90P4gbRVOFuq8qldc6L1tq0WzqOkw57ES9aaqYtI2iq
+ zmLRsrXMcf.UmZ3wFhLETY7KnNhun8nj04K6gPbEDnkinI.pu_EwG2mmEgIq
+ E7KMl8qzlpTYkooJ8OYR.hLxq225xlfQEl7oa.59rW9SeD3LupbBi6ebutQg
+ e8RMMMdVxbujbQUbMzGRLXIcCdMR90QhXO8gvKUPtCC8TaRmv.RkhC2RaMfF
+ 4PxfFL0km3ACEj0J13e9QnrbSJqV4dEIym_O7sK2r9vjjRDJGTDjqdCWPKiI
+ Ictz0vHo5V_CbX17Gxa1TZh8a5Ho4i_jM6286t61jD7dZEWaeE63c9NeibTg
+ o4cQ2eC5.D11S8UFJ7lHmwv8GV4fcpb06D_qPMcEdzZUgdRq10vTWz5sZ5oj
+ FzXl.rCqf8NrcQuPA_.0spGkpKMRB0xzmICKuXJDxOOtatAEpij4g0JJLUkb
+ rBK03KQWYZqfO1ysBXnMt9kP8J96RD1nRB61RLl.P0_PexzNWmuuc8vASxFm
+ 7m4cCNFj7Cn9daeDW.b880lS20WS.yP_i.YoGT4oARljvnKAKjQVHHoe7Doz
+ vHBjgH33xDx_JEr3l2g.SEOjjN3es9WWy9IMIa0onTx4YPwFdChDEe7ZYtcy
+ 00nSwh.tju7kbCEWOmxmYi5wbQyuxwZKSkTZihlahyOxV7CjfBMk46RUYt0X
+ UOzyAYZSHM4bqc9_NBoAdO3fJoEiGnd7R4sn0qv3Hh8JBrTOMT38Z9VlB_Gu
+ LbRRBFWr1fP9EYRKIrTtElEfPGS5HmDjkIo55H_hd8PmD6goD5iRO7VjRRQU
+ RyADlA--
+Received: from 89.104.206.160 (EHLO bounce12a.electric.net)
+ by 10.200.77.32 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Mon, 06 Feb 2023 09:01:21 +0000
+Received: from out12d.electric.net ([10.95.10.54]
+ helo=smtp-out12.electric.net)
+	by bounce12a.electric.net with esmtps
+ (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.92.3)
+	id 1pOxNJ-0000zT-9h
+	for andi_schade@yahoo.de; Mon, 06 Feb 2023 01:01:21 -0800
+Received: from 1pOxNI-0000cc-T8 by out12d.electric.net with emc1-ok (Exim
+ 4.94.2)
+	id 1pOxNI-0000nZ-W6
+	for andi_schade@yahoo.de; Mon, 06 Feb 2023 01:01:20 -0800
+Received: by emcmailer; Mon, 06 Feb 2023 01:01:20 -0800
+Received: from [90.187.122.17] (helo=mail.residea.de)
+	by out12d.electric.net with esmtps  (TLS1.2) tls
+ TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384
+	(Exim 4.94.2)
+	id 1pOxNI-0000cc-T8
+	for andi_schade@yahoo.de; Mon, 06 Feb 2023 01:01:20 -0800
+Received: from BER-EX01.residea.local (192.168.29.22) by
+ BER-EX01.residea.local (192.168.29.22) with Microsoft SMTP Server (TLS) id
+ 15.0.1497.45; Mon, 6 Feb 2023 10:01:19 +0100
+Received: from BER-EX01.residea.local ([::1]) by BER-EX01.residea.local
+ ([fe80::8d9d:58ba:1d50:c717%12]) with Microsoft SMTP Server id
+ 15.00.1497.045; Mon, 6 Feb 2023 10:01:19 +0100
+From: info <info@Residea.de>
+To: Andreas Schade <andi_schade@yahoo.de>
+Subject: Automatische Antwort: Heizungs- und WarmwasserAusfall seit 01.02.2022
+Thread-Topic: Heizungs- und WarmwasserAusfall seit 01.02.2022
+Thread-Index: AQHZOgmUYcN/PLONcUGuKp6R9nIQdK7BnxR0
+Date: Mon, 6 Feb 2023 09:01:19 +0000
+Message-ID: <a9dadab3d91d47e9bae1acae918dc0c4@BER-EX01.residea.local>
+References: <88213712.567296.1675674067180@yahoo.de>
+In-Reply-To: <88213712.567296.1675674067180@yahoo.de>
+X-MS-Has-Attach: 
+X-Auto-Response-Suppress: All
+X-MS-Exchange-Inbox-Rules-Loop: info@Residea.de
+X-MS-TNEF-Correlator: 
+x-ms-exchange-transport-fromentityheader: Hosted
+x-ms-exchange-parent-message-id: <88213712.567296.1675674067180@yahoo.de>
+auto-submitted: auto-generated
+x-ms-exchange-generated-message-source: Mailbox Rules Agent
+Content-Type: multipart/alternative;
+	boundary="_000_a9dadab3d91d47e9bae1acae918dc0c4BEREX01residealocal_"
+MIME-Version: 1.0
+X-Outbound-IP: 90.187.122.17
+X-Env-From: 
+X-Proto: esmtps
+X-Revdns: mail.residea.de
+X-HELO: mail.residea.de
+X-TLS: TLS1.2:ECDHE-RSA-AES256-SHA384:256
+X-Authenticated_ID: 
+X-VIPRE-Scanners: virus_bd;virus_clamav;
+X-PolicySMART: 25106438, 27758437
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; d=Residea.de;
+ s=mailanyone20220616;h=MIME-Version:In-Reply-To:References:Message-ID:Date:To:From;
+ bh=+AbQJARxS+OqovQTpqObiNYJ8z8+UQNkn3xB9RErblo=;b=W1sPm7KpCRdbzbphZjPxQ2ANETwh5b7063Xee9DVdYtAgDWnd5nXjT9Bf3AHH7qm/ijl2GpZDDR6zeVYZPELJoXOPJHcW3KEom6hM0dXt5LKbz1rImnBZQ+UE2j4B4Nm38WzCMHpp3rqc4yWoV8mS5MmaXe3jnXw0U9ASse9+dM=;
+Content-Length: 4560
+
+--_000_a9dadab3d91d47e9bae1acae918dc0c4BEREX01residealocal_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Sehr geehrte Damen und Herren,
+
+vielen Dank f?r Ihre E-Mail. Zur Verbesserung unserer Servicequalit?t erhal=
+ten Sie diese automatische Eingangsbest?tigung.
+Ihr Anliegen wurde erfolgreich an den verantwortlichen Fachbereich weiterge=
+leitet und Sie erhalten zeitnah eine Antwort.
+
+Mit freundlichen Gr??en
+
+[cid:image001.jpg@01D59016.CBF41930]
+
+RESIDEA Immobilien Management GmbH
+Heinrich-Heine-Stra?e 15 * D-10179 Berlin
+D +49 30 549 064 00
+F +49  30 549 0640 99
+www.residea.de<http://www.residea.de>
+
+Sitz der Gesellschaft: Berlin |Registergericht: Amtsgericht Charlottenburg =
+HRB 100625 B | Gesch?ftsf?hrer: Ben Lehrecke
+
+--_000_a9dadab3d91d47e9bae1acae918dc0c4BEREX01residealocal_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+</head>
+<body>
+<div name=3D"divtagdefaultwrapper" style=3D"font-family:Calibri,Arial,Helve=
+tica,sans-serif; font-size:; margin:0">
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Arial&quot;,sans-se=
+rif; color:black">Sehr geehrte Damen und Herren,</span></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Arial&quot;,sans-se=
+rif; color:black">&nbsp;</span></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Arial&quot;,sans-se=
+rif; color:black">vielen Dank f&uuml;r Ihre E-Mail. Zur Verbesserung unsere=
+r Servicequalit&auml;t erhalten Sie diese automatische Eingangsbest&auml;ti=
+gung.</span></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Arial&quot;,sans-se=
+rif; color:black"></span><span style=3D"font-family:&quot;Arial&quot;,sans-=
+serif; color:black">Ihr Anliegen wurde erfolgreich an den verantwortlichen =
+Fachbereich weitergeleitet und Sie erhalten zeitnah eine Antwort.</span>
+</p>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Arial&quot;,sans-se=
+rif; color:black">&nbsp;</span></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Arial&quot;,sans-se=
+rif; color:black">Mit freundlichen Gr&uuml;&szlig;en<br>
+</span><span style=3D"font-size:9.0pt; font-family:&quot;Verdana&quot;,sans=
+-serif; color:#595959"><br>
+</span><span style=3D"font-size:9.0pt; font-family:&quot;Arial&quot;,sans-s=
+erif; color:#595959"><img src=3D"https://ber-ex01/owa/service.svc/s/GetFile=
+Attachment?id=3DAAMkAGEyZTk5ZTZiLTQwZWMtNGE3Mi1hMzUxLTY4ZGNmYzdhMmRmZQBGAAA=
+AAABwDsciWkr2RLOEAIB675C6BwBRPdAYpNkCRKMpyB5IAL9VAAAAAAEMAABRPdAYpNkCRKMpyB=
+5IAL9VAAAAAp1wAAABEgAQAMJeymqIZzpDnDAl74zG9XQ%3D&amp;X-OWA-CANARY=3Dqhljo_F=
+nCkedbEoY8NN9Un7JtbLvYNcI1gBRWVTj9_PqWP3supxVMM906tPfGcz83io9ZhKAuds." id=
+=3D"_x0000_i1025" alt=3D"cid:image001.jpg@01D59016.CBF41930" width=3D"129" =
+height=3D"48" style=3D"width:1.3437in; height:0.5in; display:inline"></span=
+><span style=3D"font-size:9.0pt; font-family:&quot;Verdana&quot;,sans-serif=
+; color:#595959">&nbsp;&nbsp;<br>
+<br>
+</span><span style=3D"font-family:&quot;Arial&quot;,sans-serif; color:black=
+">RESIDEA Immobilien Management GmbH</span><span style=3D"font-family:&quot=
+;Verdana&quot;,sans-serif; color:black">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</spa=
+n><span style=3D"font-size:9.0pt; font-family:&quot;Verdana&quot;,sans-seri=
+f; color:black">
+</span><span style=3D"font-size:9.0pt; font-family:&quot;Verdana&quot;,sans=
+-serif; color:#595959"><br>
+</span><span style=3D"font-family:&quot;Arial&quot;,sans-serif; color:black=
+">Heinrich-Heine-Stra&szlig;e 15&nbsp;&middot; D-10179 Berlin&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;</span><span style=3D"font-size:9.0pt; font-family:&q=
+uot;Arial&quot;,sans-serif; color:black">
+<br>
+</span><span style=3D"font-family:&quot;Arial&quot;,sans-serif; color:black=
+">D &#43;49 30 549 064 00&nbsp;&nbsp;&nbsp;&nbsp;
+<br>
+F &#43;49&nbsp; 30 549 0640 99<br>
+</span><span style=3D"font-family:&quot;Verdana&quot;,sans-serif; color:bla=
+ck"><a href=3D"http://www.residea.de" target=3D"_blank"><span style=3D"font=
+-family:&quot;Arial&quot;,sans-serif; color:blue">www.residea.de</span></a>=
+<br>
+</span><span style=3D"font-size:9.0pt; font-family:&quot;Verdana&quot;,sans=
+-serif; color:black"><br>
+</span><span style=3D"font-family:&quot;Arial&quot;,sans-serif; color:black=
+">Sitz der Gesellschaft: Berlin |Registergericht: Amtsgericht Charlottenbur=
+g HRB 100625 B | Gesch&auml;ftsf&uuml;hrer: Ben Lehrecke</span></p>
+</div>
+</body>
+</html>
+
+--_000_a9dadab3d91d47e9bae1acae918dc0c4BEREX01residealocal_--

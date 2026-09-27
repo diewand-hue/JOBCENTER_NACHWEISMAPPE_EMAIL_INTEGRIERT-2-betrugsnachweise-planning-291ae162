@@ -1,0 +1,289 @@
+Received: from 127.0.0.1
+ by atlas-production.v2-mail-prod1-ir2.omega.yahoo.com pod-id
+ atlas--production-ir2-64b4ffbb96-2gcbm.ir2.yahoo.com with HTTP;
+ Wed, 27 May 2026 15:04:45 +0000
+Return-Path: <prvs=1607ccb09e=No-Reply@deutschepost.de>
+X-Originating-Ip: [165.72.200.99]
+Received-SPF: pass (domain of deutschepost.de designates 165.72.200.99 as
+ permitted sender)
+Authentication-Results: mta.yahoo.com;
+ dkim=pass header.i=@deutschepost.de header.s=GW_UTDP_1
+ arc_overridden_status=NOT_OVERRIDDEN;
+ spf=pass smtp.mailfrom=deutschepost.de arc_overridden_status=NOT_OVERRIDDEN;
+ dmarc=pass(p=REJECT) header.from=deutschepost.de
+ arc_overridden_status=NOT_OVERRIDDEN;
+X-Apparently-To: andi_schade@yahoo.de; Wed, 27 May 2026 15:04:45 +0000
+X-YMailISG: ld9.uxcWLDuhbCLAfaB2fieby328IHHKLQUPT7QZmqgNuDjB
+ 372e30OYtx3.n2.PV7bDXWH.Us.z1Rm4ip_MoT16144._vZ5hZQIJhe1ozLN
+ qSnOYOzZ.6dTBLJsCdcuTaK9F7opH8NoSynKAXKx1YRzJozM1m4mYylLDQEe
+ LWhor8q92rRlpj1TQMxG9vb.sedn3CMyw38iuJwGLTV67.R.tGPLYl91GuWu
+ FtLcmax17CXiZguvzHOWM0oegTRU6YFQPgtyXHTSSyC4WVRfIijl8lqGYH7Q
+ qz1WKb.IzSPHjJ0y5cymivq8Rb9FBLA.Zp3GVV5xzJKC83a0lSqqp.Sfn9S8
+ ULF93pyd1up30KSW794l6E.cG5qn7coDn8DAjug2waEvCuuYaAm5.5d6cuha
+ NAu8j090dX_8Wptt0UultbFs_greBrCzxUUs0kGLHpeCUfprPajYe06iRKBm
+ 6jy_lrg9AFUynIzknC0ECN4bYwGzaTQPG81CV6nbIyhec9qou17pD7bwO1ko
+ w3kGAOZEhrOOekKQnulBzpzw0EQ3FEnEmjXlFDfYBx8Xst_Fuwu4loLn61x2
+ pFT4Ue0doqFHn5TZTKM5U0bjm.Vu3Kslmb9hQQd5ygv6MIwzwiEzjJoi9kkN
+ NyFRPjoBtdJZ1kF4vAXN3j8th9ewH1kyyJPouEykbG4O8E85SOBaZMfxtWy6
+ KJ35TB2Hm9hZ.Ksj4uSE9KRiqEDphcXdKgfgM7xHBFEjtHT.LhFkFVTuWS4g
+ 8niVIvmmLjlkS5PNDV7oALb.QGL3MXOi6IicgOUDoVpbKPnC2VVsSaGZJhq8
+ YyitS_TddMkONutJk2G6O.pzM9QMuNaHXvU_TVH.83IA35zXJGsFM7Ot8mJl
+ YnCnJvxvPALpizOKeiIeUAc1.Cp5WWnUeuaHCdG5IMwnRQuF7WQWVyGlx4Tk
+ wlGJoRIQ9eU4ysGJ_E6mhFWqLSFPk5trYFGBuluYJuLgvfHkRhjNE80JIesV
+ VL0f48G4aAjHrVq122070ZW_kC2LktYPiNB.LzrYzLjI6t6Pbr2F5lzjCjC6
+ 6cCJv3guX4q8g7EnPAbG8bSqOnNxa8REzDMRsTKB2oX4LTn.CvN0HYNJs1I1
+ L7IsLtH1OfyYBN17yOKruO8h1UScQRpli2puKIGy.WtXslfc_TbuGRQm_0Vp
+ Sjo7wvli72noRcI3X0s1yRrW1ELs
+Received: from 165.72.200.99 (EHLO gateway1d.dhl.com)
+ by 10.201.52.97 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Wed, 27 May 2026 15:04:45 +0000
+Received: from ex-csc.dpcsc.deutschepost.de ([160.55.140.10])
+	by gateway1d.dhl.com  with ESMTPS id 64RF4iN1021620-64RF4iN3021620
+	(version=TLSv1.2 cipher=ECDHE-RSA-AES256-GCM-SHA384 bits=256 verify=OK)
+	for <andi_schade@yahoo.de>; Wed, 27 May 2026 15:04:44 GMT
+Received: from ex2019-01-csc.dpcsc.deutschepost.de (160.55.140.10) by
+ ex2019-01-csc.dpcsc.deutschepost.de (160.55.140.10) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.2.2562.17; Wed, 27 May 2026 17:04:44 +0200
+Received: from dpc04.ecomm.priv.nmop.de (10.80.30.10) by
+ ex2019-01-csc.dpcsc.deutschepost.de (160.55.140.10) with Microsoft SMTP
+ Server id 15.2.2562.17 via Frontend Transport; Wed, 27 May 2026 17:04:43
+ +0200
+Date: Wed, 27 May 2026 17:04:41 +0200
+From: <No-Reply@deutschepost.de>
+To: Andreas Schade <andi_schade@yahoo.de>
+Message-ID: 
+ <6e6f766f.78666090.00.525.4224010300.3b9b37b819e69f65d70.1300501.nmmail@127.0.0.1>
+In-Reply-To: <1331301582.9282360.1779894214597@mail.yahoo.com>
+Subject: =?ISO-8859-1?Q?Eingangsbest=E4tigung:_(Ticket:_DP01-78666090)?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_Part_85244_1508032279.1779894281876"
+Auto-Submitted: auto-replied (confirmation)
+X-Auto-Response-Suppress: all
+X-FEAS-BEC-Info: 
+ WlpIGw0aAQkEARIJHAEHBlJSCRoLAAEeDUhZUEhYSFhIWUhZXkguLT4lOyQ8JVpcWFhYX19aSFpcSCYHRToNGAQRKAwNHRwbCwANGAcbHEYMDUhZSFpYSAkGDAE3GwsA
+ CQwNKBEJAAcHRgwNSFhIWkhZW0hZXlhGXV1GWVxYRllYSFBIWEhYSFlIWEhYSFhIWlhICQYMATcbCwAJDA0oEQkABwdGDA1IWA==
+X-FEAS-Client-IP: 160.55.140.10
+X-FE-Last-Public-Client-IP: 160.55.140.10
+X-FE-Policy-ID: 59:1:2:SYSTEM
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; d=deutschepost.de; s=GW_UTDP_1;
+ c=relaxed/relaxed;
+ h=date:from:to:message-id:subject:mime-version:content-type;
+ bh=/OmyrDqZEH8fcCnTYwLbPbQDBp2YpVQF6FUG+5GG9Z0=;
+ b=sJ+ncEBkvT8TKVlGA9TiFUursP+j5CTYecIjTtqjdAPhK+oasge5OBwkC5IUFzMS/EgJpZk+Jk2K
+	j8KACGOnaDGjXkk8tE+1R04aUZ625Ve0ta6eFWfll5rUk6jpxDe/8wrv1ILAO0Up4OO7Jb44h0No
+	SGB1CzZDzqPqbwQvYx7zTV+qAurOeUu0mUx4SVej6I78HLFJAV61En+yXulrC8A/W5/ilvpAuou5
+	S4xY4y0KHxLBSVHMqDxGWTQKvQAlhyiYKNjcxcF+HSk5F56iXhQn55g7TrzIUu+l5DztS0dOaCXX
+	58ArULjf+01iCHySTyuckoGMA08XkHtcWRxV9g==
+Content-Length: 10091
+
+------=_Part_85244_1508032279.1779894281876
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Diese Nachricht wurde automatisch versendet.
+Bitte antworten Sie nicht auf dieses Schreiben, da die E-Mail-Adresse nur z=
+um Versand, nicht aber zum Empfang von E-Mails eingerichtet ist.
+=20
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D
+=20
+Guten Tag,
+=20
+vielen Dank f=C3=BCr Ihre Nachricht.
+Ihre Anfrage ist bei uns eingegangen und wurde unter der Vorgangsnummer DP0=
+1-78666090 erfasst.
+=20
+Aktuell erreichen uns mehr Anfragen als gew=C3=B6hnlich.
+Wir bitten um Ihre Geduld =E2=80=93 die Bearbeitung kann bis zu 10 Werktage=
+ dauern.
+=20
+Bitte haben Sie Verst=C3=A4ndnis, dass zus=C3=A4tzliche Nachrichten zum gle=
+ichen Anliegen die Bearbeitung nicht beschleunigen.
+Wir versichern Ihnen, dass Sie auf jeden Fall eine Antwort von uns erhalten=
+.
+=20
+Vielen Dank f=C3=BCr Ihre Geduld und Ihr Verst=C3=A4ndnis.
+=20
+F=C3=BCr Ihren Datenschutz:
+Wir weisen darauf hin, dass wir Ihre Daten zur Bearbeitung Ihres Anliegens =
+in unseren Kundensystemen erfassen. Nach Abschluss der Bearbeitung werden d=
+iese Daten auf Basis eines berechtigten Interesses in der Regel bis zu 2 Ja=
+hre gespeichert und dann von uns gel=C3=B6scht. Weitere Informationen finde=
+n Sie im Internet unter deutschepost.de/datenschutz .
+=20
+Mit freundlichen Gr=C3=BC=C3=9Fen
+=20
+Ihr Service-Team Postfach
+=20
+Deutsche Post AG
+Service- und Versandzentrum Weiden
+Franz-Zebisch-Str. 15
+92637 Weiden
+=20
+Kontakt: service-postfach@deutschepost.de
+=20
+DHL Group
+deutschepost.de/kundenservice
+=20
+Deutsche Post AG; Sitz Bonn; Registergericht Bonn; HRB 6792
+Vorstand: Dr. Tobias Meyer, Vorsitzender; Oscar de Bok, Pablo Ciano, Nikola=
+ Hagleitner, Melanie Kreis, Dr. Thomas Ogilvie, John Pearson, Hendrik Vente=
+r
+Vorsitzender des Aufsichtsrates: Dr. Katrin Suder
+=20
+Dies ist eine Nachricht der DHL Group und kann vertrauliche, firmeninterne =
+Informationen enthalten. Sie ist ausschlie=C3=9Flich f=C3=BCr die oben adre=
+ssierten Empf=C3=A4nger bestimmt. Sind Sie nicht der beabsichtigte Empf=C3=
+=A4nger, bitten wir Sie, den Sender zu informieren und die Nachricht sowie =
+deren Anh=C3=A4nge zu l=C3=B6schen. Unzul=C3=A4ssige Ver=C3=B6ffentlichunge=
+n, Verwendungen, Verbreitung, Weiterleitung sowie das Drucken oder Kopieren=
+ dieser Mail und ihrer verkn=C3=BCpften Anh=C3=A4nge sind strikt untersagt.
+=20
+-----------------------
+Urspr=C3=BCngliche Nachricht
+-----------------------
+Von: Andreas Schade <andi_schade@yahoo.de>
+An: service-shop@deutschepost.de
+Gesendet: 27.05.2026 17:04
+Betreff: Storno der Postfach Einrichtung 27.05.2026 16:45uhr
+=20
+Bitte Postfach schnell wieder stornieren . Danke . Bitte senden sie mir ein=
+e Best=C3=A4tigung.=C2=A0Alle Angaben sind aus=C2=A0der Anlage zu entnehmen=
+ .=C2=A0
+Mit freundlichen Gr=C3=BC=C3=9Fen=C2=A0Andreas Schade=C2=A0
+
+Gesendet von Yahoo Mail f=C3=BCr iPhone
+
+------=_Part_85244_1508032279.1779894281876
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta name=3D"author" content=3D"novomind iAGENT V.13.00501.3e3b0160">
+<style>
+p {
+  margin: 0px;
+}
+</style>
+</head>
+<body>
+<div><p style=3D"font-family:Arial;font-size:12pt;">Diese Nachricht wurde a=
+utomatisch versendet.</p>
+<p style=3D"font-family:Arial;font-size:12pt;">Bitte antworten Sie nicht au=
+f dieses Schreiben, da die E-Mail-Adresse nur zum Versand, nicht aber zum E=
+mpfang von E-Mails eingerichtet ist.</p>
+<div style=3D"font-family:Arial;font-size:12pt;">&nbsp;</div>
+<p style=3D"font-family:Arial;font-size:12pt;">=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D</p>
+<div style=3D"font-family:Arial;font-size:12pt;">&nbsp;</div>
+<p style=3D"font-family:Arial;font-size:12pt;">Guten Tag,</p>
+<div style=3D"font-family:Arial;font-size:12pt;">&nbsp;</div>
+<p style=3D"font-family:Arial;font-size:12pt;">vielen Dank f=C3=BCr Ihre Na=
+chricht.</p>
+<p style=3D"font-family:Arial;font-size:12pt;">Ihre Anfrage ist bei uns ein=
+gegangen und wurde unter der Vorgangsnummer DP01-78666090 erfasst.</p>
+<div style=3D"font-family:Arial;font-size:12pt;">&nbsp;</div>
+<p style=3D"font-family:Arial;font-size:12pt;">Aktuell erreichen uns mehr A=
+nfragen als gew=C3=B6hnlich.</p>
+<p style=3D"font-family:Arial;font-size:12pt;">Wir bitten um Ihre Geduld =
+=E2=80=93 die Bearbeitung kann <strong>bis zu 10 Werktage</strong> dauern.<=
+/p>
+<div style=3D"font-family:Arial;font-size:12pt;">&nbsp;</div>
+<p style=3D"font-family:Arial;font-size:12pt;">Bitte haben Sie Verst=C3=A4n=
+dnis, dass zus=C3=A4tzliche Nachrichten zum gleichen Anliegen die Bearbeitu=
+ng nicht beschleunigen.</p>
+<p style=3D"font-family:Arial;font-size:12pt;">Wir versichern Ihnen, dass S=
+ie auf jeden Fall eine Antwort von uns erhalten.</p>
+<div style=3D"font-family:Arial;font-size:12pt;">&nbsp;</div>
+<p style=3D"font-family:Arial;font-size:12pt;">Vielen Dank f=C3=BCr Ihre Ge=
+duld und Ihr Verst=C3=A4ndnis.</p>
+<div style=3D"font-family:Arial;font-size:12pt;">&nbsp;</div>
+<p style=3D"font-family:Arial;font-size:12pt;"><strong>F=C3=BCr Ihren Daten=
+schutz:</strong></p>
+<p style=3D"font-family:Arial;font-size:12pt;">Wir weisen darauf hin, dass =
+wir Ihre Daten zur Bearbeitung Ihres Anliegens in unseren Kundensystemen er=
+fassen. Nach Abschluss der Bearbeitung werden diese Daten auf Basis eines b=
+erechtigten Interesses in der Regel bis zu 2 Jahre gespeichert und dann von=
+ uns gel=C3=B6scht. Weitere Informationen finden Sie im Internet unter <a h=
+ref=3D"https://www.deutschepost.de/datenschutz">deutschepost.de/datenschutz=
+</a>.</p>
+<div style=3D"font-family:Arial;font-size:12pt;">&nbsp;</div>
+<p style=3D"font-family:Arial;font-size:12pt;">Mit freundlichen Gr=C3=BC=C3=
+=9Fen</p>
+<div style=3D"font-family:Arial;font-size:12pt;">&nbsp;</div>
+<p style=3D"font-family:Arial;font-size:12pt;">Ihr Service-Team Postfach</p=
+>
+<div style=3D"font-family:Arial;font-size:12pt;">&nbsp;</div>
+<p style=3D"font-family:Arial;font-size:12pt;">Deutsche Post AG</p>
+<p style=3D"font-family:Arial;font-size:12pt;">Service- und Versandzentrum =
+Weiden</p>
+<p style=3D"font-family:Arial;font-size:12pt;">Franz-Zebisch-Str. 15</p>
+<p style=3D"font-family:Arial;font-size:12pt;">92637 Weiden</p>
+<div style=3D"font-family:Arial;font-size:12pt;">&nbsp;</div>
+<p style=3D"font-family:Arial;font-size:12pt;">Kontakt: <a href=3D"mailto:s=
+ervice-postfach@deutschepost.de">service-postfach@deutschepost.de</a></p>
+<div style=3D"font-family:Arial;font-size:12pt;">&nbsp;</div>
+<p style=3D"font-family:Arial;font-size:12pt;">DHL Group</p>
+<p style=3D"font-family:Arial;font-size:12pt;"><a href=3D"https://www.deuts=
+chepost.de/meinkundenservice">deutschepost.de/kundenservice</a></p>
+<div style=3D"font-family:Arial;font-size:12pt;">&nbsp;</div>
+<p style=3D"font-family:Arial;font-size:12pt;">Deutsche Post AG; Sitz Bonn;=
+ Registergericht Bonn; HRB 6792</p>
+<p style=3D"font-family:Arial;font-size:12pt;">Vorstand: Dr. Tobias Meyer, =
+Vorsitzender; Oscar de Bok, Pablo Ciano, Nikola Hagleitner, Melanie Kreis, =
+Dr. Thomas Ogilvie, John Pearson, Hendrik Venter</p>
+<p style=3D"font-family:Arial;font-size:12pt;">Vorsitzender des Aufsichtsra=
+tes: Dr. Katrin Suder</p>
+<div style=3D"font-family:Arial;font-size:12pt;">&nbsp;</div>
+<p style=3D"font-family:Arial;font-size:12pt;">Dies ist eine Nachricht der =
+DHL Group und kann vertrauliche, firmeninterne Informationen enthalten. Sie=
+ ist ausschlie=C3=9Flich f=C3=BCr die oben adressierten Empf=C3=A4nger best=
+immt. Sind Sie nicht der beabsichtigte Empf=C3=A4nger, bitten wir Sie, den =
+Sender zu informieren und die Nachricht sowie deren Anh=C3=A4nge zu l=C3=B6=
+schen. Unzul=C3=A4ssige Ver=C3=B6ffentlichungen, Verwendungen, Verbreitung,=
+ Weiterleitung sowie das Drucken oder Kopieren dieser Mail und ihrer verkn=
+=C3=BCpften Anh=C3=A4nge sind strikt untersagt.</p>
+<div style=3D"font-family:Arial;font-size:12pt;">&nbsp;</div>
+<p style=3D"font-family:Arial;font-size:12pt;">-----------------------</p>
+<p style=3D"font-family:Arial;font-size:12pt;">Urspr=C3=BCngliche Nachricht=
+</p>
+<p style=3D"font-family:Arial;font-size:12pt;">-----------------------</p>
+<p style=3D"font-family:Arial;font-size:12pt;">Von: Andreas Schade &lt;andi=
+_schade@yahoo.de&gt;</p>
+<p style=3D"font-family:Arial;font-size:12pt;">An: service-shop@deutschepos=
+t.de</p>
+<p style=3D"font-family:Arial;font-size:12pt;">Gesendet: 27.05.2026 17:04</=
+p>
+<p style=3D"font-family:Arial;font-size:12pt;">Betreff: Storno der Postfach=
+ Einrichtung 27.05.2026 16:45uhr</p>
+<div style=3D"font-family:Arial;font-size:12pt;">&nbsp;</div>
+<div style=3D"font-family:Arial;font-size:12pt;">
+
+
+<span></span><span style=3D"color: rgb(13, 13, 16); -webkit-text-size-adjus=
+t: 175%;">Bitte Postfach schnell wieder stornieren . Danke . Bitte senden s=
+ie mir eine Best=C3=A4tigung.&nbsp;Alle Angaben sind aus&nbsp;der Anlage zu=
+ entnehmen .&nbsp;</span><div style=3D"color: rgb(239, 234, 231); -webkit-t=
+ext-size-adjust: 175%; overflow-wrap: break-word !important;"><br style=3D"=
+overflow-wrap: break-word !important;"></div><div style=3D"color: rgb(13, 1=
+3, 16); -webkit-text-size-adjust: 175%; overflow-wrap: break-word !importan=
+t;">Mit freundlichen Gr=C3=BC=C3=9Fen&nbsp;</div><div style=3D"color: rgb(1=
+3, 13, 16); -webkit-text-size-adjust: 175%; overflow-wrap: break-word !impo=
+rtant;">Andreas Schade&nbsp;</div><br><br><div><a target=3D"_blank" style=
+=3D"font-size:12px" href=3D"https://mail.onelink.me/107872968?pid=3Dnativep=
+lacement&amp;c=3DGlobal_Acquisition_YMktg_315_Internal_EmailSignature&amp;a=
+f_sub1=3DAcquisition&amp;af_sub2=3DGlobal_YMktg&amp;af_sub3=3D&amp;af_sub4=
+=3D100000604&amp;af_sub5=3DEmailSignature__Static_&amp;af_ios_store_cpp=3D9=
+d3a686e-218d-4849-8298-b480188dc8ac&amp;af_android_url=3Dhttps%3A%2F%2Fplay=
+.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.yahoo.mobile.client.android=
+.mail%26listing%3Demail_signature">Gesendet von Yahoo Mail f=C3=BCr iPhone<=
+/a><br></div>
+
+</div><br></div>
+</body>
+</html>
+------=_Part_85244_1508032279.1779894281876--

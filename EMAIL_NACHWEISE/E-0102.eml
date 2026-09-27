@@ -1,0 +1,126 @@
+Received: from 127.0.0.1
+ by atlas-production.v2-mail-prod1-ir2.omega.yahoo.com pod-id
+ atlas--production-ir2-67997b485f-zxlnm.ir2.yahoo.com with HTTP;
+ Sat, 14 Feb 2026 14:03:23 +0000
+Return-Path: <kontakt@tuexen-rae.de>
+X-Originating-Ip: [212.227.17.10]
+Received-SPF: pass (domain of tuexen-rae.de designates 212.227.17.10 as
+ permitted sender)
+Authentication-Results: mta.yahoo.com;
+ dkim=pass header.i=@tuexen-rae.de header.s=dkim
+ arc_overridden_status=NOT_OVERRIDDEN;
+ spf=pass smtp.mailfrom=tuexen-rae.de arc_overridden_status=NOT_OVERRIDDEN;
+ dmarc=unknown header.from=tuexen-rae.de arc_overridden_status=NOT_OVERRIDDEN;
+X-Apparently-To: andi_schade@yahoo.de; Sat, 14 Feb 2026 14:03:23 +0000
+X-YMailISG: az1dXS8WLDv2wtZTNTq6uSsQuD9bQiHZlF9fjxOEMiXCh77H
+ TUZu2ZTBPVx3WVlXSKhP4sNd5xIPHzAp3cs48g36XXQNgc.TdHQVk92b.QXv
+ SwqBkVRhIEuKcVQv1wTrQbwlHAzz_cxqdpISerQMHTU5nnn6iqa5pgqAebG5
+ iCp4l4Jc0ItVEuH8Rpm84GZnJ.QTHUWh_nd3Eysg7Xv6OcqA.sVHT8yv1.qP
+ y.Ob4oeJcaHCB02U8csILHbiTu.7gIkHOXB4im.bQG2PgQmlXlH_2yGfN6kE
+ MFEsoCvWFbQZ.eMMCWn0qNknZ7QBMAW.eNlSF9D.DkB7gStYVSC.nECe2n_E
+ 4lrcewpqY4.dceJ3Pq2zqmhBGe63RuJ2rPp6cyVYKSKKBEK_pAuSV5tLl9lD
+ eQVsTxUX6sr0IFXge2p.VC7I.GSmZ5iYrGZ0_yT6HiBfRN0YUaA1RQSeY_s.
+ PHfQsmGp1XShf7NwL4Qg1fwV4QqK61RG7XKfE8bWWj9jVr5fPgfsvnqvUE7J
+ EHfQuD_6m6vm3kqcYZ96234qWLlpB5n5nmOloCctICMIvRcf9mtHwrQuChxr
+ RIbgCGDnywrKoPE0_spsO4jwWIM0WMBY1a_voTkvlcHum7hx5HO8cuWD.IH_
+ TzQ8GGIxS5u8PL5ateViFKOmB2NEzgSsVmafAxgm0C9Qtzm.TcOaruZC48kE
+ jNondkL9YTaO3aAFpBPG18CsIiNmNt73W_GHoRSzYR9jV0JVINEGO0La7URM
+ jg8kwwwON5052H1c5IX0iZJUAGrYYP.hesdb0M.Ar9R5hxWWu7K5LW9dBShb
+ rfVwR6JWfnKe806qoIgDFboWOk3beqm64liT3OzpurRj8Su6QY5jnmoiUnZy
+ IMOxsHn.or90uJiIgc919EG0_T2U11uCqenmh_Mcs.T.Pe4H4HO6CFH4W0p9
+ NXeFJ7KBqahQpWjPAhUuQdvhedsOoFc33SAE_PjSd78NMR0crFJJQ3NByH87
+ wSh5ZS0xW0euJjE5wxsImlsWSZghwomDmXpUW4cEGnEQ4QCOkn5DvnBFcFxd
+ 1yqhKwmM8_fJvLCaThKURjt2LS8IY5E7Ner.70F5mCMnCiPOFGxDKWUu7m9w
+ fpOvUp3gfVsesA9f6yjjQQCqCNMVyNAn3vfYxRgcYE6WQA9Lw7vlvFoKTURm
+ g6TPjMrzMuiuXDmESeAQ
+Received: from 212.227.17.10 (EHLO mout.kundenserver.de)
+ by 10.200.77.32 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Sat, 14 Feb 2026 14:03:23 +0000
+Received: from gw-bln.tuexen-rae.de ([87.139.77.149]) by
+ mrelayeu.kundenserver.de (mreue106 [212.227.17.182]) with ESMTPSA (Nemesis)
+ id 1MNccf-1w7aCn2lyd-00NbUf for <andi_schade@yahoo.de>; Sat, 14 Feb 2026
+ 15:03:22 +0100
+Received: from [127.0.0.1] (localhost [127.0.0.1]) by localhost (Mailerdaemon)
+ with ESMTPSA id 06FAA27A956;
+	Sat, 14 Feb 2026 15:03:20 +0100 (CET)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=tuexen-rae.de;
+	s=dkim; t=1771077801;
+	h=from:subject:date:message-id:to:cc:mime-version:content-type:
+	 content-transfer-encoding; bh=yR7zn/n2NXFnKs84XLz7uhaW4iIc8swfqr9qWTgNJ+o=;
+	b=MD0aCserIX2gnvtapEsQtSAb2wzyYDleIh7xhwhh+coMiKAV7tLKH6x8HLCANk0hPumHyJ
+	Lrsk/Cc/duJCiyzZpc3xBHCDm2lY82pLr3tGesWHvzpz3qXIf+2ybbwuzMwoNcw40kPemm
+	z2GXgRG5OdohJxWC/XapiVzSALjkkbms8JrgAlcZ2xXT7UIEkNGGmWuf4Xp2ufISJIq274
+	N2LFrRxxAZIeL/9uxbe0voBxqvh219C/doHvRNlLgQeHjXn15yzzWku+bwvgoYZbmHqt4a
+	hKrZAXRKdXkHsA3TSTEYtOpTAyh81+Y3PC6jkljATW85IfKbE6JsDXIYVzrpgg==
+Message-ID: <e835404c-87bd-4b8d-be24-770b4017b85e@tuexen-rae.de>
+Date: Sat, 14 Feb 2026 15:03:19 +0100
+MIME-Version: 1.0
+User-Agent: Mozilla Thunderbird
+To: andi_schade@yahoo.de
+From: =?UTF-8?Q?Kanzlei_T=C3=BCxen?= <kontakt@tuexen-rae.de>
+Subject: =?UTF-8?Q?Proze=C3=9Fvertretung?=
+Cc: kontakt@tuexen-rae.de
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: 8bit
+X-Last-TLS-Session-Version: TLSv1.3
+X-Provags-ID: V03:K1:dsdqKy2q0Sbnl++cXzbrkMUu68XVB/ThhqaJSy0wRZMDmOHiQMO
+ pEcFnZNqNFNdyJdKCG2+egTK5Q/T2/zcI7XMWK9H+O4BGaO/UBnHB+sGwzN2lpF0g8lSmVh
+ 8VLmkYuze4+Hg0sYM/xZq5Pf2pHXknPII/oxG577WxLtaau3579Wle4P31QpqZIb8bnrFVC
+ 3uJXXd+tJGo5gE+llj3lg==
+X-Spam-Flag: NO
+UI-OutboundReport: notjunk:1;M01:P0:UJqG5VJAbIA=;6gVrkHTNh0MXdA1ujcwHHicBcwj
+ 7UruMwjiqL+UGk6jX+0FOFhsZaV+lo3oCsjCiXq2KiElybpr10oWPVAO7omiHosHZR0csTRmO
+ +pp4OQGB2qU1zd2g5jnk0htH1E9ziQDlq0RzDAPPkUxtXphad5SnTWwfDbS0CO/y/t++4DSS2
+ tjLbOj2Rp5qEQPjW0y8juPpZLL/jc6+048kDhU3USSqDzYQj6IobDlmOz5+omhbBKwx9Fa/J2
+ 1WRUNLdPiSdzeCG2vysp68Vl1SjZzL9nhjrHeIxGTqLKv+3QgadM+uUuyRywbLxXFYoqxZe8b
+ WcqFIKLkCu+n0q9I2iqih24JTgrR8OFXLWNeerms1ViLj0xZKIOFbMripl8FR/yQCi2z95P0J
+ jhJWkEzp6Yp0VYuU7DHsG2AwzhgJNWlucUW8dubWR7ExZOw9KFu2HT5d7OBxheriKYRqTbJFw
+ nta21hujTE1SmKP5bwSs72+Xowpq8WiuH5gmrQcrb9ku/O3pXFx79SNROZjVGvwMspQa/j50E
+ bOmITW/Bmq3maIgGBWN0VPT8NFNXqB3tvyac+uGoT1R0MDSrR3zTVqYYhudsAWGVqMg5CnX9p
+ ydEPaw3DqAW4XsozSGipfopQuY7wNTXk6Q7PV3VFKNS2J/ttWaJXkxSQmpMHQNuFI0hbJjuRL
+ pwq6d2qD8hzJHo+WXlCXMG/b5fz2p6uDUjMl0ERZMtAipM450AKfmdi+/QXtec7wewl2nV7Mo
+ ezcZumdpWcS3a3OXyyBe04EQIo3GP/W3KiXXztIEiZAW71CVhD4eLVVgQ6lNGAHxsb/SVLGGx
+ 3Ye1wr8yOi9tZLCqaBfUe/K8gJVFkcbhxemT1IXccbgU59OOE4veJLRxOU04q2r9WUgBBvzCn
+ wL0ds8B/H2GtbX5sHV3z9mqKkqs8GTKx7AGihdlke/SDgZoy9+Tb+MxY+ttXLrR7FPUnOqIow
+ iz3dOl11Y7GSz1kZItp6idCT0Mgx3WDLaWWj20aQIEVd702ZfF9iS0jC+G10fcwLq5lOSCGQ2
+ 89bN7KNPGAffGjf1TFpzq/1C4bkvDcscHX0+qyY0E3cLkcpiSMvgflDhvlIM3gF4GOKntq7Aa
+ 8TDjuw2oJd8CUyvFWrRYmmvQubCRbH8a842HKCjLsbtIf80M6I5cw+dftu39Zr2WyqgBjsHOM
+ 7FsvXHS21qQ077V4PDzDEFYq/8lnzdylo0GbEto7ltfbv3mb/wkXBX2FJcvoOSmoi4QsNWLP3
+ By0c36MhK29aXbYuYK7BDJLdqv7BzKahvGY3mUnf5j5z9r7/KzYZyHH8Z80MAn5M8WRVz0vbd
+ wkkwOPC0SrlYx0duJD4PhMyR1lAv6JWqhxDMrcZieYaI94XzsWhmtNRxXdWdgI2Hca39DtqmN
+ IWU88FdHxblK3VzjC47YVI7D9QUScPomv7qSOTHZ88yMjgQr1XNBPJ/n2GqkGwOqvjB5R/5N7
+ n2clw61A3ZuCwQs4f2WeceuHRwAFLo0cYV/1tF2gmdIqjPNpEX3lHJupW0tk3SzmBlBfJUwr5
+ jHic/1qhBGNZM4jXdMtdIzFtXhU44ClvQmBVhu02Gp/qhQwgLv3EbKUlMuGHJyJVdeP9E/9MI
+ wb+5rldEuLJM7YLgxy5/Z3Ww+wUDgygXkrLQlj0NriOPF8W0UK+j09REJ1VQvxSXu3eYRB6NB
+ UtNd0o/p0B9LH1AICuWh7d1yfCnUEiYNnty2ilORkMcD1//uiLrGu9hDjFTZGExArum/no5kg
+ NVxLXy7NCzjQIQBHv1ulcktDLRNz02qfnuA==
+Content-Length: 891
+
+Sehr geehrter Herr Schade,
+
+ich nehme Bezug auf Ihr Schreiben vom 13.2.2026 mit der beigefügten 
+Vollmacht.
+
+Da ich aufgrund Ihrer vorherigen Mittteilung, jetzt doch zunächst ohne 
+Rechtsanwalt zu erwidern, zeitlich umdisponiert hatte, ist eine 
+Klageerwiderung bis 16.2.2026 nicht mehr möglich. Ich selbst bin am 
+16.2.2026 auch gar nicht in Berlin.
+
+Ich habe daher eine einwöchige weitere Fristverlängerung beantragt, die 
+auch bewilligt werden wird, da eine Verzögerung des Rechtstsreites im 
+Hinblick auf die Terminierung im Mai nicht ansteht.
+
+Falls Sie doch am Montag noch selbst etwas bei Gericht einreichen 
+wollen, steht Ihnen das natürlich frei. Ich halte das aber nicht für nötig.
+
+Für Rückfragen stehe ich Ihnen gerne, auch an diesem Wochenende über die 
+Ihnen bekannten Funktelefonnummer zur Verfügung.
+
+
+Mit freundlichen Grüßen,
+
+
+Matthias Tüxen
+
+Rechtsanwalt

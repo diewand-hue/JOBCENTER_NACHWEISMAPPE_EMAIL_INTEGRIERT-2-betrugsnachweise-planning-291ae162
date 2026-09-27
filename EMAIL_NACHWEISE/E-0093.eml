@@ -1,0 +1,705 @@
+Received: from 127.0.0.1
+ by atlas-production.v2-mail-prod1-ir2.omega.yahoo.com pod-id
+ atlas--production-ir2-77bf488b5-btpzz.ir2.yahoo.com with HTTP;
+ Thu, 18 Dec 2025 14:34:59 +0000
+Return-Path: 
+ <1d0af6f2.CAAAB_fwjj8AAAAAAAAAAhF4phQAAAAD4AsAAAAAAAWi0QBpRBES@bnc3.mycasavi.com>
+X-Originating-Ip: [87.253.236.95]
+Received-SPF: pass (domain of bnc3.mycasavi.com designates 87.253.236.95 as
+ permitted sender)
+Authentication-Results: atlas-production.v2-mail-prod1-ir2.omega.yahoo.com;
+ dkim=pass header.i=@inbound.mycasavi.com header.s=mailjet
+ arc_overridden_status=NOT_OVERRIDDEN;
+ dkim=pass header.i=@bnc3.mailjet.com header.s=mailjet1
+ arc_overridden_status=NOT_OVERRIDDEN;
+ spf=pass smtp.mailfrom=bnc3.mycasavi.com
+ arc_overridden_status=NOT_OVERRIDDEN;
+ dmarc=pass(p=NONE,sp=NONE) header.from=inbound.mycasavi.com
+ arc_overridden_status=NOT_OVERRIDDEN;
+X-Apparently-To: andi_schade@yahoo.de; Thu, 18 Dec 2025 14:34:59 +0000
+X-YMailISG: 9JL.RokWLDsSxNbHT2rp.3h0Re4dZlL0l.t2qamxes1GUrkn
+ OoXvx8rGOu.J17HkjG5kK8mRFdWgTEQdm5yAYNQpdxozsaw_PVO1t_Op1C_G
+ CR2B_hfezA5S552weY8aacebLZX20NeNmAzZDnzTDoKKA1e1ESxMPPpDSUun
+ eecj335YvBttpJg0rxGdTs2mB0irykQ8xFySowcLEe2ZTe5Beh.nFE6FFk07
+ iu51MRNmB.kR.MGlS.qlci5jvxZb3GIaCJmPaElZ3gBmgj0kFhDXEHIv2FwB
+ NNaCI6Sa4W8Awku3xqflAXWAVtoUhHwHCBiCXbrvkU2QjR5.Ytatwox80Zcs
+ XJw6ZwUOA7GXPEGlRoqcSfwe8A4pdOnwzGPLUty0rB3uZsj59optMAoVDMyf
+ v3OlZJJsAsQftqEd6j.hVkcxU7EF8tmrUABbIsB297Qa2_XCD.ZHAb._0Xuc
+ 7PlVmfKG1ONzm19zjeYb6APPTl7dEf8qLA34J82cXf1QduLlid7BKyVzgPsV
+ f9T1H4EtAo6AcuiYVOXIyf5ILssU.NJ1V4Ep1yQu4zDDNSEUZSbv05Pu78Qn
+ fUNWCdBUG9GWLSUvrPCbXDtSD30VLdHGDhGL2U.TG6.CmgspdvOw3BFV_Tsu
+ 3xEyqXX1jZbp1QoKRfaRyGQlRtBiPye4ywrrn8J7bJ2_PvcJXUxHCJrSdb_M
+ eQjMpWZHJv4IwZionInmb2EK10mLzRsyersWNcIifq45sJy8RE7tupo6eZBQ
+ HS98.bNzMnhBfZvylWepu55A9TivcH3biJX0TuHhrSj3_wgkvJu3SH_PlJy7
+ JFD1blqtmmbfTXTUZlXkpX00GaoKKniclA54aFZ8V3T2xkU9roTr5d56.NTU
+ Tdnf6_sjdHNDbFV5a84VJbapvZ6tLCwPk6y1zSOmjPT8SziFpPyBqu5qGf6q
+ qjGM4mS3VfPx.T3QZ_sYLtD.Xtn0yq09dkKY0E.45zACOJ6KVqe.3TZ2A9lO
+ vWhs0Yc1FAEcHvSF3HUoalxcALL4yGO9yYSmZT63xlTETLZcGib1ODjy72qm
+ DShpvNykTTr.s_AznapFCoFtVxOKB6X36ex4jbMRRMylXWS.FzHh7GL6hVS2
+ KNzmYZTWylT.lbwGbC9LKF3R5U0lHofs19x2srt2mSbe_..sNXs_..XR3fqY
+ 7A0BLCWIXsBliS1Hj52iHFXpZvxteuQKjr_GuFHs9t.iHXLR8qa2nM5f5Q--
+Received: from 87.253.236.95 (EHLO o95.p11.mailjet.com)
+ by 10.200.78.100 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Thu, 18 Dec 2025 14:34:59 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; q=dns/txt;
+  d=inbound.mycasavi.com; i=reply-postbote@inbound.mycasavi.com; s=mailjet;
+ x=1766075698;
+  h=message-id:from:from:reply-to:to:to:subject:subject:date:date:list-unsubscribe-post:list-unsubscribe:
+  feedback-id:x-csa-complaints:x-mj-mid:x-report-abuse-to:mime-version:
+  content-type;
+  bh=JSltGTGxI1q64vqFIctpD0sRis4/LXZdRaGg83RIKx0=;
+  b=F3zDCUajwf5Wb64IkWGxX6+j4Gc/OOKwYYfl+bG8JjKPKM9NTjJzihdoL
+ nTwm1H3ClE1M9eJEfdQaYX4UZJ6yZC3d7nwxUhk0RCZ+T0kb51fq50+/zSf4
+ TGppNIxg2GfJ1WyHGwfHgW9/7gGU2EVheMVnWO8BzXWARuVIBD+FvI=
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; q=dns/txt;
+  d=bnc3.mailjet.com; s=mailjet1; x=1766075698;
+  h=message-id:from:from:reply-to:to:to:subject:subject:date:date:list-unsubscribe-post:list-unsubscribe:
+  feedback-id:x-csa-complaints:x-mj-mid:x-report-abuse-to:mime-version:
+  content-type;
+  bh=JSltGTGxI1q64vqFIctpD0sRis4/LXZdRaGg83RIKx0=;
+  b=At141HdAuZuoAiiYIYza3JCPTavZCZKNXw7jyAhjF6wm7VjozXC7O1TBc
+ Z5glNBZISxQ7gqstbEVAqQOG4XRwZW/SxOXyHk7MxUxfOT3LB2nuEIl8Ul9n
+ 007uWBo/bMflXVsafnDZcWsy7GG8QwtZ9GFST3RYj601DuIUccda6k=
+Message-Id: 
+ <1d0af6f2.CAAAB_fwjj8AAAAAAAAAAhF4phQAAAAD4AsAAAAAAAWi0QBpRBES@mailjet.com>
+From: Residea Immobilien Management GmbH
+	<reply-postbote@inbound.mycasavi.com>
+Reply-To: Residea Immobilien Management GmbH
+	<reply-postbote@inbound.mycasavi.com>
+To: andi_schade@yahoo.de
+Subject: Neue Mitteilung im Kundenportal
+Date: Thu, 18 Dec 2025 14:34:58 +0000
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+List-Unsubscribe: <mailto:unsub-1d0af6f2.ui5x.x0v222802qttg@bnc3.mailjet.com>,
+	<https://ui5x.mjt.lu/unsub2?m=CAAAB_fwjj8AAAAAAAAAAhF4phQAAAAD4AsAAAAAAAWi0QBpRBESa5NcysEBRuCz3roUxBnbmQAFaCM&b=1d0af6f2&e=a6cc6326&x=dGn5v5UZwUGHQdw5DfgPqN-VYSaMFrVQltV_WLi91v8>
+Feedback-Id: INBOUND_REPLY_EMAIL.369361.354339:MJ
+X-CSA-Complaints: csa-complaints@eco.de
+X-MJ-Mid: 
+ CAAAB_fwjj8AAAAAAAAAAhF4phQAAAAD4AsAAAAAAAWi0QBpRBESa5NcysEBRuCz3roUxBnbmQAFaCM
+X-REPORT-ABUSE-TO: Message sent by Mailjet please report to
+	abuse@mailjet.com with a copy of the message
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="=-fQPEYGKjs7shJ0Uan+ox"
+Content-Length: 19747
+
+--=-fQPEYGKjs7shJ0Uan+ox
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Neue Mitteilung
+
+Residea Immobilien Management GmbH
+[https://s3-eu-central-1.amazonaws.com/casavi-ffm/tenants/7486/customizatio=
+n/10761604-914e-4ca7-95c9-51d53adfea40]
+
+Gubener Str.52/52a/53/53a, Lasdehner Str 32
+
+Yasmin El Dayekh
+
+
+Objektbetreuung MV
+
+Betriebsferien Hausverwaltung vom 22.12.25 bis 02.01.26
+
+
+
+
+Anh=C3=A4nge:
+Aushang Weihnachtsurlaub 2025.pdf
+[https://service.residea.de/app/c/455970/info/posts/1383356/]
+
+
+=E2=80=8A
+
+Diese E-Mail ist ein Service von Residea Immobilien Management GmbH.
+Benachrichtigungseinstellungen anpassen
+[https://service.residea.de/app/c/455970/profile/notifications]
+Impressum [https://static.mycasavi.com/pages/de/latest/imprint/index.html] =
+|
+Nutzungsbedingungen
+[https://static.mycasavi.com/pages/de/latest/general-terms-of-business/inde=
+x.html]
+| Datenschutz
+[https://static.mycasavi.com/pages/de/latest/privacy-statement/index.html]=
+
+--=-fQPEYGKjs7shJ0Uan+ox
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!doctype html>
+<html lang=3D"und" dir=3D"auto" xmlns=3D"http://www.w3.org/1999/xhtml" xmln=
+s:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:=
+office:office">
+  <head>
+    <title>Neue Mitteilung im Kundenportal</title>
+    <!--[if !mso]><!-->
+    <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+    <!--<![endif]-->
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8=
+">
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=
+=3D1">
+    <style type=3D"text/css">
+      #outlook a { padding:0; }
+      body { margin:0;padding:0;-webkit-text-size-adjust:100%;-ms-text-size=
+-adjust:100%; }
+      table, td { border-collapse:collapse;mso-table-lspace:0pt;mso-table-r=
+space:0pt; }
+      img { border:0;height:auto;line-height:100%; outline:none;text-decora=
+tion:none;-ms-interpolation-mode:bicubic; }
+      p { display:block;margin:13px 0; }
+    </style>
+    <!--[if mso]>
+    <noscript>
+    <xml>
+    <o:OfficeDocumentSettings>
+      <o:AllowPNG/>
+      <o:PixelsPerInch>96</o:PixelsPerInch>
+    </o:OfficeDocumentSettings>
+    </xml>
+    </noscript>
+    <![endif]-->
+    <!--[if lte mso 11]>
+    <style type=3D"text/css">
+      .mj-outlook-group-fix { width:100% !important; }
+    </style>
+    <![endif]-->
+   =20
+   =20
+    <style type=3D"text/css">
+      @media only screen and (min-width:480px) {
+        .mj-column-per-50 { width:50% !important; max-width: 50%; }
+.mj-column-per-100 { width:100% !important; max-width: 100%; }
+      }
+    </style>
+    <style media=3D"screen and (min-width:480px)">
+      .moz-text-html .mj-column-per-50 { width:50% !important; max-width: 5=
+0%; }
+.moz-text-html .mj-column-per-100 { width:100% !important; max-width: 100%;=
+ }
+    </style>
+   =20
+   =20
+ =20
+   =20
+    <style type=3D"text/css">
+
+    @media only screen and (max-width:479px) {
+      table.mj-full-width-mobile { width: 100% !important; }
+      td.mj-full-width-mobile { width: auto !important; }
+    }
+ =20
+    </style>
+    =20
+    <style type=3D"text/css">
+body {
+							font-family: 'Open Sans', 'Segoe UI', 'Tahoma', sans-serif;
+							background-color: #eaeaea;
+						}
+			=09
+					=09
+						#template-preheader {
+							font-size: 19px; font-family: 'Open Sans Condensed', 'Franklin Gothi=
+c Bold', sans-serif; font-weight: bold;
+						=09
+						}
+					=09
+						.cta-text-color,
+						.cta-text-color a {
+							color: #7390a6;
+						}
+					=09
+						.cta-container {
+							text-align: center;
+						}
+					=09
+						.cta-container a,
+						a.cta-button {
+							background-color: #7390a6;
+							text-decoration: none;
+							color: #fff;
+							font-family: "Open Sans Condensed", "Segoe UI", Tahoma, sans-serif;
+							font-weight: bold;
+							font-size: 15px;
+							line-height: 36px;
+							padding: 9px 16px 9px 16px;
+							border-radius: 2px;
+							text-transform: uppercase;
+						}
+					=09
+						.border-top {
+							border-top: 1px solid #cccccc;
+						}
+body { font-family: 'Open Sans', 'Segoe UI', 'Tahoma', sans-serif; font-siz=
+e: 14px; color: #333; } body, #bodyTable, #bodyCell { height: 100%  !import=
+ant; margin: 0; padding: 0; width: 100% !important; } table { border-collap=
+se: collapse; } td { padding: 0px; } img, a img { border: 0; outline: none;=
+ text-decoration: none; } p { margin: 1em 0; padding: 0; }  #outlook a { pa=
+dding: 0; }  #bodyCell { padding: 20px; } .mcnImage { vertical-align: botto=
+m; } #bodyCell { border-top: 0; } .main-content { padding: 16px; } .list-it=
+em { border: 1px solid #E6EDED; background-color: #FFFFFF; padding: 8px 16p=
+x; } .list-item a { color: #ff1493; text-decoration: none; } .full-width { =
+width: 100%; font-size: 13px } .default-font { font-size: 13px } .bodyConta=
+iner .cta-container { text-align: center; padding-top: 16px; } .companyLogo=
+ { width: 100px; height: 50px; } .bodyContainer .cta-container.in-between {=
+ padding-bottom: 16px; } .bodyContainer .cta-container a, .bodyContainer a.=
+cta-button { font-size: 15px; line-height: 36px; padding: 9px 16px 9px 16px=
+; border-radius: 2px; } .sm-margin { display: inline-block; margin-bottom: =
+8px; } #templateHeader { background-color: #ffffff; border-top: 0; border-b=
+ottom: 0; } #templateBody { border-top: 0; border-bottom: 0; } .text-center=
+ed { text-align: center; } strong { font-weight: bold; } em { font-style: i=
+talic; } .box { width: 100%; background-color: #FFFFFF; color: #333333; bor=
+der: 1px solid #E6EDED; } .box-user-info { padding: 0px 0px 0px 8px; } .box=
+-padding { padding: 16px; } .box-header { padding: 0px 0px 8px 0px; } .box-=
+avatar { width: 40px; height: 40px; vertical-align: top; } .box-avatar img =
+{ border: 0px solid #FFFFFF; border-radius: 50%; width: 40px; height: 40px;=
+ } .box-avatar .no-avatar { border: 0px solid #FFFFFF; border-radius: 50%; =
+width: 40px; height:40px; background-color: #DDDDDD; } .box-footer { width:=
+ 100%; background-color: #EEEEEE; border: 1px solid #E6EDED; border-top: 0p=
+x; } .text-table td { vertical-align: text-bottom; } .text-table td:not(:la=
+st-child) { padding-right: 8px; } .text-table--listing td:not(:last-child) =
+{ font-weight: bold; } .manager-digest-item { font-size: 20px; font-weight:=
+ bold; } .bodyContainer a { color: #0d7270; font-weight: normal; text-decor=
+ation: underline; } #templateFooter { background-color: #e9e9e9; border-top=
+: 1px solid #cccccc; border-bottom: 0; } .footerContainer p { color: #60606=
+0; font-family: Helvetica; font-size: 11px; line-height: 125%; text-align: =
+left; }.footerContainer a { color: #606060; font-weight: normal; text-decor=
+ation: underline; } .footerActionText{ font-size: 10px; } .header-image-wra=
+p { position: relative; } .header-image { display: block; max-width: 600px;=
+ width: 100%; margin: 0px; } .header-image-caption { background: rgba(0,0,0=
+, 0.6); color: #fff; padding: 5px; } .header-image-caption--bottom { positi=
+on: absolute; bottom: 0; right: 0; left: 0; } .internal--background { backg=
+round:  #FFFFC0 !important; }
+    </style>
+   =20
+  </head>
+  <body style=3D"word-spacing:normal;">
+   =20
+   =20
+      <div
+         style=3D"" lang=3D"und" dir=3D"auto"
+      >
+       =20
+     =20
+      <!--[if mso | IE]><table align=3D"center" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" class=3D"" role=3D"presentation" style=3D"width:600px=
+;" width=3D"600" bgcolor=3D"#ffffff" ><tr><td style=3D"line-height:0px;font=
+-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+   =20
+     =20
+      <div  style=3D"background:#ffffff;background-color:#ffffff;margin:0px=
+ auto;max-width:600px;">
+       =20
+        <table
+           align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" style=3D"background:#ffffff;background-color:#fffff=
+f;width:100%;"
+        >
+          <tbody>
+            <tr>
+              <td
+                 style=3D"direction:ltr;font-size:0px;padding:0;text-align:=
+center;"
+              >
+                <!--[if mso | IE]><table role=3D"presentation" border=3D"0"=
+ cellpadding=3D"0" cellspacing=3D"0"><tr><td class=3D"" style=3D"vertical-a=
+lign:top;width:300px;" ><![endif]-->
+           =20
+      <div
+         class=3D"mj-column-per-50 mj-outlook-group-fix" style=3D"font-size=
+:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;=
+width:100%;"
+      >
+       =20
+      <table
+         border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentat=
+ion" style=3D"vertical-align:top;" width=3D"100%"
+      >
+        <tbody>
+         =20
+              <tr>
+                <td
+                   align=3D"left" class=3D"template-preheader" style=3D"fon=
+t-size:0px;padding:20px 0 20px 16px;word-break:break-word;"
+                >
+                 =20
+      <div
+         style=3D"font-family:'Open Sans', 'Segoe UI', 'Tahoma', sans-serif=
+;font-size:23px;line-height:1;text-align:left;color:#333333;"
+      >Neue Mitteilung</div>
+   =20
+                </td>
+              </tr>
+           =20
+        </tbody>
+      </table>
+   =20
+      </div>
+   =20
+          <!--[if mso | IE]></td><td class=3D"" style=3D"vertical-align:top=
+;width:300px;" ><![endif]-->
+           =20
+      <div
+         class=3D"mj-column-per-50 mj-outlook-group-fix" style=3D"font-size=
+:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;=
+width:100%;"
+      >
+       =20
+      <table
+         border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentat=
+ion" style=3D"vertical-align:top;" width=3D"100%"
+      >
+        <tbody>
+         =20
+              <tr>
+                <td
+                   align=3D"right" style=3D"font-size:0px;padding:10px 25px=
+;padding-right:16px;word-break:break-word;"
+                >
+                 =20
+      <table
+         border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentat=
+ion" style=3D"border-collapse:collapse;border-spacing:0px;"
+      >
+        <tbody>
+          <tr>
+            <td  style=3D"width:200px;">
+             =20
+      <img
+         alt=3D"Residea Immobilien Management GmbH" src=3D"https://s3-eu-ce=
+ntral-1.amazonaws.com/casavi-ffm/tenants/7486/customization/10761604-914e-4=
+ca7-95c9-51d53adfea40" style=3D"border:0;display:block;outline:none;text-de=
+coration:none;height:46px;width:100%;font-size:13px;" width=3D"200" height=
+=3D"46"
+      />
+   =20
+            </td>
+          </tr>
+        </tbody>
+      </table>
+   =20
+                </td>
+              </tr>
+           =20
+        </tbody>
+      </table>
+   =20
+      </div>
+   =20
+          <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+       =20
+      </div>
+   =20
+     =20
+      <!--[if mso | IE]></td></tr></table><table align=3D"center" border=3D=
+"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"" role=3D"presentation" st=
+yle=3D"width:600px;" width=3D"600" ><tr><td style=3D"line-height:0px;font-s=
+ize:0px;mso-line-height-rule:exactly;"><![endif]-->
+   =20
+     =20
+      <div  style=3D"margin:0px auto;max-width:600px;">
+       =20
+        <table
+           align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" style=3D"width:100%;"
+        >
+          <tbody>
+            <tr>
+              <td
+                 style=3D"direction:ltr;font-size:0px;padding:0;text-align:=
+center;"
+              >
+                <!--[if mso | IE]><table role=3D"presentation" border=3D"0"=
+ cellpadding=3D"0" cellspacing=3D"0"><tr><td class=3D"" style=3D"vertical-a=
+lign:top;width:600px;" ><![endif]-->
+           =20
+      <div
+         class=3D"mj-column-per-100 mj-outlook-group-fix" style=3D"font-siz=
+e:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top=
+;width:100%;"
+      >
+       =20
+      <table
+         border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentat=
+ion" style=3D"vertical-align:top;" width=3D"100%"
+      >
+        <tbody>
+         =20
+              <tr>
+                <td
+                   align=3D"left" style=3D"background:rgb(124,130,139);font=
+-size:0px;padding:5px;word-break:break-word;"
+                >
+                 =20
+      <div
+         style=3D"font-family:Helvetica;font-size:14px;line-height:1;text-a=
+lign:left;color:#FFFFFF;"
+      >Gubener Str.52/52a/53/53a, Lasdehner Str 32</div>
+   =20
+                </td>
+              </tr>
+           =20
+        </tbody>
+      </table>
+   =20
+      </div>
+   =20
+          <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+       =20
+      </div>
+   =20
+     =20
+      <!--[if mso | IE]></td></tr></table><table align=3D"center" border=3D=
+"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"" role=3D"presentation" st=
+yle=3D"width:600px;" width=3D"600" ><tr><td style=3D"line-height:0px;font-s=
+ize:0px;mso-line-height-rule:exactly;"><![endif]-->
+   =20
+     =20
+      <div  style=3D"margin:0px auto;max-width:600px;">
+       =20
+        <table
+           align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" style=3D"width:100%;"
+        >
+          <tbody>
+            <tr>
+              <td
+                 style=3D"direction:ltr;font-size:0px;padding:0;padding-top=
+:20px;text-align:center;"
+              >
+                <!--[if mso | IE]><table role=3D"presentation" border=3D"0"=
+ cellpadding=3D"0" cellspacing=3D"0"><tr><td class=3D"" style=3D"vertical-a=
+lign:top;width:600px;" ><![endif]-->
+           =20
+      <div
+         class=3D"mj-column-per-100 mj-outlook-group-fix" style=3D"font-siz=
+e:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top=
+;width:100%;"
+      >
+       =20
+      <table
+         border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentat=
+ion" width=3D"100%"
+      >
+        <tbody>
+          <tr>
+            <td  style=3D"vertical-align:top;padding:0;">
+             =20
+      <table
+         border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentat=
+ion" style=3D"" width=3D"100%"
+      >
+        <tbody>
+         =20
+              <tr>
+                <td
+                   align=3D"left" style=3D"font-size:0px;padding:10px 25px;=
+word-break:break-word;"
+                >
+                 =20
+      <div
+         style=3D"font-family:'Open Sans', 'Segoe UI', 'Tahoma', sans-serif=
+;font-size:13px;line-height:1;text-align:left;color:#333333;"
+      ><table class=3D"full-width default-font">
+	<tbody>
+		<tr>
+			<td>
+				<table class=3D"box" style=3D"background-color: #FFFFFF; border: 1px so=
+lid #E6EDED">
+					<tbody style=3D"color: #000000">
+						<tr>
+							<td class=3D'box-padding'>
+								<table>
+									<!-- outlook error fix, outlook classic on windows uses word rende=
+r engine,which sets tbody color everytime falsly automatically-->
+									<tbody style=3D"color: #000000">
+										<tr>
+											<td class=3D'box-header'>
+												<table>
+													<tbody style=3D"color: #000000">
+														<tr>
+															<td class=3D'box-avatar'>
+															=09
+																	<div class=3D"no-avatar" />
+															=09
+															</td>
+															<td class=3D'box-user-info'>
+																<strong><p>Yasmin El Dayekh</p>
+</strong><br>
+																<em>Objektbetreuung MV</em>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<strong><p>Betriebsferien Hausverwaltung vom 22.12.25 bis 02.01=
+.26</p>
+</strong><br>
+											=09
+											=09
+													<br>
+												=09
+												=09
+														<br>
+														Anh=C3=A4nge:<br>
+													=09
+														=09
+															<a href=3D"https://service.residea.de/app/c/455970/info/post=
+s/1383356/">Aushang Weihnachtsurlaub 2025.pdf</a><br>
+														=09
+													=09
+												=09
+											=09
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</td>
+		</tr>
+	=09
+	</tbody>
+</table></div>
+   =20
+                </td>
+              </tr>
+           =20
+              <tr>
+                <td
+                   style=3D"font-size:0px;word-break:break-word;"
+                >
+                 =20
+      <div
+         style=3D"height:20px;line-height:20px;"
+      >&#8202;</div>
+   =20
+                </td>
+              </tr>
+           =20
+        </tbody>
+      </table>
+   =20
+            </td>
+          </tr>
+        </tbody>
+      </table>
+   =20
+      </div>
+   =20
+          <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+       =20
+      </div>
+   =20
+     =20
+      <!--[if mso | IE]></td></tr></table><table align=3D"center" border=3D=
+"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"" role=3D"presentation" st=
+yle=3D"width:600px;" width=3D"600" ><tr><td style=3D"line-height:0px;font-s=
+ize:0px;mso-line-height-rule:exactly;"><![endif]-->
+   =20
+     =20
+      <div  style=3D"margin:0px auto;max-width:600px;">
+       =20
+        <table
+           align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" style=3D"width:100%;"
+        >
+          <tbody>
+            <tr>
+              <td
+                 style=3D"direction:ltr;font-size:0px;padding:0;text-align:=
+center;"
+              >
+                <!--[if mso | IE]><table role=3D"presentation" border=3D"0"=
+ cellpadding=3D"0" cellspacing=3D"0"><tr><td class=3D"" style=3D"vertical-a=
+lign:top;width:600px;" ><![endif]-->
+           =20
+      <div
+         class=3D"mj-column-per-100 mj-outlook-group-fix" style=3D"font-siz=
+e:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top=
+;width:100%;"
+      >
+       =20
+      <table
+         border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentat=
+ion" width=3D"100%"
+      >
+        <tbody>
+          <tr>
+            <td  style=3D"vertical-align:top;padding:0;">
+             =20
+      <table
+         border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentat=
+ion" style=3D"" width=3D"100%"
+      >
+        <tbody>
+         =20
+              <tr>
+                <td
+                   align=3D"center" class=3D"border-top" style=3D"backgroun=
+d:#e9e9e9;font-size:0px;padding:16px;word-break:break-word;"
+                >
+                 =20
+      <div
+         style=3D"font-family:Roboto,RobotoDraft,Helvetica,Arial,sans-serif=
+;font-size:10px;line-height:1;text-align:center;color:#333333;"
+      >Diese E-Mail ist ein Service von Residea Immobilien Management GmbH.=
+<br><a href=3D"https://service.residea.de/app/c/455970/profile/notification=
+s">Benachrichtigungseinstellungen anpassen</a><br><a style=3D'color: #333;'=
+ href=3D'https://static.mycasavi.com/pages/de/latest/imprint/index.html'>Im=
+pressum</a> | <a style=3D'color: #333;' href=3D'https://static.mycasavi.com=
+/pages/de/latest/general-terms-of-business/index.html'>Nutzungsbedingungen<=
+/a> | <a style=3D'color: #333;' href=3D'https://static.mycasavi.com/pages/d=
+e/latest/privacy-statement/index.html'>Datenschutz</a></div>
+   =20
+                </td>
+              </tr>
+           =20
+        </tbody>
+      </table>
+   =20
+            </td>
+          </tr>
+        </tbody>
+      </table>
+   =20
+      </div>
+   =20
+          <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+       =20
+      </div>
+   =20
+     =20
+      <!--[if mso | IE]></td></tr></table><![endif]-->
+   =20
+   =20
+      </div>
+   =20
+  </body>
+</html>
+ =20
+=
+
+--=-fQPEYGKjs7shJ0Uan+ox--

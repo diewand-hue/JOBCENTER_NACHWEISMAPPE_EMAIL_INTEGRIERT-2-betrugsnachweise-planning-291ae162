@@ -1,0 +1,280 @@
+Received: from DB9PR08MB9850.eurprd08.prod.outlook.com (2603:10a6:10:45d::6)
+ by AM0PR08MB3812.eurprd08.prod.outlook.com with HTTPS; Mon, 22 Jun 2026
+ 10:20:39 +0000
+Received: from DU2P250CA0025.EURP250.PROD.OUTLOOK.COM (2603:10a6:10:231::30)
+ by DB9PR08MB9850.eurprd08.prod.outlook.com (2603:10a6:10:45d::6) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.21.139.18; Mon, 22 Jun
+ 2026 10:20:38 +0000
+Received: from DB1PEPF000509F0.eurprd03.prod.outlook.com
+ (2603:10a6:10:231:cafe::95) by DU2P250CA0025.outlook.office365.com
+ (2603:10a6:10:231::30) with Microsoft SMTP Server (version=TLS1_3,
+ cipher=TLS_AES_256_GCM_SHA384) id 15.21.139.19 via Frontend Transport; Mon,
+ 22 Jun 2026 10:20:38 +0000
+Authentication-Results: spf=pass (sender IP is 165.72.200.97)
+ smtp.mailfrom=deutschepost.de; dkim=pass (signature was verified)
+ header.d=deutschepost.de;dmarc=pass action=none
+ header.from=deutschepost.de;compauth=pass reason=100
+Received-SPF: Pass (protection.outlook.com: domain of deutschepost.de
+ designates 165.72.200.97 as permitted sender)
+ receiver=protection.outlook.com; client-ip=165.72.200.97;
+ helo=gateway1b.dhl.com; pr=C
+Received: from gateway1b.dhl.com (165.72.200.97) by
+ DB1PEPF000509F0.mail.protection.outlook.com (10.167.242.74) with Microsoft
+ SMTP Server (version=TLS1_3, cipher=TLS_AES_256_GCM_SHA384) id 15.21.113.7
+ via Frontend Transport; Mon, 22 Jun 2026 10:20:37 +0000
+X-IncomingTopHeaderMarker: 
+ OriginalChecksum:DC7C1762C321BE0679FA8396ECCCE870C805416CA5CD8446BCBF3ED058205F09;UpperCasedChecksum:7ABD972AA1072A42BDC8C99B52EE93BF61D27D7E32980ABCFC03A4C4110D45F4;SizeAsReceived:1569;Count:15
+Received: from mkp-smtp-client-big-5dd7d45dcd-5h4vr ([10.183.31.140])
+	by gateway1b.dhl.com  with ESMTP id 65MAKbAW012579-65MAKbAX012579
+	for <andreasrainerschade@outlook.de>; Mon, 22 Jun 2026 10:20:37 GMT
+Date: Mon, 22 Jun 2026 12:20:37 +0200 (CEST)
+From: keine-antwort@deutschepost.de
+To: andreasrainerschade@outlook.de
+Message-ID: <386892669.89786.1782123637303@gateway.dhl.com>
+Subject: Ihr Anliegen 2606-84167030 vom 14.06.2026
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+contentType: text/html; charset=UTF-8
+X-MKP-MESSAGE-ID: MeinService#00e6z1pAAA_202606221220004510
+X-FEAS-BEC-Info: 
+ WlpIGw0aAQkEARIJHAEHBlJSCRoLAAEeDUhZUEhYSFhIWUhZXkguLT4lOyQ8JVpcWFhYX19YSFtYSAoHHQYLDUYaDRgHGhwbKAwNHRwbCwANGAcbHEYMDUhZSFtYSAkG
+ DBoNCRsaCQEGDRobCwAJDA0oBx0cBAcHA0YMDUhYSFpIWVtIWVhGWVBbRltZRllcWEhQSFhIWEhZSFhIWEhYSFtYSAkGDBoNCRsaCQEGDRobCwAJDA0oBx0cBAcHA0YM
+ DUhY
+X-FEAS-Client-IP: 10.183.31.140
+X-FE-Policy-ID: 75:1:2:SYSTEM
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; d=deutschepost.de; s=GW_UTDP_1;
+ c=relaxed/relaxed;
+ h=date:from:to:message-id:subject:mime-version:content-type;
+ bh=v1mirGAQsbgNhWsM6S71WXHJ5OW+9SHcY7zDcwGbpk4=;
+ b=Za9oFMrAMcWpltlImuflOBYoE1YYJQ1gYTvQWb+XxIvyJBgjPYrLqjbjXyJigdTABoMjfKBImQ8g
+	OJVvkPda/xFxv0ZjlW7bAbcO8FE+N19iqGuzg567SEfY5xNeXTcaAJJGDV9btjPJGH1LTMwhTPQC
+	Di6dppVwkTxIlyoCxWNTb7EhBM0XF9zB6MEU/HAkhRZAEgtq+OdD3EnWnByFL3efwIrolvhKC8sX
+	YD2AVP2tH433ZaZeFPClMH/P/1EoVXGlCrnQ6GstEHbnMBq1Kw51C0kfXIyKCcrwV+FEDK3nWXyD
+	jAjnhRfR/pRvJKVT3c9y3cYz3bIVPttI2V/Hfg==
+X-IncomingHeaderCount: 15
+Return-Path: prvs=16333c31c8=bounce.reports@deutschepost.de
+X-MS-Exchange-Organization-ExpirationStartTime: 22 Jun 2026 10:20:38.1042
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id: 
+ cdec3935-5f74-461b-c915-08ded047e7a8
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic: 
+ DB1PEPF000509F0:EE_|DB9PR08MB9850:EE_|AM0PR08MB3812:EE_
+X-MS-Exchange-Organization-AuthSource: 
+ DB1PEPF000509F0.eurprd03.prod.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-UserLastLogonTime: 6/22/2026 9:50:51 AM
+X-MS-Office365-Filtering-Correlation-Id: cdec3935-5f74-461b-c915-08ded047e7a8
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 165.72.200.97
+X-SID-PRA: KEINE-ANTWORT@DEUTSCHEPOST.DE
+X-SID-Result: PASS
+X-MS-Exchange-Organization-SCL: 1
+X-Microsoft-Antispam: 
+ BCL:0;ARA:1444111002|3151999006|47200799027|6089299003|970799063|58200799025|9400799043|16201999018|1602099012|30041999003|1370799030|1380799030|1360799030|3412199025|440099028|4302099013|26104999009;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 22 Jun 2026 10:20:37.9019
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 
+ cdec3935-5f74-461b-c915-08ded047e7a8
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-AuthSource: 
+ DB1PEPF000509F0.eurprd03.prod.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg: 
+ 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DB9PR08MB9850
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:01.2992793
+X-MS-Exchange-Processed-By-BccFoldering: 15.21.0139.008
+X-Microsoft-Antispam-Mailbox-Delivery: 
+ ucf:0;jmr:0;ex:0;auth:1;dest:I;ENG:(5062000311)(920221119095)(920221120095)(90000117)(90005022)(91005020)(91035115)(9050020)(9100341)(944500132)(2008001181)(2008121020)(4810010)(4910033)(9575002)(10195002)(9320005)(120001);
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0wO0Q9MTtHRD0xO1NDTD0z
+X-Microsoft-Antispam-Message-Info: 
+ =?utf-8?B?dEowUU5zY2tjbGNuT2RvSEoxbkFOUUJFelpiT0NjR1ZKZ1creUZmV04wQThN?=
+ =?utf-8?B?QjdLRy8xMnZkUzl5Q3o2ZS84RkJ3Q1BjTzRZd05zcy9WWi83dkh3dHpHL3Jy?=
+ =?utf-8?B?Nk1Qek5rb1o5SXNvb0ljcjhlQ0RmQmJTWUpnZXU5VWZvdE0wZFBqeS9QQnBp?=
+ =?utf-8?B?V3M3WTYrZGxYQXlUL0h6eXNjdTErUktENTZ2WlpCU1hYSXZpc1lwdHp2bEFr?=
+ =?utf-8?B?TEpiQWZRV3NkNzFMeDFsb0tDSlFQYnBtNXdnWmJaT2IzeHpsYXgyT0hlbDlT?=
+ =?utf-8?B?TDVHY2c0S1JJckVBS25jMG8xdjJaUUJnRXpaWEdTNWtiZzA2MnYwTmp2SWlN?=
+ =?utf-8?B?MUJQKzJQMTRyTHBySlcwUlZvc3FZTWs3ekkweUpNM25oRmFmTjNibUJMLzJT?=
+ =?utf-8?B?a1E2bFNheUZRdkQ1VVpDK1lndjBGYS9jYkV2SXNjd2t3MWZYcFNXMlUxSXhP?=
+ =?utf-8?B?UVlEcEFaZnRwZ2tuWEpGREpyUFVCSGZHQ0xPSklEczA0Y1BBV3p4NllEVTJN?=
+ =?utf-8?B?cnVVVzE5OXgwSjBNT1NPdDkxeXVrSWx5aFZzaTBucks2QkFsQlZDd045ZlpP?=
+ =?utf-8?B?cUF1YVRXWThXVGMrcmpNbEZqTXhBZU00Nnlzb05uTFlNcDN6K3BzaFI0UjQ5?=
+ =?utf-8?B?bFk1aG5Pc09sUWU5eTIyT0tvRk5YY3hJVGFKVUJ0OHFMa1JQUi9Ra3BUY2pk?=
+ =?utf-8?B?aTdzd2VaSTNOQ0VUUGNKaUpyTnkvNzgxcEpSMHpLVWxPbERuNXVMNDdIQWdN?=
+ =?utf-8?B?UFA4UkNFSTRjcTB4c1Y4RjJLWENhMGJheDFNRkJqR2xmME9sSmZCb2JTMGV3?=
+ =?utf-8?B?QitxUzEwVnJVNnM3QnR3WXl4eitJYlFWdWNFc294azFZTkhtMmlGWktCK2Vi?=
+ =?utf-8?B?S2dETG5mcnlxSG1sTWhzTFlyRUY2d2IvVzdiR3lhbWN2STVOYU5TbC9kNHc5?=
+ =?utf-8?B?WUllWE01czd2bFFsVmtLVzRwTjRvbzNyVVpMU0VKVTBjaktSRldvSlhhUzZ4?=
+ =?utf-8?B?cVozUVpLTW9GSU5HZ1JsZEtJSG9SYmkwSWVDc0J6b1VlRzR1Rllzb2hES3NN?=
+ =?utf-8?B?a1k4Z3lFV1QvY1pzbDZFakVSenloSTRZTDFrV3BsWEdVRjg5ZHk2ZTdncEc2?=
+ =?utf-8?B?RlJyaWdxQVlEbDNGdVZMTGdlM3E2RklCSnc0MkpJajBQNGUrN2xuYzdmYVQ4?=
+ =?utf-8?B?bUM3SXVKeGZielVZTHlCc21BQ0F4MEIrQWhoaTA1aHN2WXA1bjJuZFNvcFVs?=
+ =?utf-8?B?ZjBKWnNzUHVPT2I4SWxMUHlCSGZ0QldzUjRLOUlMOG9vM2YxdEloZHRIcUNl?=
+ =?utf-8?B?K0wrQVNuWWJhTkZMQ2pDTEQyU2JPSmN4YW8raGhRcGZTZkg1bktRZkw2UDJh?=
+ =?utf-8?B?UlBCNXc1emhBQ2cxaG5rQ3BjVVo0WTQxUUxnZTF3NUZqY0VaTldJcUpkbmlU?=
+ =?utf-8?B?YzBQSmpZalhoeFN1UFh2b3BvWk9SU2REQXVIaEp6UkhxbzdlSjByOGhKeVhD?=
+ =?utf-8?B?VUtNdDJUTjU4Lzh3L1FLVnczSjZxMnJ3S0J4cHAwV1VMSFJpWDFTeGFmTS9N?=
+ =?utf-8?B?Y2RHeDl2cmJzdm92a0ppZXlvTTN5QXhtR2IxUXlNbEQ1dXBYc0NZOWRIVHdi?=
+ =?utf-8?B?QXg5Z3NIV2FtRWlrTnoxY1dOTUUyMTNqU3o5eE96SklpY0RadjRUZHVaREJo?=
+ =?utf-8?B?NDlyaS9tYm9yRndVNXI0T2hDRkc0UVlqMmZXbzNwVnk2MkN1VUJ2UzVNQWUy?=
+ =?utf-8?B?UitJVXNGTkZvUXQvNUNiaHcxQncrWVFHUlpnQ2ZGcXJhZmtzK1JmanZkQkg2?=
+ =?utf-8?B?UFRaa0Z3QytVaCs1R2dqN28zS01mNC9SYkRLdllKbE55dlluQ2MxdmNIL0E0?=
+ =?utf-8?B?QUtuVFMzZTZMeXhnU0s1TXdTM3Mwc3BQNFJhaENsQW5MSTR3aUVqOURodE9l?=
+ =?utf-8?B?THRNUm9kUERvV1pzaGV6b0RoOE5vL25Tb2prMWVlc2ZXbGwwd0hwUFVrYWxR?=
+ =?utf-8?B?clVudnovdjByalVRWjh2OUhnc1pMQXBZUDZpdmpIeUlCQzN0SytSS3B5a1Yz?=
+ =?utf-8?B?WVR4T0JaVDZHRmR1YXlIRi85SXlkenM0WFpYT2dYdFRzcVRDODlyQXpRWHFt?=
+ =?utf-8?B?b21lbFdMWXY5L2N0L0Z0eFgxSVp4eThaTXlNNXVMbTA4dXJKUDNlUmx0Y3hq?=
+ =?utf-8?B?UUpVWHhIbHQxREg5ZjlvTFN1bGJpdVhVc0pHRHVXaU5HRnA2RmNxUTJoRTdO?=
+ =?utf-8?B?cHNLcE5rcTFlNW50OVc1bFhGRERZZW5Jc0t3RWRlL0xlSVcyUEsxT2IxbHh3?=
+ =?utf-8?B?ZVkxT3BTYm14aTltbjlGVjU3MzNjYUROTk82ZkQ0ZXFSSTNsVnJQb2RicUZj?=
+ =?utf-8?B?QXRwWm15K3dicjVCTDVpci9BLzd3TGxlSjFCaUpKRXhJVmtwZ2ZBYmZRai9s?=
+ =?utf-8?B?RlM2OVYwU3YvcWsvQ2V3QUNUbXpUK1hGUDNSUER3Z2QvMXdDdTdNZnFaRzBu?=
+ =?utf-8?B?eXpzWFZidDF6Y3FuR0czcFdXdWkremh4ZEJuK283Yjc4cGQzTlRPbmg5WUtU?=
+ =?utf-8?B?aGdJSjRNamFvQmM0YjhORGswWHRWL2xVcHl4a2xYZnhDbENjWk1JWkY3ZXlz?=
+ =?utf-8?B?VVc3MnhtUT09?=
+MIME-Version: 1.0
+
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"><t=
+itle></title><div><div><div data-tag=3D"Anrede" style=3D""><p style=3D"marg=
+in-top: 0pt; margin-bottom: 0pt;"><span>Guten Tag Andreas Schade,</span></p=
+></div></div><p style=3D"margin-top:0pt; margin-bottom:0pt"><span style=3D"=
+-aw-import:ignore">&nbsp;</span></p><div><div data-tag=3D"Einleitung" style=
+=3D""><p style=3D"margin-top: 0pt; margin-bottom: 0pt;"><span>vielen Dank f=
+=C3=BCr Ihre Nachricht.</span></p></div></div><p style=3D"margin-top: 0pt; =
+margin-bottom: 0pt;"><span style=3D"-aw-import:ignore">&nbsp;</span></p><di=
+v><div data-tag=3D"Textbaustein" style=3D""><div><p style=3D"margin-top:0pt=
+; margin-bottom:0pt">Wir bedauern sehr, dass Sie mit der aktuellen Zustellu=
+ng nicht zufrieden sind und dass Sie Ihre angek=C3=BCndigten Briefsendungen=
+ bisher nicht erhalten haben.</p><p style=3D"margin-top:0pt; margin-bottom:=
+0pt"><br></p><p style=3D"margin: 0pt 0px;">Die Briefank=C3=BCndigung wird e=
+rst erstellt, wenn Ihre Sendung bereits auf dem Weg in die Zustellung ist. =
+Dennoch kann es in einzelnen F=C3=A4llen zu Verz=C3=B6gerungen kommen, zum =
+Beispiel wenn eine Zustelltour aus betrieblichen Gr=C3=BCnden fr=C3=BCher b=
+eendet werden muss. In diesen Situationen werden betroffene Sendungen erst =
+am n=C3=A4chsten Tag weiterbearbeitet. Die genaue Ursache im Einzelfall l=
+=C3=A4sst sich leider nicht mehr nachvollziehen.</p><p style=3D"margin: 0pt=
+ 0px;"><span>&nbsp;</span></p><p style=3D"margin: 0pt 0px;"><span>Bitte bea=
+chten Sie au=C3=9Ferdem, dass =C3=BCber die Briefank=C3=BCndigung auch Send=
+ungsarten angek=C3=BCndigt werden =E2=80=93 wie zum Beispiel Dialogpost ode=
+r Warensendungen =E2=80=93, bei denen eine Zustellung innerhalb von vier We=
+rktagen nach der Einlieferung unser Qualit=C3=A4tsziel ist. Ihre Sendung ka=
+nn daher durchaus noch zeitnah eintreffen.</span></p><p style=3D"margin-top=
+:0pt; margin-bottom:0pt"><br></p><p style=3D"margin-top:0pt; margin-bottom:=
+0pt">Um unsere Zustellprozesse effizienter zu gestalten, setzen wir eine in=
+telligente Steuerung der Briefsortierung (auch A/B-Zustellung genannt) ein.=
+ Diese erm=C3=B6glicht es, Sendungen zu b=C3=BCndeln und die Zustellwege un=
+serer Zustellkraft zu optimieren.</p><p style=3D"margin-top:0pt; margin-bot=
+tom:0pt">&nbsp;</p><p style=3D"margin-top:0pt; margin-bottom:0pt">Dies kann=
+ dazu f=C3=BChren, dass die Zustellkraft nicht mehr jeden Werktag zu allen =
+Haushalten kommt und Sie Ihre gew=C3=B6hnlichen Briefe <span style=3D"font-=
+weight:bold">geb=C3=BCndelt</span> an <span style=3D"font-weight:bold">1 bi=
+s 3 Tagen pro Woche</span> erhalten.</p><p style=3D"margin-top:0pt; margin-=
+bottom:0pt">&nbsp;</p><p style=3D"margin-top:0pt; margin-bottom:0pt">Sendun=
+gen mit Zusatzleistungen, wie beispielsweise <span style=3D"font-weight:bol=
+d">Einschreiben</span>, werden weiterhin in der Regel am <span style=3D"fon=
+t-weight:bold">n=C3=A4chsten Werktag</span> zugestellt.</p><p style=3D"marg=
+in-top:0pt; margin-bottom:0pt">&nbsp;</p><p style=3D"margin-top:0pt; margin=
+-bottom:0pt">Wir haben Ihr Anliegen an die zust=C3=A4ndigen Kollegen vor Or=
+t weitergeleitet, damit der Sachverhalt gekl=C3=A4rt wird. Unser Ziel ist e=
+s, eine zuverl=C3=A4ssige Zustellung sicherzustellen und m=C3=B6gliche Abwe=
+ichungen schnell zu beheben.</p><p style=3D"margin-top:0pt; margin-bottom:0=
+pt">&nbsp;</p><p style=3D"margin-top:0pt; margin-bottom:0pt">Sollten Ihnen =
+erneut M=C3=A4ngel auffallen, bitten wir Sie, uns dies mitzuteilen. Nur so =
+k=C3=B6nnen wir gezielt nachsteuern und die Qualit=C3=A4t unserer Zustellun=
+g kontinuierlich verbessern.</p><p style=3D"margin-top:0pt; margin-bottom:0=
+pt">&nbsp;</p><p style=3D"margin-top:0pt; margin-bottom:0pt">Wenn Sie Brief=
+e vermissen, empfehlen wir Ihnen, sich zun=C3=A4chst an den Absender zu wen=
+den, da dieser einen Nachforschungsauftrag erteilen kann. Alternativ haben =
+auch Sie als Empf=C3=A4nger die M=C3=B6glichkeit, online nachzuforschen unt=
+er <a href=3D"https://www.deutschepost.de/nachforschung"><span style=3D"tex=
+t-decoration:underline; color:#0563c1">deutschepost.de/nachforschung</span>=
+</a>, sofern Sie uns die erforderlichen Informationen und gegebenenfalls Un=
+terlagen zur Verf=C3=BCgung stellen. Bitte ber=C3=BCcksichtigen Sie, dass w=
+ir f=C3=BCr Pressesendungen und Werbesendungen (z.=E2=80=AFB. Dialogpost, P=
+ostaktuell, Postwurfspezial) leider keine Recherche durchf=C3=BChren k=C3=
+=B6nnen.</p><div><p style=3D"margin-top:0pt; margin-bottom:0pt"><span style=
+=3D"-aw-import:ignore">&nbsp;</span></p><p style=3D"margin-top:0pt; margin-=
+bottom:0pt"><span>Weitere Informationen zur Briefank=C3=BCndigung finden Si=
+e unter </span><a href=3D"https://www.deutschepost.de/briefankuendigung" st=
+yle=3D"text-decoration:none"><span style=3D"text-decoration:underline; colo=
+r:#0000ff">deutschepost.de/briefankuendigung</span></a></p><p style=3D"marg=
+in-top:0pt; margin-bottom:0pt"><br></p><p style=3D"margin-top:0pt; margin-b=
+ottom:0pt">Ihr Anliegen bez=C3=BCglich des Postfachs, haben wir an unser Ex=
+pertenteam zur abschlie=C3=9Fenden Bearbeitung weitergeleitet. Sie erhalten=
+ von dort direkt eine Antwort. Bitte haben Sie bis dahin ein bisschen Gedul=
+d.</p><div><p style=3D"margin-top:0pt; margin-bottom:0pt">&nbsp;</p><p styl=
+e=3D"margin-top:0pt; margin-bottom:0pt">Vielen Dank f=C3=BCr Ihr Verst=C3=
+=A4ndnis.</p><p style=3D"margin-top:0pt; margin-bottom:0pt">&nbsp;</p><p st=
+yle=3D"margin-top:0pt; margin-bottom:0pt"><span style=3D"font-weight:bold">=
+F=C3=BCr Ihren Datenschutz:</span></p><p style=3D"margin-top:0pt; margin-bo=
+ttom:0pt">Wir weisen darauf hin, dass wir Ihre Daten zur Bearbeitung Ihres =
+Anliegens in unseren Kundensystemen erfassen. Nach Abschluss der Bearbeitun=
+g werden diese Daten auf Basis eines berechtigten Interesses in der Regel b=
+is zu 2 Jahre gespeichert und dann von uns gel=C3=B6scht. Weitere Informati=
+onen finden Sie im Internet unter <a href=3D"https://www.deutschepost.de/da=
+tenschutz"><span style=3D"text-decoration:underline; color:#0563c1">deutsch=
+epost.de/datenschutz</span></a>.</p></div></div></div></div></div><p style=
+=3D"margin-top: 0pt; margin-bottom: 0pt;"><span style=3D"-aw-import:ignore"=
+>&nbsp;</span></p><div><div data-tag=3D"Schlusssatz" style=3D""><p style=3D=
+"margin-top: 0pt; margin-bottom: 0pt;"><span>Wenn Sie hierzu Fragen haben, =
+dann melden Sie sich einfach =E2=80=93 wir sind gerne f=C3=BCr Sie da. Dami=
+t wir Ihr Anliegen schneller bearbeiten k=C3=B6nnen, nennen Sie uns bitte d=
+ie Anliegennummer 2606-84167030.</span></p></div></div><p style=3D"margin-t=
+op: 0pt; margin-bottom: 0pt;"><span style=3D"-aw-import:ignore">&nbsp;</spa=
+n></p><div><div data-tag=3D"Gru=C3=9Fformel" style=3D""><div style=3D"-aw-s=
+dt-tag:'Gru=C3=9Fformel'; -aw-sdt-title:'Gru=C3=9Fformel'"><p style=3D"marg=
+in-top: 0pt; margin-bottom: 0pt; text-align: justify;"><span>Beste Gr=C3=BC=
+=C3=9Fe</span></p><p style=3D"margin-top: 0pt; margin-bottom: 0pt; text-ali=
+gn: justify;"><span style=3D"-aw-import:ignore">&nbsp;</span></p><p style=
+=3D"margin-top: 0pt; margin-bottom: 0pt;"><span>Ihr Deutsche Post Kundenser=
+vice Team </span></p></div></div></div><p style=3D"margin-top: 0pt; margin-=
+bottom: 0pt;"><span style=3D"-aw-import:ignore">&nbsp;</span></p><p style=
+=3D"margin-top: 0pt; margin-bottom: 0pt;"><span style=3D"-aw-import:ignore"=
+>&nbsp;</span></p><p style=3D"margin-top: 0pt; margin-bottom: 0pt;"><span s=
+tyle=3D"font-weight:bold; color:#211d1e">Deutsche Post AG</span></p><p styl=
+e=3D"margin-top: 0pt; margin-bottom: 0pt;"><span style=3D"color:#211d1e">Ku=
+ndenservice</span></p><p style=3D"margin-top: 0pt; margin-bottom: 0pt;"><sp=
+an style=3D"color:#211d1e">53247 Bonn</span></p><p style=3D"margin-top: 0pt=
+; margin-bottom: 0pt;"><span style=3D"color:#211d1e">Deutschland </span></p=
+><p style=3D"margin-top: 0pt; margin-bottom: 0pt;"><span style=3D"-aw-impor=
+t:ignore">&nbsp;</span></p><p style=3D"margin-top: 0pt; margin-bottom: 0pt;=
+"><a href=3D"https://www.deutschepost.de" style=3D"text-decoration:none"><s=
+pan style=3D"text-decoration:underline; color:#0563c1">deutschepost.de</spa=
+n></a></p><p style=3D"margin-top: 0pt; margin-bottom: 0pt;"><a href=3D"http=
+s://www.deutschepost.de" style=3D"text-decoration:none"></a><span style=3D"=
+-aw-import:ignore">&nbsp;</span></p><p style=3D"margin-top: 0pt; margin-bot=
+tom: 0pt;"><span>DHL Group </span></p><p style=3D"margin-top: 0pt; margin-b=
+ottom: 0pt;"><span style=3D"-aw-import:ignore">&nbsp;</span></p><p style=3D=
+"margin-top: 0pt; margin-bottom: 0pt;"><span>Deutsche Post AG; Sitz Bonn; R=
+egistergericht Bonn; HRB 6792</span></p><p style=3D"margin-top: 0pt; margin=
+-bottom: 0pt;"><span style=3D"-aw-import:ignore">&nbsp;</span></p><p style=
+=3D"margin-top: 0pt; margin-bottom: 0pt;"><span>Vorstand: Dr. Tobias Meyer,=
+ Vorsitzender; Oscar de Bok, Pablo Ciano, Nikola Hagleitner, Melanie Kreis,=
+ Dr. Thomas Ogilvie, John Pearson, Hendrik Venter</span></p><p style=3D"mar=
+gin-top: 0pt; margin-bottom: 0pt;"><span style=3D"-aw-import:ignore">&nbsp;=
+</span></p><p style=3D"margin-top: 0pt; margin-bottom: 0pt;"><span>Vorsitze=
+nde des Aufsichtsrates: Dr. Katrin Suder</span></p><p style=3D"margin-top: =
+0pt; margin-bottom: 0pt;"><span style=3D"color:#211d1e; -aw-import:ignore">=
+&nbsp;</span></p><p style=3D"margin-top: 0pt; margin-bottom: 0pt;"><span>Di=
+es ist eine Nachricht von der Deutsche Post AG. Sie kann vertrauliche firme=
+ninterne Informationen enthalten und ist ausschlie=C3=9Flich f=C3=BCr die o=
+ben adressierte Einzelperson bestimmt. Sind Sie nicht der beabsichtigte Emp=
+f=C3=A4nger, bitten wir Sie, den Sender zu informieren und die Nachricht so=
+wie deren Anh=C3=A4nge zu l=C3=B6schen. Unzul=C3=A4ssige Ver=C3=B6ffentlich=
+ungen, Verwendungen, Verbreitung, Weiterleitung sowie das Drucken oder Kopi=
+eren dieser E-Mail und ihrer verkn=C3=BCpften Anh=C3=A4nge sind strikt unte=
+rsagt. </span></p><p style=3D"margin-top: 0pt; margin-bottom: 0pt;"><span s=
+tyle=3D"-aw-import:ignore">&nbsp;</span></p><p style=3D"margin-top: 0pt; ma=
+rgin-bottom: 0pt;"><span style=3D"font-weight:bold; font-style:italic; colo=
+r:#666666">GO</span><span style=3D"font-weight:bold; font-style:italic; col=
+or:#007c39">GREEN </span><span style=3D"font-weight:bold; color:#007c39">=
+=E2=80=93 Klima sch=C3=BCtzen mit der Deutschen Post</span></p></div>

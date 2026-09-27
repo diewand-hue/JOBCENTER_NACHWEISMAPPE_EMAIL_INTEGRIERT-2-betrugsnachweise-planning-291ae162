@@ -1,0 +1,463 @@
+Received: from 127.0.0.1
+ by atlas-production.v2-mail-prod1-ir2.omega.yahoo.com pod-id
+ atlas--production-ir2-64b4ffbb96-vqdpk.ir2.yahoo.com with HTTP;
+ Wed, 27 May 2026 14:33:57 +0000
+Return-Path: <prvs=1607e33423=service-shop@deutschepost.de>
+X-Originating-Ip: [165.72.200.98]
+Received-SPF: pass (domain of deutschepost.de designates 165.72.200.98 as
+ permitted sender)
+Authentication-Results: mta.yahoo.com;
+ dkim=pass header.i=@deutschepost.de header.s=GW_UTDP_1
+ arc_overridden_status=NOT_OVERRIDDEN;
+ spf=pass smtp.mailfrom=deutschepost.de arc_overridden_status=NOT_OVERRIDDEN;
+ dmarc=pass(p=REJECT) header.from=deutschepost.de
+ arc_overridden_status=NOT_OVERRIDDEN;
+X-Apparently-To: andi_schade@yahoo.de; Wed, 27 May 2026 14:33:57 +0000
+X-YMailISG: ZmaGVN0WLDvSXTcFvOQeAm5VfLfmhPnE1tiXZ17yuT0IFt_Z
+ RjG_.QvPWoAv.kP0sDDYNvtdDWkS9Xvv3L3KN1d7LKmzN5ze2_xkpNKSFudh
+ QOY93ABj._Ec9nEdGiU09szDoXGJmZvIV41SESQYEFt0pQ83l0HbrdFb2I6y
+ KJal0COpyEzzbM6U0G8BsdWVKCq4zzg55jtHj55q5PdFgUi.0O1yA3RTJS_4
+ 3gQwZpoUlr12iHp_5hzGGYedDEWR7GfF6Hmen_CvvSEaeSIBbh_F9l0DNv3j
+ khIKMGXMG.AqjlFubRHp.giJaJhPmNKi2sqvmQ7D4WCoPFfelP84zkpvSbof
+ u2eiFazP51ZuWa39AyLrv.0nZx1vpcIzbFMIh9ymM1ouBp2H9ixN1X5g48h6
+ ia.RbTGYesNnwLBoH.l6xy_.R_WWqho6Q3hOmnakoxIMKmrG6uIg0FeP9EQ9
+ yUyCdWwGaOpQiPgnIV4DzfhUCYb.0e1r0nS9Uvf0L1Ko82.gQF_vjbvCtu7R
+ 3yVyN.JJEzTzDJqSlfxQvY73ZPlOW9NKUMKI48Fd2M7ZHhqXJR_06YcofbxQ
+ HBDmdXVqcj.k5WUXkQTx6ofpth_DfWk0dWy1UV9kDnuWKe2C4.N_gGsx_fl6
+ 5tzkLsqln7sHhqcQoCBNnK48UCmuThEzVK5miipXI2j1LPEiLKMKbd0_bRKj
+ XJNOIufXRSGbQlicEmwv7GbbapROkWaUMyrH.bac6husm56KeiQjzSTUEHmm
+ Xpm19DUWPpny_PjXf57baNwn0CYuUZIYYbx6QeBAe6bPnpe1.ALDz.VPD7Uy
+ DuTDAZqdvo9gBBhlexXImckbdK050LOw_H3Pd.ROC8k.Ya5E1QbCIRXNQsd1
+ mz.KlMA6jGs3vArq36xc5QLI9SzdeK6_PEilsSVz2tFyDRIeParmYxGKJQZw
+ TYHmMj9fdhvbu6rmDDPfePoKwCVLrpuhyLTYWhvW3q4PqkQOAYenaDEhThqN
+ SHSmllCQoqSK9gxXAkQsnIFQrVR.nf4rlMSnsrT__OmBRjM3ElZWt_YqG.V3
+ hZ54rRHgOIqSwvcFUSFrQfViGgBJHLC48kaBP.KUyfo_t8_0lKKqNLCvIrBd
+ QUuGxOLz.55TfonVyY4eTUo8
+Received: from 165.72.200.98 (EHLO gateway1c.dhl.com)
+ by 10.200.77.175 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Wed, 27 May 2026 14:33:57 +0000
+Received: from EFIL-PROD-APP-04.localdomain ([10.188.228.212])
+	by gateway1c.dhl.com  with ESMTP id 64REXucP027617-64REXucQ027617
+	for <andi_schade@yahoo.de>; Wed, 27 May 2026 14:33:56 GMT
+Received: from EFIL-PROD-APP-04.deutschepost.dpwn.com (localhost [127.0.0.1])
+	by EFIL-PROD-APP-04.localdomain (Postfix) with ESMTP id C5BA920908
+	for <andi_schade@yahoo.de>; Wed, 27 May 2026 16:33:56 +0200 (CEST)
+Date: Wed, 27 May 2026 16:33:56 +0200 (CEST)
+From: service-shop@deutschepost.de
+Reply-To: service-shop@deutschepost.de
+To: andi_schade@yahoo.de
+Message-ID: 
+ <744812865.20266.1779892436809@efil-prod-app-04.deutschepost.dpwn.com>
+Subject: Herzlich willkommen im Shop der Deutschen Post
+MIME-Version: 1.0
+Content-Type: text/html; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+X-FEAS-BEC-Info: 
+ WlpIGw0aAQkEARIJHAEHBlJSCRoLAAEeDUhZUEhYSFhIWUhZXkguLT4lOyQ8JVpcWFhYX19ZSFpQSBsNGh4BCw1FGwAHGCgMDR0cGwsADRgHGxxGDA1IWUhaWEgJBgwB
+ NxsLAAkMDSgRCQAHB0YMDUhYSFpIWVxIWVhGWVBQRlpaUEZaWVpIUEhYSFhIWUhYSFhIWEhaWEgJBgwBNxsLAAkMDSgRCQAHB0YMDUhY
+X-FEAS-Client-IP: 10.188.228.212
+X-FE-Policy-ID: 59:1:2:SYSTEM
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; d=deutschepost.de; s=GW_UTDP_1;
+ c=relaxed/relaxed;
+ h=date:from:reply-to:to:message-id:subject:mime-version:content-type;
+ bh=aeR/nzJ3iUbCxmbubUawAiMzZEW0uym9F4sNMPcx84Q=;
+ b=T5DW4sfDynBtmZE2+6DRHTrR/thEu0v8Qri2vU8QGyOiqXUIUlBUmZ1E23/WpwP6JLsXTYBiXCEw
+	20lAsA76y6/Xma/4AHkfRd4MWEs/Yqb3YQFtMTiHn6HNc5Bd+fL+a/Mt9B8qcjSBSBOqQnVX+F1A
+	0yOZhhPcnkibt/Pp9dgFa5JGprLSof/EfG+ZWYwXRmyiw1k9SxZVGLoK3kNU8a9pHQmLYyJ0SYmU
+	L0AKqxBHFc4NaocYUkW3OaP/ovQaVDCBEIzbogrOwz89dHLIoy4bAAkt9dJN9v1st/nBcKkgX0zp
+	RtMCOSIpKr8bTtH0JAeDdbl1/bWVXKsXrjj3+g==
+Content-Length: 8614
+
+
+
+
+
+
+   =20
+
+   =20
+
+
+
+
+<html>
+<head>
+    <meta name=3D"copyright" content=3D"(c) 2022 Deutsche Post AG">
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width">
+   =20
+
+
+
+<style type=3D"text/css">
+<!--
+    html, body {
+        background-color: white;
+        color: #333333;
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        font-weight: normal;
+        line-height: 22px; }
+
+    td {
+        font-family: Arial, sans-serif;
+        font-size: 15px;
+        line-height: 22px;
+        vertical-align: top; }
+
+    p { margin: 0; padding: 0; }
+    p.h1 { font-size: 26px; margin-bottom: 22px; }
+    h1.h1 { font-size: 26px; margin-bottom: 22px; }
+    a { color: #333333 !important; }
+    a.mediumgrey { color: #9C9C9C !important; text-decoration: none; }
+    img { border: 0; }
+    tr.lightgrey-bg, td.lightgrey-bg { background-color: #F3F3F3; }
+    td.mediumgrey { color: #9C9C9C; }
+    td.small, p.small { font-size: 11px; line-height: 16px; color: #737373;=
+ }
+    @media only screen and (max-width: 596px) {
+        .show-for-large { display: none !important; }
+        table .show-for-large {
+            width: 0;
+            mso-hide: all;
+            overflow: hidden; }
+    }
+
+    sup, sub  {=09color: #666666; font-size: 0.8em; line-height: 100%;}
+    .discount {=09text-decoration: line-through;=09color: #666666;}
+
+    table.admin, table.admin th, table.admin td { border: 1px solid lightgr=
+ey; }
+    table.admin th, table.admin td { text-align: center; vertical-align: mi=
+ddle; }
+
+    .teaserbutton{
+    margin: 5px;
+    padding: 5px;
+    vertical-align: top;
+    display:inline-block;
+    line-height: 20px;
+       font-size: 16px;
+       font-weight:bold;
+       min-width: 107px;
+       background: #F3F3F3;
+       padding: 10px;
+       border-radius: 4px;
+       color: rgba(0,0,0,0.9);
+       }
+       .dhl-header{
+       background:#ffcc00;
+       padding:5px;
+       }
+
+-->
+</style>
+
+
+
+</head>
+<body>
+    <table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0">
+        <tr>
+            <td>
+                <table width=3D"600" cellpadding=3D"0" cellspacing=3D"0" bo=
+rder=3D"0" align=3D"center">
+                    <tr>
+                        <td>
+                            <table id=3D"header" width=3D"600" cellpadding=
+=3D"0" cellspacing=3D"0" border=3D"0" align=3D"center">
+                                <tr>
+                                    <td>
+                                        <img src=3D"https://shop.deutschepo=
+st.de/shop/images/mailing/header.png"
+                                             border=3D"0" alt=3D"Shop der D=
+eutschen Post mit Posthorn"
+                                             style=3D"display: block;">
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                   =20
+                       =20
+                   =20
+
+
+    <tr>
+        <td height=3D"30"></td>
+    </tr>
+
+
+                   =20
+
+
+
+
+            <tr>
+                <td>
+                    <table width=3D"540" cellpadding=3D"0" cellspacing=3D"0=
+" border=3D"0" align=3D"center">
+                        <tr>
+                            <td>
+                               =20
+                                   =20
+                                       =20
+                                           =20
+                                               =20
+                                                    <p><strong>Guten Tag  A=
+ndreas Schade,</strong></p>
+<p>&nbsp;</p>
+<p>vielen Dank f=FCr Ihre Registrierung! Wir freuen uns, Sie im Online-Shop=
+ der Deutschen Post begr=FC=DFen zu d=FCrfen.</p>
+<p>&nbsp;</p>
+<p>Zuk=FCnftig k=F6nnen Sie sich mit Ihrer E-Mail-Adresse und Ihrem Passwor=
+t im Shop der Deutschen Post anmelden.</strong></p>
+<p>&nbsp;</p>
+<p>Ab sofort k=F6nnen Sie Ihre pers=F6nlichen Einstellungen, Merklisten, Za=
+hlungsmittel und Lieferadressen direkt =FCber Ihr <a href=3D"https://shop.d=
+eutschepost.de/shop/login_page.jsp?redirectionURL=3D/shop/kundenkonto/index=
+.jsp">pers=F6nliches Kundenkonto</a> verwalten. Dort finden Sie auch eine =
+=DCbersicht =FCber all Ihre Bestellungen, Rechnungen und Retouren.</p>
+                                               =20
+                                           =20
+                                       =20
+                                   =20
+                               =20
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+   =20
+       =20
+   =20
+
+
+
+
+
+
+
+=09=09=09=09
+
+=09
+
+
+
+    <tr>
+        <td height=3D"20"></td>
+    </tr>
+
+
+<tr>
+=09<td>
+=09=09<table width=3D"540" cellpadding=3D"0" cellspacing=3D"0" border=3D"0"=
+ align=3D"center">
+=09=09=09<tr>
+=09=09=09=09<td>
+=09=09=09=09=09
+=09=09=09=09=09=09
+=09=09=09=09=09=09
+=09=09=09=09=09=09
+=09=09=09=09=09
+=09=09=09=09=09=09
+=09=09=09=09=09=09
+=09=09=09=09=09=09
+=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09<p>F=FCr R=FCckfragen an unser Service Center nutze=
+n Sie bitte unser Kontaktformular unter <a href=3D"https://shop.deutschepos=
+t.de/shop/infocenter/kontakt.jsp" title=3D"Kontaktformular Shop">shop.deuts=
+chepost.de/kontakt</a>, so dass wir Ihr Anliegen zielgerichtet bearbeiten k=
+=F6nnen.</p>
+<p>&nbsp;</p>
+<p>Mit freundlichen Gr=FC=DFen</p>
+<p>&nbsp;</p>
+<p>Ihr Shop der Deutschen Post</p>
+=09=09=09=09=09=09=09
+=09=09=09=09=09=09
+=09=09=09=09=09
+=09=09=09=09</td>
+=09=09=09</tr>
+=09=09</table>
+=09</td>
+</tr>
+
+
+   =20
+
+
+
+    <tr>
+        <td height=3D"20"></td>
+    </tr>
+
+
+
+
+   =20
+   =20
+   =20
+
+   =20
+   =20
+   =20
+   =20
+
+
+
+
+
+
+    <!-- Spacer //-->
+    <tr>
+        <td height=3D"1" bgcolor=3D"#dddddd"></td>
+    </tr>
+    <!-- // Spacer -->
+
+
+
+
+
+<tr>
+=09<td>
+=09=09<table width=3D"540" cellpadding=3D"0" cellspacing=3D"0" border=3D"0"=
+ align=3D"center">
+=09=09=09
+=09=09=09=09
+=09=09=09
+
+
+    <tr>
+        <td height=3D"20"></td>
+    </tr>
+
+
+=09=09=09<tr>
+=09=09=09=09<td>
+=09=09=09=09=09
+=09=09=09=09=09=09
+=09=09=09=09=09=09
+=09=09=09=09=09=09
+=09=09=09=09=09
+=09=09=09=09=09=09
+=09=09=09=09=09=09
+=09=09=09=09=09=09
+=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09<p>
+  <strong>Deutsche Post AG</strong><br />
+  Service- und Versandzentrum<br />
+  92631 Weiden</p>
+<p>&nbsp;</p>
+<p>E-Mail: <a href=3D"mailto:service-shop@deutschepost.de?cid=3Dkumigr_2210=
+_01" style=3D"text-decoration: none;">service-shop@deutschepost.de</a></p>
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09
+=09=09=09=09=09=09
+=09=09=09=09=09
+=09=09=09=09</td>
+=09=09=09</tr>
+=09=09=09
+=09=09=09=09
+=09=09=09
+
+
+    <tr>
+        <td height=3D"20"></td>
+    </tr>
+
+
+=09=09</table>
+=09</td>
+</tr>
+
+
+
+
+
+
+    <!-- Spacer //-->
+    <tr>
+        <td height=3D"1" bgcolor=3D"#dddddd"></td>
+    </tr>
+    <!-- // Spacer -->
+
+
+
+
+
+<tr>
+    <td>
+        <table width=3D"540" cellpadding=3D"0" cellspacing=3D"0" border=3D"=
+0" align=3D"center">
+           =20
+               =20
+           =20
+
+
+    <tr>
+        <td height=3D"20"></td>
+    </tr>
+
+
+            <tr>
+                <td class=3D"mediumgrey">
+                    =20
+                    =09
+                       =20
+                    =20
+                    =09
+                        &copy; 2025 Deutsche Post AG<br />
+<div style=3D"font-size:12px; line-height:16px; margin:10px 0">
+ Sitz Bonn; Registergericht Bonn; HRB 6792<br />
+ Vorstand: Dr. Tobias Meyer, Vorsitzender; Oscar de Bok, Pablo Ciano, Nikol=
+a Hagleitner, Melanie Kreis, Dr. Thomas Ogilvie, John Pearson, Hendrik Vent=
+er<br />
+ Vorsitzende des Aufsichtsrates: Dr. Katrin Suder
+</div>
+<a href=3D"https://www.deutschepost.de" class=3D"mediumgrey">Deutsche Post =
+Webseite</a> | <a href=3D"https://www.deutschepost.de/de/f/footer/impressum=
+.html" class=3D"mediumgrey">Impressum</a> | <a href=3D"https://www.deutsche=
+post.de/datenschutzerklaerung/shopdeutschepost-de" class=3D"mediumgrey">Dat=
+enschutz</a>
+                    =20
+                </td>
+            </tr>
+           =20
+               =20
+           =20
+
+
+    <tr>
+        <td height=3D"30"></td>
+    </tr>
+
+
+        </table>
+    </td>
+</tr>
+
+
+                   =20
+                    </table>
+                </td>
+            </tr>
+        </table>
+
+    </body>
+</html>
+
+

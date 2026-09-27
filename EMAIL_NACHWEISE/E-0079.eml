@@ -1,0 +1,436 @@
+Received: from 127.0.0.1
+ by atlas-production.v2-mail-prod1-ir2.omega.yahoo.com pod-id
+ atlas--production-ir2-795874b9-kctz9.ir2.yahoo.com with HTTP;
+ Wed, 3 Jul 2024 09:15:46 +0000
+Return-Path: <cfr@residea.de>
+X-Originating-Ip: [192.162.217.190]
+Received-SPF: pass (domain of residea.de designates 192.162.217.190 as
+ permitted sender)
+Authentication-Results: atlas-production.v2-mail-prod1-ir2.omega.yahoo.com;
+ dkim=pass header.i=@Residea.de header.s=mailanyone20220616;
+ spf=pass smtp.mailfrom=residea.de;
+ dmarc=pass(p=REJECT) header.from=Residea.de;
+X-Apparently-To: andi_schade@yahoo.de; Wed, 3 Jul 2024 09:15:46 +0000
+X-YMailISG: omLoVZAWLDuzmJM.oejl591xtdIVpJhM5YS_doV3Hi3Rd2Qh
+ 84isJ10I26hkFgmGgkExJp0SyC.JLIulj34KrdRmBVrdLbf4c0JzdFifqCvi
+ ukV7JIVxy3CrVLFl1Cz_gxumyL34ThdLs.J1d3aCCuxPtK8aDVywElCLcofX
+ 5ysxj5IZBY5gPWPTqme1iCuAU_MVYlXfa3K15nBBvbWSPeJTe7oNpUb2OfF9
+ Kgmg5DrjMX3Ljwo4ExF9R.zdFqTu5SAKkO8bBGHoz8rMm.EW.zlUsMpmJGBL
+ 8200G.Vg.r0LS7GyWfirf7sgOACosxNpdWtCvoDZFQ60zeIQ2en3nPlMpfpz
+ mJ_VaG1R3F.yjena55xTq47h3ByrU6CS9LVEoUO2twXh5ZzZb6swtmvKxOKk
+ .B1cOVC_qo1Hy48hqlQksQu03oKHHlQY4URXmGKocrd293LmIdJP2DrzF8Eh
+ qF.Y_1O3tAF2eEoFAfuIrUZZ4OK_LY7vqUBHusRqBso3q_trHZfu7a8lIGDH
+ oAYud2e5zUNS10AINYHL8ICRVlXHC8lBhOo3p6wHE.RmftPAGDfLt1VVPt0C
+ PH_Mvj7rejo8Zx09q6oNw1btAVznQHpUw9IhB54UkgTcByc.ZuBGob.LDO7j
+ 1PZaLnoNHforvB0IJIZpf3880DRu9nkVfPbm0zhgZZ.jCBzMtyquCa9nptaj
+ jPdrxo6og2j1Ck4OiDdrjtfRIi4rMqz8nsiVMOJoaZUWjTFWs7rJz0WSql.z
+ 0eLTHokvxHgSTxGLpTNXSaTLId7hADGxm81lx.t68BvpN_UQtHo9UHbsJNqp
+ QWvpkHhA.V_eodD__1xygwsOIYQoh3wLGgzzIieCCQrU0fmulB3vj7o8SKN7
+ uu7eIquMOevUAEy6ZZvKCyaVG3eUVwJlXmJubuduINEYcjVhB5FgrMCxQ9ZN
+ mgFqesrMXyYgbxNthSmdn4V7HKFByt9KOoYA.QqwM1fyq4WG.2POWwQsLt3I
+ rlilMlrU6Ce5UC0.W5SY_Jlt_tPiTtN..eXYUkFUIVwFvAaGsxrv3hNbAtkK
+ BnyJUoX_ZSFtSAekUriHcuUvlVupllgXz6F5GZcndFd2sL1HVuxGwm7WjooN
+ zFChJ3vPOSLe1zH7Q8F4Ti8ei9JvFxmsS833.QsttWNhwJIPNf0nQAwEcmBG
+ MUimKcwWcUiXsQ4wWTL6Ue8ARzEA5Vpk3vt.CO_s5h1y3tcI5AZfofMz9igz
+ BJl7sB.3xp305HyifuGnF5GFwlFDbhQ0netyEFDIpQnM1V_lF6nq4HV9XJYD
+ XoaRJ.IdipUXaw8efj_k80vK63OQYOSrIjvtR.PdnbJXGNI7x8B.HKWbivEu
+ 38Ygn1DeA9M7oQIQMgtZ549yACDfCwyGT3lHNMJE5QTzvO0Jn.WwOEUE7w--
+Received: from 192.162.217.190 (EHLO smtp-out6.electric.net)
+ by 10.200.78.184 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Wed, 03 Jul 2024 09:15:46 +0000
+Received: from 1sOw5Z-0006M2-Ui by out6f.electric.net with emc1-ok (Exim
+ 4.96.1)
+	(envelope-from <cfr@Residea.de>)
+	id 1sOw5Z-0006Pd-Vs
+	for andi_schade@yahoo.de;
+	Wed, 03 Jul 2024 02:15:45 -0700
+Received: by emcmailer; Wed, 03 Jul 2024 02:15:45 -0700
+Received: from [87.138.153.171] (helo=mail.residea.de)
+	by out6f.electric.net with esmtps  (TLS1.2) tls
+ TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.96.1)
+	(envelope-from <cfr@Residea.de>)
+	id 1sOw5Z-0006M2-Ui
+	for andi_schade@yahoo.de;
+	Wed, 03 Jul 2024 02:15:45 -0700
+Received: from BER-EX02.residea.local (192.168.29.17) by
+ BER-EX02.residea.local (192.168.29.17) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.2.1258.34; Wed, 3 Jul 2024 11:15:45 +0200
+Received: from BER-EX02.residea.local ([fe80::16ff:4d42:1e19:7609]) by
+ BER-EX02.residea.local ([fe80::16ff:4d42:1e19:7609%13]) with mapi id
+ 15.02.1258.034; Wed, 3 Jul 2024 11:15:45 +0200
+From: Charlotte Fritzen <cfr@Residea.de>
+To: "andi_schade@yahoo.de" <andi_schade@yahoo.de>
+Subject: 
+ =?iso-8859-1?Q?1087-004-0048,_10243_Berlin,_Gubener_Stra=DFe_53_a,_Unerla?=
+ =?iso-8859-1?Q?ubte_Untervermietung?=
+Thread-Topic: 
+ =?iso-8859-1?Q?1087-004-0048,_10243_Berlin,_Gubener_Stra=DFe_53_a,_Unerla?=
+ =?iso-8859-1?Q?ubte_Untervermietung?=
+Thread-Index: AdrNJ8ZmTykbsRaiSA6S6zuuqI2FlA==
+Date: Wed, 3 Jul 2024 09:15:44 +0000
+Message-ID: <35b73d21424a413fb9232dd8bee833e1@Residea.de>
+Accept-Language: de-DE, en-US
+Content-Language: de-DE
+X-MS-Has-Attach: yes
+X-MS-TNEF-Correlator: 
+x-originating-ip: [192.168.29.130]
+Content-Type: multipart/related;
+	boundary="_004_35b73d21424a413fb9232dd8bee833e1Resideade_";
+	type="multipart/alternative"
+MIME-Version: 1.0
+X-Outbound-IP: 87.138.153.171
+X-Env-From: cfr@Residea.de
+X-Proto: esmtps
+X-Revdns: p578a99ab.dip0.t-ipconnect.de
+X-HELO: mail.residea.de
+X-TLS: TLS1.2:ECDHE-RSA-AES256-GCM-SHA384:256
+X-Authenticated_ID: 
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; d=Residea.de;
+ s=mailanyone20220616;h=MIME-Version:Message-ID:Date:To:From;
+ bh=szTzlnKskohZ7bTDPUR5BiNUl/r+A2Xj8zwfnBnTFYk=;b=OF0Tz6Hks4cFxwdnrOuktA2r/R9tDwuGI59VmLju/25OoN8Ttig/C0g8xJPI0xqCM6LyMdkEzi8Ku285Xp0DsV504fn8/6Z0B52hvelewKRV72FnkhCRugOj/pJSKZGNiJmaD+R3NVkujWI+Mvu9aSdGk/EGBCvWMt5WNk3xJNE=;
+X-PolicySMART: 25106438, 27758437
+X-VIPRE-Scanners: virus_clamav;virus_bd;
+Content-Length: 18303
+
+--_004_35b73d21424a413fb9232dd8bee833e1Resideade_
+Content-Type: multipart/alternative;
+	boundary="_000_35b73d21424a413fb9232dd8bee833e1Resideade_"
+
+--_000_35b73d21424a413fb9232dd8bee833e1Resideade_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Sehr geehrter Herr Schade,
+
+
+
+wir wurden dar=FCber in Kenntnis gesetzt, dass Sie die von Ihnen gemietete =
+2-Zimmer-Wohnung (ca. 58,44 m=B2 gro=DF) an eine uns bisher unbekannte Pers=
+onen untervermietet haben. Uns liegt kein Antrag auf Untervermietung oder G=
+ebrauchs=FCberlassung an Dritte vor.
+
+
+
+Wir nehmen Bezug auf =A7 17 Nr. 1 des mit Ihnen bestehenden Mietvertrages v=
+om 18.06.2009 i.V.m. =A7=A7 540, 553 BGB. Danach ist der Mieter ohne die Er=
+laubnis des Vermieters nicht berechtigt, den (auch teilweisen) Gebrauch der=
+ Mietsache einem Dritten zu =FCberlassen. Die Gebrauchs=FCberlassung an ein=
+en Dritten ohne vorherige Erlaubnis ist von dem vertragsgem=E4=DFen Gebrauc=
+h der Mietsache nicht gedeckt und begr=FCndet einen erheblichen Versto=DF d=
+es Mieters gegen die ihm obliegenden mietvertraglichen Pflichten.
+
+
+
+Namens und in Vollmacht der White Tulip S.=E0 r.l. fordern wir Sie auf, zur=
+ unbefugten Gebrauchs=FCberlassung der Mietsache an Dritte, bis zum 19.07.2=
+024 Stellung zu nehmen.
+
+
+Sollten Sie die o.g. Frist fruchtlos verstreichen lassen und die vertragswi=
+drige Nutzung fortsetzen, w=E4re Ihr Vermieter gezwungen, das bestehende Mi=
+etverh=E4ltnis fristlos bzw. hilfsweise fristgem=E4=DF zu k=FCndigen.
+
+
+Mit freundlichen Gr=FC=DFen | Best regards
+
+
+Charlotte Fritzen
+Hausverwaltung I Property Management
+
+[cid:image001.jpg@01DACD3A.58A470E0]
+
+RESIDEA Immobilien Management GmbH
+Heinrich-Heine-Stra=DFe 15 =B7 D-10179 Berlin
+
+
+F +49  30 549 0640 99
+cfr@Residea.de
+www.residea.de<http://www.residea.de>
+
+Sitz der Gesellschaft: Berlin | Registergericht: Amtsgericht Charlottenburg=
+ HRB 100625 B | Gesch=E4ftsf=FChrer: Benjamin Lehrecke, Katharina Sebening
+
+
+--_000_35b73d21424a413fb9232dd8bee833e1Resideade_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<!--[if !mso]><style>v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style><![endif]--><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Verdana;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:Aptos;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	font-size:11.0pt;
+	font-family:"Aptos",sans-serif;
+	mso-ligatures:standardcontextual;
+	mso-fareast-language:EN-US;}
+span.E-MailFormatvorlage17
+	{mso-style-type:personal-compose;
+	font-family:"Arial",sans-serif;
+	color:black;
+	font-weight:normal;
+	font-style:normal;
+	text-decoration:none none;}
+p.Datenblock, li.Datenblock, div.Datenblock
+	{mso-style-name:Datenblock;
+	mso-style-priority:99;
+	margin:0cm;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Arial",sans-serif;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:11.0pt;
+	mso-fareast-language:EN-US;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:70.85pt 70.85pt 2.0cm 70.85pt;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang=3D"DE" link=3D"#467886" vlink=3D"#96607D" style=3D"word-wrap:bre=
+ak-word">
+<div class=3D"WordSection1">
+<p class=3D"Datenblock" style=3D"text-align:justify"><span style=3D"font-si=
+ze:10.0pt">Sehr geehrter Herr Schade,<o:p></o:p></span></p>
+<p class=3D"Datenblock" style=3D"text-align:justify"><span style=3D"font-si=
+ze:10.0pt"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"Datenblock" style=3D"text-align:justify"><span style=3D"font-si=
+ze:10.0pt">wir wurden dar=FCber in Kenntnis gesetzt, dass Sie die von Ihnen=
+ gemietete 2-Zimmer-Wohnung (ca. 58,44 m=B2 gro=DF) an eine uns bisher unbe=
+kannte Personen untervermietet haben. Uns liegt
+ kein Antrag auf Untervermietung oder Gebrauchs=FCberlassung an Dritte vor.=
+ <o:p></o:p></span></p>
+<p class=3D"Datenblock" style=3D"text-align:justify"><span style=3D"font-si=
+ze:10.0pt"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"Datenblock" style=3D"text-align:justify"><span style=3D"font-si=
+ze:10.0pt">Wir nehmen Bezug auf =A7 17 Nr. 1 des mit Ihnen bestehenden Miet=
+vertrages vom 18.06.2009 i.V.m. =A7=A7 540, 553 BGB. Danach ist der Mieter =
+ohne die Erlaubnis des Vermieters nicht berechtigt,
+ den (auch teilweisen) Gebrauch der Mietsache einem Dritten zu =FCberlassen=
+. Die Gebrauchs=FCberlassung an einen Dritten ohne vorherige Erlaubnis ist =
+von dem vertragsgem=E4=DFen Gebrauch der Mietsache nicht gedeckt und begr=
+=FCndet einen erheblichen Versto=DF des Mieters
+ gegen die ihm obliegenden mietvertraglichen Pflichten. <o:p></o:p></span><=
+/p>
+<p class=3D"Datenblock" style=3D"text-align:justify"><span style=3D"font-si=
+ze:10.0pt"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"Datenblock" style=3D"text-align:justify"><span style=3D"font-si=
+ze:10.0pt">Namens und in Vollmacht der White Tulip S.=E0 r.l. fordern wir S=
+ie auf, zur unbefugten Gebrauchs=FCberlassung der Mietsache an Dritte, bis =
+zum
+<b>19.07.2024 </b>Stellung zu nehmen.<o:p></o:p></span></p>
+<span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;ms=
+o-ligatures:none;mso-fareast-language:DE"><br clear=3D"all" style=3D"page-b=
+reak-before:always">
+</span>
+<p class=3D"Datenblock" style=3D"text-align:justify"><span style=3D"font-si=
+ze:10.0pt">Sollten Sie die o.g. Frist fruchtlos verstreichen lassen und die=
+ vertragswidrige Nutzung fortsetzen, w=E4re Ihr Vermieter gezwungen, das be=
+stehende Mietverh=E4ltnis fristlos bzw. hilfsweise
+ fristgem=E4=DF zu k=FCndigen.<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Arial&quot;,sans-se=
+rif;color:black"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Arial&quot;,sans-se=
+rif;color:black;mso-ligatures:none;mso-fareast-language:DE"><br>
+Mit freundlichen Gr=FC=DFen | Best regards&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&n=
+bsp;&nbsp;&nbsp;<br>
+</span><span style=3D"font-family:&quot;Verdana&quot;,sans-serif;color:blac=
+k;mso-ligatures:none;mso-fareast-language:DE"><br>
+</span><span style=3D"font-size:7.5pt;font-family:&quot;Verdana&quot;,sans-=
+serif;color:black;mso-ligatures:none;mso-fareast-language:DE"><br>
+</span><b><span style=3D"font-family:&quot;Arial&quot;,sans-serif;color:bla=
+ck;mso-ligatures:none;mso-fareast-language:DE">Charlotte Fritzen</span></b>=
+<b><span style=3D"font-size:9.0pt;font-family:&quot;Arial&quot;,sans-serif;=
+color:black;mso-ligatures:none;mso-fareast-language:DE"><br>
+</span></b><span style=3D"font-family:&quot;Arial&quot;,sans-serif;color:bl=
+ack;mso-ligatures:none;mso-fareast-language:DE">Hausverwaltung I Property M=
+anagement<br>
+</span><span style=3D"font-size:9.0pt;font-family:&quot;Verdana&quot;,sans-=
+serif;color:#595959;mso-ligatures:none;mso-fareast-language:DE"><br>
+</span><span style=3D"font-size:9.0pt;font-family:&quot;Arial&quot;,sans-se=
+rif;color:#595959;mso-fareast-language:DE"><img width=3D"129" height=3D"48"=
+ style=3D"width:1.3437in;height:.5in" id=3D"_x0000_i1025" src=3D"cid:image0=
+01.jpg@01DACD3A.58A470E0"></span><span style=3D"font-size:9.0pt;font-family=
+:&quot;Verdana&quot;,sans-serif;color:#595959;mso-ligatures:none;mso-fareas=
+t-language:DE">&nbsp;&nbsp;<br>
+<br>
+</span><span style=3D"font-family:&quot;Arial&quot;,sans-serif;color:black;=
+mso-ligatures:none;mso-fareast-language:DE">RESIDEA Immobilien Management G=
+mbH</span><span style=3D"font-family:&quot;Verdana&quot;,sans-serif;color:b=
+lack;mso-ligatures:none;mso-fareast-language:DE">&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;</span><span style=3D"font-size:9.0pt;font-family:&quot;Verdana&quot;,s=
+ans-serif;color:black;mso-ligatures:none;mso-fareast-language:DE">
+</span><span style=3D"font-size:9.0pt;font-family:&quot;Verdana&quot;,sans-=
+serif;color:#595959;mso-ligatures:none;mso-fareast-language:DE"><br>
+</span><span style=3D"font-family:&quot;Arial&quot;,sans-serif;color:black;=
+mso-ligatures:none;mso-fareast-language:DE">Heinrich-Heine-Stra=DFe 15&nbsp=
+;=B7 D-10179 Berlin&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style=
+=3D"font-size:9.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black;ms=
+o-ligatures:none;mso-fareast-language:DE">
+<br>
+</span><span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-s=
+erif;color:black;mso-ligatures:none;mso-fareast-language:DE"><br>
+</span><span style=3D"font-family:&quot;Arial&quot;,sans-serif;color:black;=
+mso-ligatures:none;mso-fareast-language:DE">&nbsp;&nbsp;&nbsp;&nbsp;
+<br>
+F &#43;49&nbsp; 30 549 0640 99<br>
+cfr@Residea.de&nbsp;&nbsp;&nbsp;&nbsp; <br>
+</span><span style=3D"font-family:&quot;Verdana&quot;,sans-serif;color:blac=
+k;mso-ligatures:none;mso-fareast-language:DE"><a href=3D"http://www.residea=
+.de"><span style=3D"font-family:&quot;Arial&quot;,sans-serif;color:blue">ww=
+w.residea.de</span></a><br>
+</span><span style=3D"font-size:9.0pt;font-family:&quot;Verdana&quot;,sans-=
+serif;color:black;mso-ligatures:none;mso-fareast-language:DE"><br>
+</span><span style=3D"font-family:&quot;Arial&quot;,sans-serif;color:black;=
+mso-ligatures:none;mso-fareast-language:DE">Sitz der Gesellschaft: Berlin |=
+ Registergericht: Amtsgericht Charlottenburg HRB 100625 B | Gesch=E4ftsf=FC=
+hrer: Benjamin Lehrecke, Katharina Sebening</span><span style=3D"font-size:=
+12.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black;mso-ligatures:n=
+one;mso-fareast-language:DE"><br>
+</span><span style=3D"font-size:9.0pt;font-family:&quot;Verdana&quot;,sans-=
+serif;color:black;mso-ligatures:none;mso-fareast-language:DE">&nbsp;
+</span><o:p></o:p></p>
+</div>
+</body>
+</html>
+
+--_000_35b73d21424a413fb9232dd8bee833e1Resideade_--
+
+--_004_35b73d21424a413fb9232dd8bee833e1Resideade_
+Content-Type: image/jpeg; name="image001.jpg"
+Content-Description: image001.jpg
+Content-Disposition: inline; filename="image001.jpg"; size=5498;
+	creation-date="Wed, 03 Jul 2024 09:15:44 GMT";
+	modification-date="Wed, 03 Jul 2024 09:15:44 GMT"
+Content-ID: <image001.jpg@01DACD3A.58A470E0>
+Content-Transfer-Encoding: base64
+
+/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAAAAP/sABFEdWNreQABAAQAAAA8AAD/4QMtaHR0cDov
+L25zLmFkb2JlLmNvbS94YXAvMS4wLwA8P3hwYWNrZXQgYmVnaW49Iu+7vyIgaWQ9Ilc1TTBNcENl
+aGlIenJlU3pOVGN6a2M5ZCI/PiA8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIiB4
+OnhtcHRrPSJBZG9iZSBYTVAgQ29yZSA1LjAtYzA2MSA2NC4xNDA5NDksIDIwMTAvMTIvMDctMTA6
+NTc6MDEgICAgICAgICI+IDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5
+OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+IDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiIHht
+bG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIgeG1sbnM6eG1wTU09Imh0dHA6
+Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUu
+Y29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBo
+b3Rvc2hvcCBDUzUuMSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NzRFQjk0
+NzMxMkRFMTFFNzgyQjNFODRCRDMwQjlEQ0IiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NzRF
+Qjk0NzQxMkRFMTFFNzgyQjNFODRCRDMwQjlEQ0IiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6
+aW5zdGFuY2VJRD0ieG1wLmlpZDoxQjg5MjE5NjEyQjcxMUU3ODJCM0U4NEJEMzBCOURDQiIgc3RS
+ZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo3NEVCOTQ3MjEyREUxMUU3ODJCM0U4NEJEMzBCOURDQiIv
+PiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVu
+ZD0iciI/Pv/uAA5BZG9iZQBkwAAAAAH/2wCEAAYEBAQFBAYFBQYJBgUGCQsIBgYICwwKCgsKCgwQ
+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
+W/VF/jH7L4fg0T815ffFf7GOP/s4/Jxn/9k=
+
+--_004_35b73d21424a413fb9232dd8bee833e1Resideade_--

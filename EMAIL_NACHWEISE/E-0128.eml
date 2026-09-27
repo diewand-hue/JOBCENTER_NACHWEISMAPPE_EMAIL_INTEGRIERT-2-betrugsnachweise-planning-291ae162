@@ -1,0 +1,220 @@
+Received: from 127.0.0.1
+ by atlas-production.v2-mail-prod1-ir2.omega.yahoo.com pod-id
+ atlas--production-ir2-547999ff4b-rdfnj.ir2.yahoo.com with HTTP;
+ Thu, 25 Jun 2026 06:45:38 +0000
+Return-Path: <prvs=1636cc96d4=service-postfach@deutschepost.de>
+X-Originating-Ip: [165.72.200.99]
+Received-SPF: pass (domain of deutschepost.de designates 165.72.200.99 as
+ permitted sender)
+Authentication-Results: mta.yahoo.com;
+ dkim=pass header.i=@deutschepost.de header.s=GW_UTDP_1
+ arc_overridden_status=NOT_OVERRIDDEN;
+ spf=pass smtp.mailfrom=deutschepost.de arc_overridden_status=NOT_OVERRIDDEN;
+ dmarc=pass(p=REJECT) header.from=deutschepost.de
+ arc_overridden_status=NOT_OVERRIDDEN;
+X-Apparently-To: andi_schade@yahoo.de; Thu, 25 Jun 2026 06:45:38 +0000
+X-YMailISG: 5DtllYYWLDueP9GBThrQ_JSL3zyCPOY6RapAGhhD6PvO8sFo
+ 0j2gDFjHi5aQWNcc6WfXzGFPEknmnZslK9cgrOL_ujIhH81P8ci9Q07.e1E1
+ S5pr6bVUDj3e4_i3SNx.byEhaS808cdXamCGhGx0awkROVxCk2pbJhMq9nvS
+ 9gynCquSEEqq1WPi2uH5fbcfwoOfOObvx4H0q8ocj9Zn.XJXePjpzb5JK.Zl
+ 9A6eS7QnEtsxwmsG15VD0.oYVmGLxsRIcYDO_KE8DL1uUgctAaF._fNMWXV_
+ Erww5R5XMZCA1iX4WKJyk3gjqT13hFTq5LUt30XgyO6saPj0lD0ZbnkNo90V
+ 4M6sLi0g76XWnDRkWeeZuxmVShCbqmVIaXbcpDr0BxU.wISnPWhQgaiNnfCz
+ vOlaI1_ydqjLKgkD0I3tOtoF0xKvM85WCJvK0X9NItKY9Le1W1FJADwfCOpb
+ HpQvCxCZWWS6YCzEAj.TwEBqbTyNZZvGUHecvhJ4yVcJeVFPkGP3xt0vwDAG
+ jQEB4ZANcq.T9g4jI9vQqrT0e32tKaOhwlXV7QGSo_1NhgseuPP0RLeJDCvR
+ aGHgBwCY1o58bLQT2pUYleSzr6YqTWVQcS0E5ZVIBMymQ_Dpa_8w3dOvOLwq
+ bTCqu5tOq4eDOuZYF5836nt5g5UOYE9aS23j6SMvJlBu7NfYqmHeSK2yTvIK
+ q5njtB2yHolfGkd6qZQtn9nQTqNM2Ep2hd_d_iEgP545tAaxcaMKk0jPTmzh
+ xbQZCFrjtPXB6TMI3S7nyWFISnzUpPKuh8gJIzEdBGRr._T_XY1l5rySH9zM
+ D.dYei7iMU7bHW__VIQZZ2PeOCwcwDg5qlt_zlDiwVhCqUY37bZ98Moo2cSr
+ BefiOtFhsu2ylcmFzcjsqDcyXGanJTdOImfesLL5eszh5hZv9kjCAx9wKyoV
+ meswmSgO_zyDkDrylSkTNWrhfXmxQKyNlHjF5QnLZvP5FnDAEAeOaI4U2vPx
+ 7_Fth7Js3VnlzL.edRosixYseREbMnRLSVDZTCid10qrgLtw4jPo9D89_eAq
+ oXZ.PVnuCApUuXly27_sej._u0gVK_1ui8qrI6ppbCwmGq6OIOCGS3x3D3_V
+ aM_qxtiBJqu2892fGKs_MD8JyX9J4EZgcI38c.VdbE2AOecPhrqP.XYrx6M9
+ fQ--
+Received: from 165.72.200.99 (EHLO gateway1d.dhl.com)
+ by 10.200.77.176 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Thu, 25 Jun 2026 06:45:38 +0000
+Received: from ex-csc.dpcsc.deutschepost.de ([160.55.140.11])
+	by gateway1d.dhl.com  with ESMTPS id 65P6jbT5000972-65P6jbTA000972
+	(version=TLSv1.2 cipher=ECDHE-RSA-AES256-GCM-SHA384 bits=256 verify=OK)
+	for <andi_schade@yahoo.de>; Thu, 25 Jun 2026 06:45:37 GMT
+Received: from ex2019-01-csc.dpcsc.deutschepost.de (160.55.140.10) by
+ ex2019-02-csc.dpcsc.deutschepost.de (160.55.140.11) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.2.2562.17; Thu, 25 Jun 2026 08:45:37 +0200
+Received: from dpc04.ecomm.priv.nmop.de (10.80.30.10) by
+ ex2019-01-csc.dpcsc.deutschepost.de (160.55.140.10) with Microsoft SMTP
+ Server id 15.2.2562.17 via Frontend Transport; Thu, 25 Jun 2026 08:45:37
+ +0200
+Date: Thu, 25 Jun 2026 08:45:37 +0200
+From: <service-postfach@deutschepost.de>
+To: <andi_schade@yahoo.de>
+Message-ID: 
+ <6e6f766f.79167980.00.549.7635010300.3ba36f9e19efd86c044.1300501.nmmail@imail-csc.dpcsc.deutschepost.de>
+Subject: Ihre Postfachbestellung im Shop der Deutschen Post (Ticket:
+ DP01-79167980)
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_Part_543763_601491641.1782369927465"
+X-Mailer: novomind iAGENT V.13.00501.3e3b0160
+X-FEAS-BEC-Info: 
+ WlpIGw0aAQkEARIJHAEHBlJSCRoLAAEeDUhZUEhYSFhIWUhZXkguLT4lOyQ8JVpcWFhYX19aSFtaSBsNGh4BCw1FGAcbHA4JCwAoDA0dHBsLAA0YBxscRgwNSFlIWl1I
+ GBoNBQEdBQsbRQYNHQUJGgMoDAAERgsHBUhZSF5IWVtIWV5YRl1dRllcWEZZWUhQSFhIWEhZSFhIWEhYSFpYSAkGDAE3GwsACQwNKBEJAAcHRgwNSFg=
+X-FEAS-Client-IP: 160.55.140.11
+X-FE-Last-Public-Client-IP: 160.55.140.11
+X-FE-Policy-ID: 59:1:2:SYSTEM
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; d=deutschepost.de; s=GW_UTDP_1;
+ c=relaxed/relaxed;
+ h=date:from:to:message-id:subject:mime-version:content-type;
+ bh=N9Pm5Emb2N9ju/3uBf99i3UIw3DXRXga81XBRpA6rJs=;
+ b=FPeysp5vjuPPMij4imskSiSvXxg3Vedmd/y/w5P9I4AKTxI/ttl5A29mneOE5cprAJvVici9Rimg
+	zmcbG+qlrEbSu8JrmxTUZKpDL0iEdSC4NdRjbUFlA2BbcyvbfgqYKfi/9uuEhSzukbpgDfTraFqI
+	g/VUC2WqD7Obhk1N66EGrICsIERcPtVQiwusF7c3T0ZZoOeBCIfW7gHQ69RCrJQ68gJ1BebJWkNX
+	rwWfG5Z44mDZMZTmPJEUp7zAT8dg/DJpULzUvafBsA3IgdR5YhLuo5i/DBwjBfTuNC+jPWACGZLw
+	eGMERrVzAyRl/nO5kfTkN8OKO+JeaaiBEVvzoQ==
+Content-Length: 6613
+
+------=_Part_543763_601491641.1782369927465
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Guten Tag,
+
+am 28.05.2026 haben Sie =C3=BCber unseren Shop der Deutschen Post ein Postf=
+ach f=C3=BCr folgende Anschrift beauftragt:
+
+Andreas Schade
+Gubener Str. 53a
+10243 Berlin
+
+Ihre Bestellung haben wir unter der Auftragsnummer 4156296013 erfasst und a=
+usgef=C3=BChrt.
+
+Die Best=C3=A4tigung f=C3=BCr Ihr neues Postfach wurde Ihnen per Brief am 0=
+4. Juni 2026 zugesandt. Leider haben wir dieses Schreiben mit dem Zustellve=
+rmerk =E2=80=9EEmpf=C3=A4nger unter der angegebenen Anschrift nicht zu ermi=
+tteln=E2=80=9C zur=C3=BCckerhalten. Damit der Vertrag zustande kommen kann,=
+ bitten wir Sie, die oben genannte Adresse zu pr=C3=BCfen und uns die korre=
+kte Anschrift mit dieser E-Mail mitzuteilen.
+
+Weiterhin bitten wir Sie um Ihre Unterst=C3=BCtzung:
+Bitte nehmen Sie sich nach dem Absenden Ihrer Antwort an uns kurz die Zeit =
+und beantworten uns  hier  die aufgef=C3=BChrten Fragen. Wir analysieren ak=
+tuell, aus welchem Grund das Best=C3=A4tigungsschreiben beim 1. Zustellvers=
+uch nicht erfolgreich zugestellt werden konnte.
+
+Vielen Dank f=C3=BCr Ihre Mithilfe.
+=20
+Mit freundlichen Gr=C3=BC=C3=9Fen
+=20
+Ihr Service-Team Postfach
+=20
+Deutsche Post AG
+Service- und Versandzentrum Weiden
+Franz-Zebisch-Str. 15
+92637 Weiden
+=20
+Kontakt: service-postfach@deutschepost.de
+=20
+DHL Group
+deutschepost.de/kundenservice
+=20
+Deutsche Post AG; Sitz Bonn; Registergericht Bonn; HRB 6792
+Vorstand: Dr. Tobias Meyer, Vorsitzender; Oscar de Bok, Pablo Ciano, Nikola=
+ Hagleitner, Melanie Kreis, Dr. Thomas Ogilvie, John Pearson, Hendrik Vente=
+r
+Vorsitzender des Aufsichtsrates: Dr. Katrin Suder
+=20
+Dies ist eine Nachricht der DHL Group und kann vertrauliche, firmeninterne =
+Informationen enthalten. Sie ist ausschlie=C3=9Flich f=C3=BCr die oben adre=
+ssierten Empf=C3=A4nger bestimmt. Sind Sie nicht der beabsichtigte Empf=C3=
+=A4nger, bitten wir Sie, den Sender zu informieren und die Nachricht sowie =
+deren Anh=C3=A4nge zu l=C3=B6schen. Unzul=C3=A4ssige Ver=C3=B6ffentlichunge=
+n, Verwendungen, Verbreitung, Weiterleitung sowie das Drucken oder Kopieren=
+ dieser Mail und ihrer verkn=C3=BCpften Anh=C3=A4nge sind strikt untersagt.
+------=_Part_543763_601491641.1782369927465
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+
+<style>
+p {
+  margin: 0px;
+}
+</style>
+</head>
+<body>
+<div>
+<div style=3D"font-family: Arial; font-size: 12pt;">&nbsp;</div>
+<div style=3D"font-family: Arial; font-size: 12pt;">Guten Tag,</div>
+<div style=3D"font-family: Arial; font-size: 12pt;"><br>am 28.05.2026&nbsp;=
+haben Sie &uuml;ber unseren Shop der Deutschen Post ein Postfach f&uuml;r f=
+olgende Anschrift beauftragt:<br><br>Andreas Schade</div>
+<div style=3D"font-family: Arial; font-size: 12pt;">Gubener Str. 53a</div>
+<div style=3D"font-family: Arial; font-size: 12pt;">10243 Berlin</div>
+<div style=3D"font-family: Arial; font-size: 12pt;"><br>Ihre Bestellung hab=
+en wir unter der Auftragsnummer 4156296013&nbsp;erfasst und ausgef&uuml;hrt=
+.<br><br>Die Best&auml;tigung f&uuml;r Ihr neues Postfach wurde Ihnen per B=
+rief am 04. Juni 2026 zugesandt. Leider haben wir dieses Schreiben mit dem =
+Zustellvermerk &bdquo;Empf&auml;nger unter der angegebenen Anschrift nicht =
+zu ermitteln&ldquo; zur&uuml;ckerhalten. Damit der Vertrag zustande kommen =
+kann, bitten wir Sie, die oben genannte Adresse zu pr&uuml;fen und uns die =
+korrekte Anschrift mit dieser E-Mail mitzuteilen.<br><br>Weiterhin bitten w=
+ir Sie um Ihre Unterst&uuml;tzung: <br>Bitte nehmen Sie sich nach dem Absen=
+den Ihrer Antwort an uns kurz die Zeit und beantworten uns&nbsp;<a class=3D=
+"iMailURL" href=3D"https://surveys.dpdhl.com/sribjrowiq?l=3Dde" target=3D"_=
+blank" rel=3D"noopener">hier&nbsp;</a>die aufgef&uuml;hrten Fragen. Wir ana=
+lysieren aktuell, aus welchem Grund das Best&auml;tigungsschreiben beim 1. =
+Zustellversuch nicht erfolgreich zugestellt werden konnte. <br><br>Vielen D=
+ank f&uuml;r Ihre Mithilfe.</div>
+<div style=3D"font-family: Arial; font-size: 12pt;">&nbsp;</div>
+<div>
+<div style=3D"font-family: Arial; font-size: 12pt;">Mit freundlichen Gr&uum=
+l;&szlig;en</div>
+<div style=3D"font-family: Arial; font-size: 12pt;">&nbsp;</div>
+<div style=3D"font-family: Arial; font-size: 12pt;">Ihr Service-Team Postfa=
+ch</div>
+<div style=3D"font-family: Arial; font-size: 12pt;">&nbsp;</div>
+<div style=3D"font-family: Arial; font-size: 12pt;">Deutsche Post AG</div>
+<div style=3D"font-family: Arial; font-size: 12pt;">Service- und Versandzen=
+trum Weiden</div>
+<div style=3D"font-family: Arial; font-size: 12pt;">Franz-Zebisch-Str. 15</=
+div>
+<div style=3D"font-family: Arial; font-size: 12pt;">92637 Weiden</div>
+<div style=3D"font-family: Arial; font-size: 12pt;">&nbsp;</div>
+<div style=3D"font-family: Arial; font-size: 12pt;">Kontakt: <a href=3D"mai=
+lto:service-postfach@deutschepost.de" target=3D"_blank" rel=3D"noopener">se=
+rvice-postfach@deutschepost.de</a></div>
+</div>
+<div style=3D"font-family: Arial; font-size: 12pt;">&nbsp;</div>
+<div style=3D"font-family: Arial; font-size: 12pt;">DHL Group</div>
+<div style=3D"font-family: Arial; font-size: 12pt;"><a href=3D"https://www.=
+deutschepost.de/meinkundenservice" target=3D"_blank" rel=3D"noopener">deuts=
+chepost.de/kundenservice</a></div>
+<div style=3D"font-family: Arial; font-size: 12pt;">&nbsp;</div>
+<div style=3D"font-family: Arial; font-size: 12pt;">Deutsche Post AG; Sitz =
+Bonn; Registergericht Bonn; HRB 6792</div>
+<div style=3D"font-family: Arial; font-size: 12pt;">Vorstand: Dr. Tobias Me=
+yer, Vorsitzender; Oscar de Bok, Pablo Ciano, Nikola Hagleitner, Melanie Kr=
+eis, Dr. Thomas Ogilvie, John Pearson, Hendrik&nbsp;Venter</div>
+<div style=3D"font-family: Arial; font-size: 12pt;">Vorsitzender des Aufsic=
+htsrates: Dr. Katrin Suder</div>
+<div style=3D"font-family: Arial; font-size: 12pt;">&nbsp;</div>
+<div style=3D"font-family: Arial; font-size: 12pt;">Dies ist eine Nachricht=
+ der DHL Group und kann vertrauliche, firmeninterne Informationen enthalten=
+. Sie ist ausschlie&szlig;lich f&uuml;r die oben adressierten Empf&auml;nge=
+r bestimmt. Sind Sie nicht der beabsichtigte Empf&auml;nger, bitten wir Sie=
+, den Sender zu informieren und die Nachricht sowie deren Anh&auml;nge zu l=
+&ouml;schen. Unzul&auml;ssige Ver&ouml;ffentlichungen, Verwendungen, Verbre=
+itung, Weiterleitung sowie das Drucken oder Kopieren dieser Mail und ihrer =
+verkn&uuml;pften Anh&auml;nge sind strikt untersagt.</div>
+</div>
+</body>
+</html>
+------=_Part_543763_601491641.1782369927465--

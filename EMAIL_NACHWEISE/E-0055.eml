@@ -1,0 +1,192 @@
+Received: from 127.0.0.1
+ by atlas-production.v2-mail-prod1-ir2.omega.yahoo.com with HTTP;
+ Wed, 20 Jul 2022 16:42:25 +0000
+Return-Path: <oliverebert1966@gmail.com>
+X-Originating-Ip: [209.85.208.54]
+Received-SPF: pass (domain of gmail.com designates 209.85.208.54 as permitted
+ sender)
+Authentication-Results: atlas-production.v2-mail-prod1-ir2.omega.yahoo.com;
+ dkim=pass header.i=@gmail.com header.s=20210112;
+ spf=pass smtp.mailfrom=gmail.com;
+ dmarc=pass(p=NONE,sp=QUARANTINE) header.from=gmail.com;
+X-Apparently-To: andi_schade@yahoo.de; Wed, 20 Jul 2022 16:42:25 +0000
+X-YMailAVSC: Bv5gKfA3bBshhlynPRSzP5OkJ4X7_A6Y0L0NSVT5u.uM0e7
+ i8O__4l3lb2JFb3P45OKcW7_u4KOO1yJotwqYsXCLRBUwIdumpaHkHk93o21
+ qdTLp18X.XM32jImQeGT8nw9Psby5rxP0ZbH_zFy.wz0pSaFn2q13Y96brTe
+ mVDF_eOaW7xoieQbQsg7VG8jP6xlvHZjWLM7O2jqeVDP.nTPwdeNf._c7oN6
+ DHIxGKoRude892oVrTnOh2fTa0rhpjLEvqybmru2IyU7hRfW9Jj3CUPKoeso
+ 4CdHT0TwAKMyhjzVrH_IWhf698By5osLuSgvut2qLiz_tT8ZNeL5UE9cCzTr
+ Ap6PCSxBr.BKDLNYkZby8WqdZKnj72cGnaXG6AP1DLe3IWwjYWsooh7KsoAD
+ nresL9_ci5NaoYxN3D4w7.uGhFh3u9Suk3o_9QPpcEoe_ZC0HhmLT_N8FxeD
+ eCMVGH65fRBdAylhSkfUUgGBMJ.MPa6fEaKpSvRi8cCNtyCq9m_kyEkI5_3j
+ 30QhTS3xc3wivjELicv0_tfryOUXzEond9T6bR4.BZ1005yPPwJ3aoGkeGTS
+ q92MXU9Chm1kdbpbhDIuvA__K1ci5hHPZQaIN0E_dMF6fWo.IwRT0FqRe_PU
+ 7MVQSmNv6Xq7dLHR7XfBCJy8_rY2vPkRS1ngN6vS7Mtz5_euGC8r5YMhp1Wc
+ 8gD_9hZVTMgb0_lWW1vKX_Nr6smPCP.6CeiEtcx8G7lCKuX2qlXhQhvxFwBS
+ yXsotiH4pm6bLY.BuCm0hERzfQyXpaS1f_tPdKHnDEe8hfKDW85r1vv_7r29
+ yiCDV_yf8HvGqvC3r.H.T0IBQXUbbRnAuSniOec8vmKDMs9XKbmfnhqkizW9
+ F21bJHE2K6mFWZUgWWKgAwm_iQGyUGX92qOG5bTOBJHTTS5IcZiR4ci_AyMX
+ i5TaP4vHPadcoZIUuXVk1lHAYn9CCq0erbrFmPcyrQlQ3LBMRU0VK0dLPrQE
+ bMIuGmwgFhwgAnYthb9Ao9LTU6NFvgULvkgo7ZgkqmwsnqeEg2GBRPqtcvJu
+ TxzcEr8Hq9G6j4nBjWpkBoHqAMEo-
+X-YMailISG: 3Tuhnp0WLDtTYexMlB5DQJXV6dXS34C4e1YiY6R.hCoACjbG
+ yeo2W35j97iMUoUBfW3Is2TTjWzOJF6Q7R5FLWoyd.lvTxjOTPwfXKXgxkRb
+ oYY21mZ1nhJj3leBTtbUCz2QLi4oHJ.VYfOOSPSSVXVWtmAx7p0SGEc6DwgO
+ pcvavOw1jlA6PHRGw1aQxJPw_vTt5UDxrzmkhcWInHXP12hiwdHfuvcHCvD0
+ irIrpZAO3GsAw8W0FN69ld4riXkp3OfP_hbovh4SPyIQraCOiKkSi.bNt2SJ
+ LXaZ1zmMILYvO6xdweOsMQqCUbm_ab24cO_ErrfRtdDYGifdN2b__gAF.TZU
+ 8nigAxW2X1ipr8DVMO.tqfkrEDZ3mzKCE_wvTYRepoJ_hEby7JDYm8rUaoLv
+ N1AAUGc2MD3GyL9JD7Pl4xKc2oCNVn21zzl54nPaf50s5tpURFEQkZ30Spk.
+ 9PWQYQ8nYM5SV7DF_zc.CkBe0Stdv4zklaevvZ16M7TbB0NYGC7bLvI6xUv3
+ Hp46CPYYNe9JD7xZEkOSOj.KJ8Er2.IKz.arCCfnj6GFSqSuD1z_4nTX54QF
+ o5E4vaO7UkXO1b7jWlXmWRmyeFsn7m9w.hs7a5y4gxXrFeDCuube7MF6PjES
+ mbYORvHRVjRS7de4PwUiKM9wsq0WT7JietueliM3HtIb.wKPvc0uLkUNlIYG
+ m8RMHoO5_NbOj18t.Pn4W4fvBresHJs7BCPFvMpeeJH.ra.WeA4IMt_2dz1C
+ gF2neqsryk2bD7GDQIH.inV6zNw6G6EzKAHE94UrEKovInVuD0A9ZNWj56Yv
+ QvCd2Jm6jUM9rJ1UWb70jWiHDHS35sbYRkRPULTIyL9P_1xUimjoio9169Hc
+ z.lodO6xu._gPE8glJNjzOKus0voVZJxepRnZUb4H7j54HTFomDZlXwW_TFQ
+ _YnEckM91tI.YhEuNJFR4AV_IHypz_66D7FeuE7ACaGKMqllvmIIEzbUT1kb
+ 0JP7qrWJRawZ8514R7GqFEyB2817tlVBKigxsVrT1Jth1YQo.9wgXy1iZs7J
+ MuzaTdZjcdtv8VVxt7rQp0CnigUlPj39sEFMWdJWTvbdYhs3qVAXj0MX.o_a
+ vThEclbZ12l40fkSWgkRemdcf8h1Tvc8ohH5AP4t6q6M3OpyHwQnAhW7YOUl
+ 2DtjxBghWjqE9PqaCS2yqK1tI.EZsJJ47mGjSohUxnbLidv9fCV1IA3Oq8dw
+ IpOvwEVK4OOAspoShMLYPPpZgCQMOdooyekQtRdx9rPLqWKE28koggFRYS8W
+ E66yCjRCbUkOqvVNHbB3L4h1BdenZX6DcZk7Ketr0Hr8m5E-
+Received: from 209.85.208.54 (EHLO mail-ed1-f54.google.com)
+ by 10.200.78.225 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Wed, 20 Jul 2022 16:42:25 +0000
+Received: by mail-ed1-f54.google.com with SMTP id x91so24528131ede.1
+        for <andi_schade@yahoo.de>; Wed, 20 Jul 2022 09:42:25 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20210112;
+        h=mime-version:references:in-reply-to:reply-to:from:date:message-id
+         :subject:to;
+        bh=HD3dQvUHvbpP8WPJcEQVrbwtNTj0ZY0wlPva4DETat4=;
+        b=h+IyVpDC/LgfabEGx5XURrw4NQvcBWc/achj8tk0nu1feBI1PlvxT/xaEcPgsUOkJ4
+         60N1LTkcIy6n3kHgFXB9UuCwxHUJ+bZe96j7C1iOuexzsWta5eorUnBHlO9W2ZQ0S/L/
+         u+eCrJA0YWfnfW5s6srcK6+XMutwTrz2KKgk20Lqbmi0pVlL222sdnxFSwgFKg70AIUv
+         wxnTiTtbZ6xpWip6PDPr434z5Aytqe1ealKvf7Xfu14YZFZb8+iROgvu/FqOtPc/mSuF
+         H1E8caz1QYwp+r2794LXc6/EUH6dxcG7sgehh5R2IdZt4G2k2HzWNJuSac/jSgYh0Hd3
+         W98Q==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:mime-version:references:in-reply-to:reply-to
+         :from:date:message-id:subject:to;
+        bh=HD3dQvUHvbpP8WPJcEQVrbwtNTj0ZY0wlPva4DETat4=;
+        b=j/hD+j4ZsDSTR3Lit2NewK4v5LJq3DpkT/9wj4rd/9JTXHLHdkru34qzRLLqEO4Ik+
+         5hvvYmGO2ksD/gFe487M2kpfkD64qymJ+1I+SIHsRIlYXfxK8Rd3eeIHvXRmzy+T8Bgx
+         G5ty3/96XVOCLkjZkPE4DyfGMHaYxI3Pm3O2FK8Fo+NXoyakoGIAOe/tf/GIFxpRrNkh
+         m+MRdn5xXpNKJ53Q60sJtPcLL2i959SvTnARBjkkgIzFUEk/uNbAcXnLYi5fQvCnqSA7
+         axSbWki1GH5DTIskjhQJTmGn5b29Wm5gI/yAFkDfJjRJJj0YFxn4utL6YZ6nuU3ry6rJ
+         mZ9g==
+X-Gm-Message-State: AJIora8HhSuvoCzZI3m3flvdwbh6R4FLSksCBkfbGwXWi2CmFF97H3Mt
+	7xPGDwwrmtOvCrDX+cyOkWJ9JFgc+G0mgzBveYTDk9NdeL0=
+X-Google-Smtp-Source: 
+ AGRyM1sJzJo+qbvM9X8kGK6AC7RUQ9rF0pSQvnGrWcZPgXdkLUBuSdHEpWgrSGUqYf2+v+0pPJEJPr4f8rycsbvCueY=
+X-Received: by 2002:a05:6402:1d93:b0:43b:a38a:e335 with SMTP id
+ dk19-20020a0564021d9300b0043ba38ae335mr9829261edb.337.1658335345380; Wed, 20
+ Jul 2022 09:42:25 -0700 (PDT)
+MIME-Version: 1.0
+References: <1246575036.499510.1658328305315@yahoo.de>
+In-Reply-To: <1246575036.499510.1658328305315@yahoo.de>
+Reply-To: mail@das-zentrum-der-arbeit.de
+From: Oliver Ebert <oliverebert1966@gmail.com>
+Date: Wed, 20 Jul 2022 18:42:13 +0200
+Message-ID: 
+ <CALah9YRXBD7EstnWAwVx=FBGHAvanemCnjj3bBQA3ov8X=-6=g@mail.gmail.com>
+Subject: 
+ =?UTF-8?Q?Re=3A_Residea_Auftrag=3A_Gubener_Stra=C3=9Fe_53a=2C_10243_Berl?=
+	=?UTF-8?Q?in=5F103=2E03_M_051=2E02=5FAndreas_Schade?=
+To: Andreas Schade <andi_schade@yahoo.de>
+Content-Type: multipart/alternative; boundary="0000000000002e18dd05e43f490f"
+Content-Length: 3242
+
+--0000000000002e18dd05e43f490f
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hallo,
+Ich bin bis zum 3.8. im Urlaub.
+Melde mich dann um einen Termin zu vereinbaren.
+Gru=C3=9F Oliver Ebert
+
+Andreas Schade <andi_schade@yahoo.de> schrieb am Mi., 20. Juli 2022, 16:45:
+
+>
+>
+> Sehr geehrter Herr Ebert,
+>
+>
+>
+> folgende M=C3=A4ngel sind zu beseitigen :
+>
+>
+>
+> Funktionsf=C3=A4higkeit von jeglichen Steckdosen (2/Raum) =C3=BCberpr=C3=
+=BCfen,
+> wiederherstellen bzw. austauschen und sichern.
+>
+> Funktionsf=C3=A4higkeit von s=C3=A4mtlichen Schalter (1/Raum) =C3=BCberpr=
+=C3=BCfen,
+> wiederherstellen  bzw. austauschen und sichern.
+>
+> Kabelenden zum Anschluss g=C3=A4ngiger Leuchtmittel gangbar funktionsf=C3=
+=A4hig
+> erstellen.
+>
+> Starkstromkabel zum Anschluss an E-Herd ordnungsgem=C3=A4=C3=9F sichern.
+>
+> Nicht vorhandenen Sicherungskasten =C3=BCberpr=C3=BCfen, austauschen und =
+sichern.
+>
+>
+>
+> Bitte senden Sie mir einen zeitnahen Termin zur Reparatur der aufgef=C3=
+=BChrten
+> M=C3=A4ngel zu .
+>
+>
+>
+> MfG
+>
+>
+>
+> Andreas Schade
+>
+>
+>
+
+--0000000000002e18dd05e43f490f
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"auto">Hallo,=C2=A0<div dir=3D"auto">Ich bin bis zum 3.8. im Url=
+aub.=C2=A0</div><div dir=3D"auto">Melde mich dann um einen Termin zu verein=
+baren.=C2=A0</div><div dir=3D"auto">Gru=C3=9F Oliver Ebert=C2=A0</div></div=
+><br><div class=3D"gmail_quote"><div dir=3D"ltr" class=3D"gmail_attr">Andre=
+as Schade &lt;<a href=3D"mailto:andi_schade@yahoo.de">andi_schade@yahoo.de<=
+/a>&gt; schrieb am Mi., 20. Juli 2022, 16:45:<br></div><blockquote class=3D=
+"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding=
+-left:1ex"><div lang=3D"DE" style=3D"word-wrap:break-word"><div class=3D"m_=
+-5864273176848732515WordSection1"><p class=3D"MsoNormal"><u></u>=C2=A0<u></=
+u></p><p class=3D"MsoNormal">Sehr geehrter Herr Ebert, </p><p class=3D"MsoN=
+ormal"><u></u>=C2=A0<u></u></p><p class=3D"MsoNormal">folgende M=C3=A4ngel =
+sind zu beseitigen : </p><p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p><p =
+class=3D"MsoNormal">Funktionsf=C3=A4higkeit von jeglichen Steckdosen (2/Rau=
+m) =C3=BCberpr=C3=BCfen, wiederherstellen bzw. austauschen und sichern. </p=
+><p class=3D"MsoNormal">Funktionsf=C3=A4higkeit von s=C3=A4mtlichen Schalte=
+r (1/Raum) =C3=BCberpr=C3=BCfen, wiederherstellen =C2=A0bzw. austauschen un=
+d sichern. </p><p class=3D"MsoNormal">Kabelenden zum Anschluss g=C3=A4ngige=
+r Leuchtmittel gangbar funktionsf=C3=A4hig erstellen. </p><p class=3D"MsoNo=
+rmal">Starkstromkabel zum Anschluss an E-Herd ordnungsgem=C3=A4=C3=9F siche=
+rn. </p><p class=3D"MsoNormal">Nicht vorhandenen Sicherungskasten =C3=BCber=
+pr=C3=BCfen, austauschen und sichern. </p><p class=3D"MsoNormal"><u></u>=C2=
+=A0<u></u></p><p class=3D"MsoNormal">Bitte senden Sie mir einen zeitnahen T=
+ermin zur Reparatur der aufgef=C3=BChrten M=C3=A4ngel zu . </p><p class=3D"=
+MsoNormal"><u></u>=C2=A0<u></u></p><p class=3D"MsoNormal">MfG</p><p class=
+=3D"MsoNormal"><u></u>=C2=A0<u></u></p><p class=3D"MsoNormal">Andreas Schad=
+e</p><p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p></div></div></blockquot=
+e></div>
+
+--0000000000002e18dd05e43f490f--

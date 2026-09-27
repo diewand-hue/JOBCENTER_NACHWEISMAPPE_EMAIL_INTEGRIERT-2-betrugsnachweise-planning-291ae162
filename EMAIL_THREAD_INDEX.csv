@@ -1,0 +1,78 @@
+﻿Mailkette-ID;Anzahl E-Mails;Erste Mail;Letzte Mail;Beweis-IDs;Betreff(e);Verknüpfungsart
+T-0001;1;2015-07-16T08:05:16+00:00;2015-07-16T08:05:16+00:00;E-0001;Fenstertausch - Gubener Straße 53a;Betreff-/Teilnehmer-Fallback
+T-0002;1;2015-09-01T05:12:59+00:00;2015-09-01T05:12:59+00:00;E-0002;Terminvereinbarung zum Fenstertausch;Betreff-/Teilnehmer-Fallback
+T-0003;1;2015-10-23T16:49:53+02:00;2015-10-23T16:49:53+02:00;E-0003;Fensteraustausch - Gubenerstrasse 53 und 53 a;Betreff-/Teilnehmer-Fallback
+T-0004;1;2016-01-04T07:39:28+00:00;2016-01-04T07:39:28+00:00;E-0004;Nachbesserungsarbeiten nach Fenstertausch;Betreff-/Teilnehmer-Fallback
+T-0005;1;2016-01-08T07:07:59+00:00;2016-01-08T07:07:59+00:00;E-0005;AW: Nachbesserungsarbeiten nach Fenstertausch;Header-Verweis
+T-0006;2;2016-03-14T12:18:59+00:00;2016-03-23T10:04:33+00:00;"E-0006; E-0007";Unser heutiges Telefonat | AW: Unser heutiges Telefonat;Header-Verweis
+T-0007;1;2016-03-23T14:28:42+00:00;2016-03-23T14:28:42+00:00;E-0008;Nachbesserungsarbeiten nach Fenstertausch;Betreff-/Teilnehmer-Fallback
+T-0008;1;2016-11-25T06:54:03+00:00;2016-11-25T06:54:03+00:00;E-0009;AW: Schimmelbeseitigung;Header-Verweis
+T-0009;1;2016-11-30T09:16:56+00:00;2016-11-30T09:16:56+00:00;E-0010;Gubenerstr.53a, 4.OG links, Mieter Schade, Schimmelbildung;Betreff-/Teilnehmer-Fallback
+T-0010;1;2017-01-02T18:20:11+01:00;2017-01-02T18:20:11+01:00;E-0011;WG: Taekker und wie geht's weiter;Header-Verweis
+T-0011;2;2017-03-07T10:42:35+00:00;2017-03-09T10:01:28+00:00;"E-0012; E-0013";Gubener Straße 53a,Untersuchungsbericht der Firma Otto Richter GmbH | AW: Gubener Straße 53a,Untersuchungsbericht der Firma Otto Richter GmbH;Header-Verweis
+T-0012;1;2018-06-13T21:35:52+02:00;2018-06-13T21:35:52+02:00;E-0014;Verwaltungseinheit 103.03 M / 051.02 : Mieterhöhung-Wohnungsmängel-Mietzinsminderung;Betreff-/Teilnehmer-Fallback
+T-0013;1;2018-07-18T10:25:09+00:00;2018-07-18T10:25:09+00:00;E-0015;Re: AW: Verwaltungseinheit 103.03 M / 051.02 : Mieterhöhung-Wohnungsmängel-Mietzinsminderung;Header-Verweis
+T-0014;4;2018-11-14T13:06:00+00:00;2019-03-11T08:52:25+00:00;"E-0016; E-0017; E-0018; E-0020";Re: AW: Verwaltungseinheit 103.03 M / 051.02 : Mieterhöhung-Wohnungsmängel-Mietzinsminderung | AW: AW: Verwaltungseinheit 103.03 M / 051.02 : Mieterhöhung-Wohnungsmängel-Mietzinsminderung | Fw: AW: AW: Verwaltungseinheit 103.03 M / 051.02 | WG: AW: AW: Verwaltungseinheit 103.03 M / 051.02;Header-Verweis
+T-0015;1;2019-02-24T18:20:56+01:00;2019-02-24T18:20:56+01:00;E-0019;Schimmelpilzbildung in Ihrer Wohnung;Betreff-/Teilnehmer-Fallback
+T-0016;1;2021-11-08T12:36:58+01:00;2021-11-08T12:36:58+01:00;E-0021;AW: 103.03 M 051.02 Auszahlung Nebenkosten;Header-Verweis
+T-0017;1;2021-11-23T10:07:02+01:00;2021-11-23T10:07:02+01:00;E-0022;AW: 103.03 M 051.02 Auszahlung Nebenkosten;Header-Verweis
+T-0018;2;2022-01-24T11:46:27+01:00;2022-01-24T13:13:57+01:00;"E-0023; E-0024";WG: Gubener Straße 53a, 10243 Berlin_103.03 M 051.02_Andreas Schade_Ihr Zeichen: 2-z-Gub-Schade 11205799 | AW: Gubener Straße 53a, 10243 Berlin_103.03 M 051.02_Andreas Schade_Ihr Zeichen: 2-z-Gub-Schade 11205799;Header-Verweis
+T-0019;1;2022-01-24T15:54:22+01:00;2022-01-24T15:54:22+01:00;E-0025;Nachtrag Mieternummer 103.03 M / 051.02;Betreff-/Teilnehmer-Fallback
+T-0020;1;2022-01-24T16:01:22+01:00;2022-01-24T16:01:22+01:00;E-0026;Nachtrag: Mieternummer 103.03 M / 051.02;Betreff-/Teilnehmer-Fallback
+T-0021;1;2022-01-27T11:53:30+01:00;2022-01-27T11:53:30+01:00;E-0027;Mieternummer : 103.03 M051.02;Betreff-/Teilnehmer-Fallback
+T-0022;29;2022-01-28T13:49:20+01:00;2023-04-25T16:26:44+02:00;"E-0028; E-0032; E-0033; E-0034; E-0035; E-0036; E-0037; E-0038; E-0039; E-0040; E-0041; E-0043; E-0042; E-0044; E-0045; E-0046; E-0047; E-0048; E-0049; E-0051; E-0052; E-0053; E-0059; E-0060; E-0062; E-0061; E-0074; E-0075; E-0073";AW: Gubener Straße 53a, 10243 Berlin_103.03 M 051.02_Andreas Schade_Ihr Zeichen: 2-z-Gub-Schade 11205799 | WG: Gubener Straße 53a, 10243 Berlin_103.03 M 051.02_Andreas Schade_Ihr Zeichen: 2-z-Gub-Schade 11205799 | Re: AW: Gubener Straße 53a, 10243 Berlin_103.03 M 051.02_Andreas Schade_Ihr Zeichen: 2-z-Gub-Schade 11205799 | AW: AW: Gubener Straße 53a, 10243 Berlin_103.03 M 051.02_Andreas Schade_Ihr Zeichen: 2-z-Gub-Schade 11205799 | Re: AW: AW: AW: Gubener Straße 53a, 10243 Berlin_103.03 M 051.02_Andreas Schade_Ihr Zeichen: 2-z-Gub-Schade 11205799 | AW: AW: AW: Gubener Straße 53a, 10243 Berlin_103.03 M 051.02_Andreas Schade_Ihr Zeichen: 2-z-Gub-Schade 11205799 | Re: AW: AW: AW: AW: Gubener Straße 53a, 10243 Berlin_103.03 M 051.02_Andreas Schade_Ihr Zeichen: 2-z-Gub-Schade 11205799 | AW: AW: AW: AW: Gubener Straße 53a, 10243 Berlin_103.03 M 051.02_Andreas Schade_Ihr Zeichen: 2-z-Gub-Schade 11205799;Header-Verweis
+T-0023;1;2022-01-28T15:51:24+01:00;2022-01-28T15:51:24+01:00;E-0029;AW: Gubener Straße 53a, 10243 Berlin_103.03 M 051.02_Andreas Schade_Ihr Zeichen: 2-z-Gub-Schade 11205799;Header-Verweis
+T-0024;2;2022-01-28T15:56:19+01:00;2022-01-28T16:16:50+01:00;"E-0030; E-0031";AW: Gubener Straße 53a, 10243 Berlin_103.03 M 051.02_Andreas Schade_Ihr Zeichen: 2-z-Gub-Schade 11205799;Header-Verweis
+T-0025;1;2022-06-15T22:36:52+00:00;2022-06-15T22:36:52+00:00;E-0050;Nachtrag Mietzinsberechnung Gubener Straße 53a, 10243 Berlin_103.03 M 051.02_Andreas Schade;Header-Verweis
+T-0026;1;2022-07-20T16:44:58+02:00;2022-07-20T16:44:58+02:00;E-0054;Residea Auftrag: Gubener Straße 53a, 10243 Berlin_103.03 M 051.02_Andreas Schade;Betreff-/Teilnehmer-Fallback
+T-0027;1;2022-07-20T18:42:13+02:00;2022-07-20T18:42:13+02:00;E-0055;Re: Residea Auftrag: Gubener Straße 53a, 10243 Berlin_103.03 M 051.02_Andreas Schade;Header-Verweis
+T-0028;1;2022-07-22T08:21:31+00:00;2022-07-22T08:21:31+00:00;E-0056;Fw: AW: Gubener Straße 53a, 10243 Berlin_103.03 M 051.02_Andreas Schade;Header-Verweis
+T-0029;1;2022-10-26T08:11:16+00:00;2022-10-26T08:11:16+00:00;E-0057;AW: 2022/2509;Header-Verweis
+T-0030;1;2022-11-15T09:34:50+01:00;2022-11-15T09:34:50+01:00;E-0058;wohnungsgeberbescheinigung;Betreff-/Teilnehmer-Fallback
+T-0031;2;2022-11-16T12:22:02+00:00;2022-11-16T12:22:16+00:00;"E-0063; E-0064";Mängelanzeige mit Fristsetzung – Erklärung der Vorbehaltszahlung | Automatische Antwort: Mängelanzeige mit Fristsetzung – Erklärung der Vorbehaltszahlung;Header-Verweis
+T-0032;1;2023-01-09T12:41:32+01:00;2023-01-09T12:41:32+01:00;E-0065;Mietzahlung Januar 2023 verspätet.;Betreff-/Teilnehmer-Fallback
+T-0033;1;2023-01-09T12:42:49+00:00;2023-01-09T12:42:49+00:00;E-0066;AW: Mietzahlung Januar 2023 verspätet.;Header-Verweis
+T-0034;1;2023-01-09T13:24:19+00:00;2023-01-09T13:24:19+00:00;E-0067;103.03M051.02 Mietzahlung 01.2023;Betreff-/Teilnehmer-Fallback
+T-0035;1;2023-01-11T08:38:39+00:00;2023-01-11T08:38:39+00:00;E-0068;Gubener Straße 53a, 10243 Berlin_103.03 M 051.02_Andreas Schade;Betreff-/Teilnehmer-Fallback
+T-0036;1;2023-02-06T09:01:19+00:00;2023-02-06T09:01:19+00:00;E-0070;Automatische Antwort: Heizungs- und WarmwasserAusfall seit 01.02.2022;Header-Verweis
+T-0037;1;2023-02-06T10:01:02+01:00;2023-02-06T10:01:02+01:00;E-0069;Heizungs- und WarmwasserAusfall seit 01.02.2022;Betreff-/Teilnehmer-Fallback
+T-0038;3;2023-02-06T15:39:30+00:00;2023-12-01T08:19:22+00:00;"E-0071; E-0072; E-0078";WG: Heizungs- und WarmwasserAusfall seit 01.02.2022_Gubener Strasse 53 a | Re: WG: Heizungs- und WarmwasserAusfall seit 01.02.2022_Gubener Strasse 53 a | Automatische Antwort: AW: WG: Heizungs- und WarmwasserAusfall seit 01.02.2022_Gubener Strasse 53 a;Header-Verweis
+T-0039;1;2023-04-25T15:29:19+00:00;2023-04-25T15:29:19+00:00;E-0076;Geltendmachung von Schadensersatzansprüche letzte Mahnung;Header-Verweis
+T-0040;1;2023-10-31T11:59:26+00:00;2023-10-31T11:59:26+00:00;E-0077;Gubener Straße 53 A _ Heizungsausfall/ungenügende Heizleistung;Header-Verweis
+T-0041;2;2024-07-03T09:15:44+00:00;2024-07-08T11:07:31+00:00;"E-0079; E-0080";1087-004-0048, 10243 Berlin, Gubener Straße 53 a, Unerlaubte Untervermietung | Re: 1087-004-0048, 10243 Berlin, Gubener Straße 53 a, Unerlaubte Untervermietung;Header-Verweis
+T-0042;1;2024-09-23T10:21:27+00:00;2024-09-23T10:21:27+00:00;E-0081;Re: Gubener Str. 53 a, 10243 Berlin;Header-Verweis
+T-0043;4;2025-01-11T05:23:39+00:00;2025-01-14T05:26:27+00:00;"E-0082; E-0083; E-0084; E-0085";Verspätung Mietzahlung | Automatische Antwort: Verspätung Mietzahlung | AW: Verspätung Mietzahlung;Header-Verweis
+T-0044;1;2025-07-07T12:07:47+00:00;2025-07-07T12:07:47+00:00;E-0086;1087-004-0048-01 | Zahlungserinnerung;Betreff-/Teilnehmer-Fallback
+T-0045;1;2025-09-02T10:29:07+00:00;2025-09-02T10:29:07+00:00;E-0087;Einladung zum Serviceportal für „Gubener Str.52/52a/53/53a, Lasdehner Str 32“;Betreff-/Teilnehmer-Fallback
+T-0046;1;2025-09-09T16:11:02+00:00;2025-09-09T16:11:02+00:00;E-0088;Erinnerung: Einladung zum Serviceportal für „Gubener Str.52/52a/53/53a, Lasdehner Str 32“;Betreff-/Teilnehmer-Fallback
+T-0047;1;2025-09-29T07:59:00+00:00;2025-09-29T07:59:00+00:00;E-0089;Willkommen beim Wohn- und Serviceportal Gubener Str.52/52a/53/53a, Lasdehner Str 32;Betreff-/Teilnehmer-Fallback
+T-0048;1;2025-10-23T09:22:03+00:00;2025-10-23T09:22:03+00:00;E-0090;Neue Mitteilung im Kundenportal;Betreff-/Teilnehmer-Fallback
+T-0049;1;2025-11-03T16:44:05+00:00;2025-11-03T16:44:05+00:00;E-0091;Ihre Anfrage „Allgemeine Schadens- oder Mangelmeldung“ hat den neuen Status „Geschlossen“;Betreff-/Teilnehmer-Fallback
+T-0050;1;2025-11-05T15:31:18+00:00;2025-11-05T15:31:18+00:00;E-0092;Neue Mitteilung im Kundenportal;Betreff-/Teilnehmer-Fallback
+T-0051;1;2025-12-18T14:34:58+00:00;2025-12-18T14:34:58+00:00;E-0093;Neue Mitteilung im Kundenportal;Betreff-/Teilnehmer-Fallback
+T-0052;1;2026-02-05T08:36:06+00:00;2026-02-05T08:36:06+00:00;E-0094;RE: Content Report;Header-Verweis
+T-0053;1;2026-02-09T16:45:36+01:00;2026-02-09T16:45:36+01:00;E-0095;Übernahme der Klge;Betreff-/Teilnehmer-Fallback
+T-0054;3;2026-02-11T19:04:53+00:00;2026-02-12T08:47:56+00:00;"E-0096; E-0097; E-0098";Anruf 11.02. Bitte um Möglichkeit der Fristwahrung bei Mandatsübernahme | Re: Anruf 11.02. Bitte um Möglichkeit der Fristwahrung bei Mandatsübernahme | AW: Re: Anruf 11.02. Bitte um Möglichkeit der Fristwahrung bei Mandatsübernahme;Header-Verweis
+T-0055;3;2026-02-12T10:31:32+01:00;2026-02-13T09:16:07+00:00;"E-0099; E-0100; E-0101";"Unser Zeichen: 56/26 Schade; Re: Anruf 11.02. Bitte um Möglichkeit der Fristwahrung bei Mandatsübernahme | AW: Unser Zeichen: 56/26 Schade; Re: Anruf 11.02. Bitte um Möglichkeit der Fristwahrung bei Mandatsübernahme";Header-Verweis
+T-0056;2;2026-02-14T15:03:19+01:00;2026-02-15T11:32:24+00:00;"E-0102; E-0103";Prozeßvertretung | AW: Prozeßvertretung;Header-Verweis
+T-0057;2;2026-02-16T12:33:45+01:00;2026-02-23T14:11:11+00:00;"E-0104; E-0105";56/2026 Schade | AW: 56/2026 Schade;Header-Verweis
+T-0058;2;2026-02-23T17:01:48+01:00;2026-02-24T11:16:34+00:00;"E-0106; E-0107";Az. 56/2026 Schade | AW: Az. 56/2026 Schade;Header-Verweis
+T-0059;1;2026-02-26T11:34:08+01:00;2026-02-26T11:34:08+01:00;E-0108;Az. 56/2026 Schade;Betreff-/Teilnehmer-Fallback
+T-0060;3;2026-03-03T15:08:21+01:00;2026-03-06T10:54:30+00:00;"E-0109; E-0110; E-0111";56/2026 Schade | AW: 56/2026 Schade | Re: 56/2026 Schade;Header-Verweis
+T-0061;1;2026-03-18T13:11:53+01:00;2026-03-18T13:11:53+01:00;E-0112;56/26 Schade;Betreff-/Teilnehmer-Fallback
+T-0062;1;2026-04-21T11:31:26+02:00;2026-04-21T11:31:26+02:00;E-0113;56/2026 Schade;Betreff-/Teilnehmer-Fallback
+T-0063;1;2026-05-04T17:42:34+02:00;2026-05-04T17:42:34+02:00;E-0114;56/2026 Schade;Betreff-/Teilnehmer-Fallback
+T-0064;1;2026-05-07T15:25:57+00:00;2026-05-07T15:25:57+00:00;E-0115;Das kann doch wohl nicht wahr sein !!!!;Betreff-/Teilnehmer-Fallback
+T-0065;1;2026-05-27T16:33:56+02:00;2026-05-27T16:33:56+02:00;E-0116;Herzlich willkommen im Shop der Deutschen Post;Betreff-/Teilnehmer-Fallback
+T-0066;1;2026-05-27T16:59:59+02:00;2026-05-27T16:59:59+02:00;E-0117;Eingangsbestätigung: (Ticket: DP01-78666013);Header-Verweis
+T-0067;1;2026-05-27T17:04:41+02:00;2026-05-27T17:04:41+02:00;E-0118;Eingangsbestätigung: (Ticket: DP01-78666090);Header-Verweis
+T-0068;1;2026-06-01T13:51:00+02:00;2026-06-01T13:51:00+02:00;E-0119;Re: Re: Anfrage an den Kundenservice (Ticket: DP01-78666013);Betreff-/Teilnehmer-Fallback
+T-0069;1;2026-06-02T08:21:48+02:00;2026-06-02T08:21:48+02:00;E-0120;Re: Re: Anfrage an den Kundenservice (Ticket: DP01-78666013);Header-Verweis
+T-0070;1;2026-06-17T10:46:55+02:00;2026-06-17T10:46:55+02:00;E-0121;"EILT! FRISTSACHE; 56/2026 Schade";Betreff-/Teilnehmer-Fallback
+T-0071;1;2026-06-20T10:21:25+00:00;2026-06-20T10:21:25+00:00;E-0122;Ihr Anliegen zur Zustellung - Laufzeit | Standardbrief |;Betreff-/Teilnehmer-Fallback
+T-0072;1;2026-06-22T12:20:37+02:00;2026-06-22T12:20:37+02:00;E-0123;Ihr Anliegen 2606-84167030 vom 14.06.2026;Betreff-/Teilnehmer-Fallback
+T-0073;1;2026-06-23T07:33:31+02:00;2026-06-23T07:33:31+02:00;E-0124;Ihr Anliegen 2606-84234901 - Ihr Zeichen 10382;Betreff-/Teilnehmer-Fallback
+T-0074;3;2026-06-23T12:29:08+02:00;2026-06-23T13:25:01+00:00;"E-0125; E-0126; E-0127";56-2026 | AW: 56-2026;Header-Verweis
+T-0075;1;2026-06-25T08:45:37+02:00;2026-06-25T08:45:37+02:00;E-0128;Ihre Postfachbestellung im Shop der Deutschen Post (Ticket: DP01-79167980);Betreff-/Teilnehmer-Fallback
+T-0076;1;2026-06-25T13:43:57+02:00;2026-06-25T13:43:57+02:00;E-0129;T_56-26 Schade;Header-Verweis
+T-0077;1;2026-07-16T16:09:03+02:00;2026-07-16T16:09:03+02:00;E-0130;56/2026 Schade;Betreff-/Teilnehmer-Fallback

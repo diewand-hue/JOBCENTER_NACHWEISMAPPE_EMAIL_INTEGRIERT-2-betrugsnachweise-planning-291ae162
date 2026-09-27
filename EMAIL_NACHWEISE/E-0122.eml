@@ -1,0 +1,206 @@
+Received: from DU2PR08MB10130.eurprd08.prod.outlook.com (2603:10a6:10:493::12)
+ by AM0PR08MB3812.eurprd08.prod.outlook.com with HTTPS; Sat, 20 Jun 2026
+ 10:21:27 +0000
+Received: from CWLP265CA0430.GBRP265.PROD.OUTLOOK.COM (2603:10a6:400:1d7::12)
+ by DU2PR08MB10130.eurprd08.prod.outlook.com (2603:10a6:10:493::12) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.21.139.18; Sat, 20 Jun
+ 2026 10:21:26 +0000
+Received: from AM4PEPF00027A60.eurprd04.prod.outlook.com
+ (2603:10a6:400:1d7:cafe::56) by CWLP265CA0430.outlook.office365.com
+ (2603:10a6:400:1d7::12) with Microsoft SMTP Server (version=TLS1_3,
+ cipher=TLS_AES_256_GCM_SHA384) id 15.21.139.13 via Frontend Transport; Sat,
+ 20 Jun 2026 10:21:26 +0000
+Authentication-Results: spf=pass (sender IP is 165.72.200.99)
+ smtp.mailfrom=deutschepost.de; dkim=pass (signature was verified)
+ header.d=deutschepost.de;dmarc=pass action=none
+ header.from=deutschepost.de;compauth=pass reason=100
+Received-SPF: Pass (protection.outlook.com: domain of deutschepost.de
+ designates 165.72.200.99 as permitted sender)
+ receiver=protection.outlook.com; client-ip=165.72.200.99;
+ helo=gateway1d.dhl.com; pr=C
+Received: from gateway1d.dhl.com (165.72.200.99) by
+ AM4PEPF00027A60.mail.protection.outlook.com (10.167.16.68) with Microsoft
+ SMTP Server (version=TLS1_3, cipher=TLS_AES_256_GCM_SHA384) id 15.21.139.8
+ via Frontend Transport; Sat, 20 Jun 2026 10:21:25 +0000
+X-IncomingTopHeaderMarker: 
+ OriginalChecksum:59D20051A29B0643EA62D5DB44E7BAE382F27A72C2D93F6AA926AB82F3E7EA64;UpperCasedChecksum:84867E17BA53509165247557DDCF29EC23947E5D9EB8053B85FB39ED379D6465;SizeAsReceived:1535;Count:13
+Received: from ipnp-forms-mail-public-l6p8b ([10.187.1.54])
+	by gateway1d.dhl.com  with ESMTPS id 65KALP9k003130-65KALP9m003130
+	(version=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384 bits=256 verify=NO)
+	for <andreasrainerschade@outlook.de>; Sat, 20 Jun 2026 10:21:25 GMT
+Date: Sat, 20 Jun 2026 10:21:25 +0000 (UTC)
+From: noreply@deutschepost.de
+To: andreasrainerschade@outlook.de
+Message-ID: <1129660683.33580.1781950885345@ipnp-forms-mail-public-l6p8b>
+Subject: Ihr Anliegen zur Zustellung - Laufzeit | Standardbrief |
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+X-FEAS-BEC-Info: 
+ WlpIGw0aAQkEARIJHAEHBlJSCRoLAAEeDUhZUEhYSFhIWUhZXkguLT4lOyQ8JVpcWFhYX19aSFpbSAYHGg0YBBEoDA0dHBsLAA0YBxscRgwNSFlIW1hICQYMGg0JGxoJ
+ AQYNGhsLAAkMDSgHHRwEBwcDRgwNSFhIWkhZWUhZWEZZUF9GWUZdXEhQSFhIWEhZSFhIWEhYSFtYSAkGDBoNCRsaCQEGDRobCwAJDA0oBx0cBAcHA0YMDUhY
+X-FEAS-Client-IP: 10.187.1.54
+X-FE-Policy-ID: 59:1:2:SYSTEM
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; d=deutschepost.de; s=GW_UTDP_1;
+ c=relaxed/relaxed;
+ h=date:from:to:message-id:subject:mime-version:content-type;
+ bh=wZlpmZsyHu7V/Zqdl5nnf7J1EwZ01icKpjK8sKDRW+w=;
+ b=LOCb58C9dO9xR6wq3pJH7jZkJ6oJOWSO+T82MPkpUJejJvyxCBe1XFL4ikpbVLvb8/1DgXJsn7pb
+	+hWHDkmvRmu0/uBMVHVQilml4vmH9AsF6YCvDOUhddc6pW1HyIx/rD2gu7t69ovDPn+8/JH+9SFT
+	GZxuNJS9Rlenb9vX+7V1k6NacXLazYZ62JtzPDEJUOT2zo3svV/rS7Ip4kjhnddJLBLNOABeFdkQ
+	jYVyprEAQs2H8I9Rgj6tMeaemmTdpky3nsiMfIlRFxNqkL+hWh5BqcDEQRtNNGnn+e9q4QXHe/5D
+	e6dBShsoZgtxQFkpLIhaNAA/A5VXtkP8djp6UQ==
+X-IncomingHeaderCount: 13
+Return-Path: prvs=1631b008f1=noreply@deutschepost.de
+X-MS-Exchange-Organization-ExpirationStartTime: 20 Jun 2026 10:21:25.9243
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id: 
+ 6153a886-f7e9-4bd9-0af7-08deceb5af56
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic: 
+ AM4PEPF00027A60:EE_|DU2PR08MB10130:EE_|AM0PR08MB3812:EE_
+X-MS-Exchange-Organization-AuthSource: 
+ AM4PEPF00027A60.eurprd04.prod.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-UserLastLogonTime: 6/20/2026 10:19:04 AM
+X-MS-Office365-Filtering-Correlation-Id: 6153a886-f7e9-4bd9-0af7-08deceb5af56
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 165.72.200.99
+X-SID-PRA: NOREPLY@DEUTSCHEPOST.DE
+X-SID-Result: PASS
+X-MS-Exchange-AtpMessageProperties: SA|SL
+X-MS-Exchange-Organization-SCL: 1
+X-Microsoft-Antispam: 
+ BCL:2;ARA:1444111002|58200799025|47200799027|68400799013|6019299003|970799063|3069299007|56899033|1370799030|1360799030|1380799030|440099028|26104999009|3412199025;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 20 Jun 2026 10:21:25.7803
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 
+ 6153a886-f7e9-4bd9-0af7-08deceb5af56
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-AuthSource: 
+ AM4PEPF00027A60.eurprd04.prod.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg: 
+ 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DU2PR08MB10130
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:01.5590729
+X-MS-Exchange-Processed-By-BccFoldering: 15.21.0139.008
+X-Microsoft-Antispam-Mailbox-Delivery: 
+ ucf:0;jmr:0;ex:0;auth:1;dest:I;ENG:(5062000311)(920221119095)(920221120095)(90000117)(90005022)(91005020)(91035115)(9050020)(9100341)(944500132)(4810010)(4910033)(9575002)(10195002)(9320005)(120001)(1110175);
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0wO0Q9MTtHRD0xO1NDTD0z
+X-Microsoft-Antispam-Message-Info: 
+ =?iso-8859-1?Q?D7Z6nSFTzHr9UcWvv2HXeI/HjJ4QkMx9nY10jIM/A3Rgg5hyJHux5/ND2M?=
+ =?iso-8859-1?Q?6H1hJi4ws9GFXcMXKtZyP+0kzA64Eu6SlNzC79vPXTVOXDn4ZrfPthCVZF?=
+ =?iso-8859-1?Q?ADxIuQvRj8lWe8SmygNliimHa1RCuqZDDSunCPHHQy5C/VmigPPr3SWayX?=
+ =?iso-8859-1?Q?YxbWRg5A5KMCzp67s6ow6k2UNdLZELM7peoU7dyO2YDVWTcZDtfcmYLz3f?=
+ =?iso-8859-1?Q?kdQZkPIi0yLLXhlB0G1U33PvBRfvaKrpeD2gxvacDmaMou68CkGmiAezZG?=
+ =?iso-8859-1?Q?Wl2/Q4SBbCCGTUcChiwP21AHV0MiuOfjm0jR3VD6uCenynB3xAv8SF+545?=
+ =?iso-8859-1?Q?DV63hDvMsvBDsp8u/rtPOy1GXblpVEoP5IpDoOdQHsNgrRqhHJlGT2uvxQ?=
+ =?iso-8859-1?Q?6liM6RgIKyamr3/QZ68p+RdUJmEAYgJJ9j1jUj6u+4bzsGfjw4ZTT8hFnB?=
+ =?iso-8859-1?Q?gjGOcCo02chned8/vmqPvkqex8DOjSfRBQWnmbemBH37mJs0jWABgYaDoZ?=
+ =?iso-8859-1?Q?ymEd+es5A74lazQHKYlwdrwVnQGH3YD0cGJ2pBREgULPkXko5tsIvHFCJr?=
+ =?iso-8859-1?Q?Lj1qgdL5P6a6Sb5t7Wllpn7gjpg3iqLHF13HMLlV4hBBMRAOzahgBsL0Q+?=
+ =?iso-8859-1?Q?HLs7qL7SU9gk/gvGWNEcz/Qx0FRXiaUrsRzvvlx1tKbAzJdx+CHlz9Jcit?=
+ =?iso-8859-1?Q?QYF2Ew2nymyvLLVQxRwtS5T7b98oYSn4vYgnfrOcgo6PPDmADWN9MtQQSJ?=
+ =?iso-8859-1?Q?CWfH/zDe0Bc/qHGgm3wUQp5dPnP5SF6DPz4DxApy5S8zDi61DSAvSLZhT3?=
+ =?iso-8859-1?Q?UscwqIAc87DEhRCmxbWS7CZREhvO2RjnuFCi+gAi7HbRCrHKT9rLlwVl/9?=
+ =?iso-8859-1?Q?DG2qQKpn7eLTvsg/784cdmmvrfeCBBH3M+EHtO0DO/2aJX9Im+ojDwbMeQ?=
+ =?iso-8859-1?Q?LmUfTJYuN1EjcWXGVPe3yQD2q4yodXa1NDUmO620/X3edzgVCElwrL/ULm?=
+ =?iso-8859-1?Q?nOVusBx2T1lWUxGQc07zuXbhGlafNS8v4lI1VU1c+utz08qmhDfOeMGh0s?=
+ =?iso-8859-1?Q?abMr24ehJZHliGSqJr1l1x+EGo05stB/vA6O+dYwTqXzQlWNRP4E7hyihP?=
+ =?iso-8859-1?Q?lRsFGYq/nIFdpcIwtuMZfv/wuMhvvKmWJHr8QN87HfuZVUT66wU6YbJjmn?=
+ =?iso-8859-1?Q?TEV/72UbLtBGToj1XrAG8epfQeYzGZgNyS5jZzsmzFdadA81ikpirLHser?=
+ =?iso-8859-1?Q?LrbVdeSMYQD/duaQ+fug7raToDy8c/Pmga70Fetxv8/vaFAexxxKiwtfIX?=
+ =?iso-8859-1?Q?NnIMZO5LIMh+KHU2OKH3994iHTW+/T5jfeBFCxNujetsJfV5wxE65sDAgo?=
+ =?iso-8859-1?Q?W2loE3QOcDshtq8DttFoCx5Ltha8/7/6J0pqKz06/t1IXx30spUdwg+lZx?=
+ =?iso-8859-1?Q?MWx7f5OVr2jv7Ei8y8YJNy0fPzKANaTk6Y5YGWDsaLKNEVO0eLe7RDcGDp?=
+ =?iso-8859-1?Q?ZsaaF25qgPpYDsqs9jqpfKw0VdFRkMMyUyNG2axymvjxZGuPuO5DWHdmdi?=
+ =?iso-8859-1?Q?fxVG1tA5ch/AqFMtTD2Aqf5MKexlSgY1PGdd1i7M9Pkj84rS9jzXKwbQtR?=
+ =?iso-8859-1?Q?tNJ/rbglVvb5NfwKZ1wjxOoKoUz0gOGwcZtyfiL7Rrig3wV3RvlHD0v5JG?=
+ =?iso-8859-1?Q?JFqmdhP8Tx2tpCbzHiVZMTSAAkg3aFXqfxoQ1aio3KLgYixezj7Mh1z9JY?=
+ =?iso-8859-1?Q?sbUyqGwPnY1fKsqTWfHSXhZMZ+IIRzIY+cDVPwb72XemsHIkRbHv5tE6oz?=
+ =?iso-8859-1?Q?H8NNwEiNR4AA4arAOmBpM8ZQoYOFOb/d75WFxgpO/8c7Mw2/NY22zi15gm?=
+ =?iso-8859-1?Q?d3DqPgckUcNH/6EA=3D=3D?=
+MIME-Version: 1.0
+
+Guten Tag,
+
+vielen Dank f=C3=BCr die Zusendung Ihrer Anfrage.
+
+Gerne werden wir Ihr Anliegen kurzfristig und zu Ihrer Zufriedenheit kl=C3=
+=A4ren und beantworten. In einzelnen Ausnahmef=C3=A4llen kann in Ihrem Inte=
+resse zur Kl=C3=A4rung einer Anfrage auch eine ausf=C3=BChrlichere Recherch=
+e notwendig sein. In diesem Fall bitten wir Sie um etwas Geduld und bedanke=
+n uns im Voraus f=C3=BCr Ihr Verst=C3=A4ndnis.
+
+Mit freundlichen Gr=C3=BC=C3=9Fen,
+Ihre Deutsche Post AG
+
+___________________________________________________________________________=
+_
+Angaben zu Ihrer Person:
+
+=20
+ Andreas Schade
+Gubener Str. 53 a=20
+10243 Berlin
+Deutschland
+
+E-Mail: andreasrainerschade@outlook.de
+Telefon:=20
+Mobil:=20
+-----------------------------------------------------------
+Ihre Nachricht an uns:
+
+ Meine Briefe brauchen innerhalb von Berlin MEHR ALS 14 TAGE und das seit m=
+indestens 2023 und immer versch=C3=A4rfter. Das Keine Beschwerde , sondern =
+ein ernsthaftes Problem , da mir  dadurch immense Nachteile und Risiken ent=
+standen sind und immer wieder entstehen . Dieser Zustand ist unhaltbar und =
+wird nun zur Anzeige gebracht , um mich vor Beh=C3=B6rden und Gerichtsverfa=
+hren zu sch=C3=BCtzen! Auch habe ich am 27.05.2026 eine Einrichtung eines P=
+ostfaches bestellt und bezahlt. Ein gesetzlich vorgeschriebener 14t=C3=A4gi=
+ger Widerruf / Stornierung wurde mir verwehrt ! Dato 20.06.2026 habe ich im=
+mernoch keine Best=C3=A4tigung der Postfacheinrichtung. Ich gebe ihnen weit=
+ere 7 Tage , um ein zufriedenstellende L=C3=B6sung unverz=C3=BCglich bereit=
+zustellen! Selbst die Briefank=C3=BCndigung ist eine Farce. Es wurden bishe=
+r von 5 zugestellten nur 2 angek=C3=BCndigt empfangen. Zu ihrer Kenntnis we=
+rde Ich dar=C3=BCber hinaus meine Schadensdokumentation und n Rechnung stel=
+len . Eine Mindestforderung ist die unverz=C3=BCglich R=C3=BCckzahlung des =
+Betrages einer Dienstleistung, die nicht erbracht wird ! Zuz=C3=BCglich sen=
+den sie mir eine  Best=C3=A4tigung dieser Faktenlage.  Nachforschungen ihre=
+rseits =C3=BCber die permanente Verletzung des Postbriefgeheimnisses sind n=
+achdr=C3=BCcklich gefordert. Anzeige gegen unbekannt sowohl gegen das Unter=
+nehmen werden an entsprechenden Institutionen zur Nachweisf=C3=BChrung gest=
+ellt . Mit freundlichen Gr=C3=BC=C3=9Fen Andreas Rainer Schade=20
+-----------------------------------------------------------
+Angaben zur Sendung:
+
+Sendungsnummer:=20
+Einlieferungsdatum: 2026-06-14
+Referenz:=20
+-----------------------------------------------------------
+Kundennummer:=20
+-----------------------------------------------------------
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+F=C3=BCr Ihren Datenschutz:
+Wir weisen darauf hin, dass wir Ihre Daten zur Bearbeitung Ihres Anliegens =
+in unseren Kundensystemen erfassen. Nach Abschluss der Bearbeitung werden d=
+iese Daten auf Basis eines berechtigten Interesses in der Regel bis zu 2 Ja=
+hre gespeichert und dann von uns gel=C3=B6scht. Weitere Informationen finde=
+n Sie im Internet unter https://emea01.safelinks.protection.outlook.com/?ur=
+l=3Dhttps%3A%2F%2Fwww.deutschepost.de%2Fdatenschutz&data=3D05%7C02%7C%7C615=
+3a886f7e94bd90af708deceb5af56%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C=
+639175476876186847%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIw=
+LjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&s=
+data=3DE6B89hUOvpbwpOPMafBRo2jaGsqDB5ihu7DR9JDVx1c%3D&reserved=3D0.
